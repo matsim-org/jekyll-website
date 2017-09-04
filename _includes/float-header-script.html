@@ -1,0 +1,15 @@
+<script>
+$( document ).ready(function() {
+        // Check the initial Position of the Sticky Header
+        var stickyHeaderTop = $('#rss_wrap').offset().top;
+
+        $(window).scroll(function(){
+                if( $(window).scrollTop() > stickyHeaderTop && $(window).width()>600 ) {
+                        $('#rss_wrap').css({position: 'fixed', top: '0px', width: '100%'});
+                        $('#stickyalias').css('display', 'block');
+                } else {
+                        $('#rss_wrap').css({position: 'static', top: '0px'});
+                        $('#stickyalias').css('display', 'none');
+                }});
+  });
+</script>

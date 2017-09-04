@@ -1,0 +1,7 @@
+_site/
+Gemfile
+Gemfile.lock
+nohup.out
+Thumbs.db
+*.swp
+

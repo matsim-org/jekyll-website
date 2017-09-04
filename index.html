@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="intro-text">
+
+<p>You've found <strong>INPUT/OUTPUT</strong>, the technical data team blog from the
+<a href="http://www.psrc.org">Puget Sound Regional Council</a> in Seattle, Washington.
+At I/O, we write about the data and tools which support our region's
+transportation planning, economic development, and growth management strategies.</p>
+<p>PSRC also has a <a href="http://blog.psrc.org">general-interest blog</a> about regional issues.</p>
+</div>
+
+{% for post in site.posts limit: 7 %}
+    {% if forloop.first == true %}
+        <p class="sidebar_title">LATEST STORY</p>
+    {% elsif forloop.index == 2 %}
+        <p class="sidebar_title">RECENT POSTS</p>
+    {% endif %}
+
+    <div class="posts">
+    <article class="post">
+
+      {% if forloop.first == true and post.image-wide %}
+
+        <div class="entry">
+            <h3 class="entry_list">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h3>
+
+            <div class="entry_image_wide_wrapper">
+              <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image_wide" src="{{ post.image-wide }}" alt="{{ post.title }}" /></a>
+            </div>
+
+            <div class="wide_blurb">
+              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
+            </div>
+        </div>
+
+      {% elsif post.image %}
+          <div class="entry_image_wrapper">
+            <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
+          </div>
+
+          <div class="entry">
+              <h3>
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </h3>
+
+              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
+          </div>
+        {% endif %}
+
+        {% if forloop.first == false %}
+            <div class="faint_border"></div>
+        {% endif %}
+
+    </article>
+  {% endfor %}
+</div>
+
+<div class="entry">
+<p>&raquo; See <a href="/archive.html">older posts</a>.</p>
+</div>
+

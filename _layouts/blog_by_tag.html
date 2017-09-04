@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% for t in site.data.tags %}
+    {% if t.tag == page.tag %}
+        {% assign tag_description = t.description %}
+    {% endif %}
+{% endfor %}
+
+<h3 id="tag-header">Posts filed under "{{ tag_description }}"</h3>
+<hr/>
+
+{% if site.tags[page.tag] %}
+    <table class="tag-list">
+    {% for post in site.tags[page.tag] %}
+        <tr class="tag-row"><td class="tag-list-image">
+            <img class="tag-image" src="{{post.image}}" alt="{{post.title}}">
+        </td><td class="tag-list-item">
+            <h5 class="tag-title"><a href="{{post.url}}">{{post.title}}</a></h5>
+            <p class="tag-date">&raquo; by {{ post.author }} on {{ post.date | date_to_string }}</p>
+        </td></tr>
+    {% endfor %}
+    </table>
+{% else %}
+        <p>There are no posts for this tag yet.</p>
+{% endif %}
+

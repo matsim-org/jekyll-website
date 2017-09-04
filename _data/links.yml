@@ -1,0 +1,12 @@
+nav_links:
+  HOME: '/'
+  ABOUT&nbsp;I/O: '/about.html'
+  ARCHIVE: '/archive.html'
+  MEET&nbsp;THE&nbsp;AUTHORS: '/authors.html'
+  CAREERS: '/careers.html'
+  PSRC WEBSITE: 'http://www.psrc.org'
+
+psrc_links:
+  PSRC Website: "http://www.psrc.org"
+  Regional View Blog: "http://blog.psrc.org"
+  Contact Us: "http://www.psrc.org/about/contact"

@@ -1,0 +1,5 @@
+<div id="tags">
+        {% for tag in site.data.tags %}
+            <a class="tag-sidebar-entry" href="/tag/{{tag.tag}}">{{tag.description}}</a><br/>
+        {% endfor %}
+</div>

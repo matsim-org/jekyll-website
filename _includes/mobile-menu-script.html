@@ -1,0 +1,12 @@
+<script type="text/javascript">
+      $(document).ready(function(){
+        $(".menu_show_hide").click(function(){
+          $(".nav-main").slideToggle();
+        });
+
+      $(window).resize(function() {
+        if ($(window).width()<=592) {$("#mobilenav").show();}else{$("#mobilenav").hide();}
+      });
+      }
+      );
+</script>
