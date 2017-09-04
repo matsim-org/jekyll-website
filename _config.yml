@@ -1,10 +1,10 @@
-name: I/O
-description: I/O, the data nerd blog from the Puget Sound Regional Council
-url: http://psrc.github.io
+name: MATSim.org
+description: "MATSim | Multi-agent Transport Simulation"
+url: http://matsim.org
 lsi: false
 kramdown:
   input: GFM
-timezone: America/Los_Angeles
+timezone: Europe/Brussels
 permalink: /:categories/:year/:title
 gems:
   - jekyll-sitemap

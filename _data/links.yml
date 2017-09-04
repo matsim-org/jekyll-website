@@ -1,10 +1,9 @@
 nav_links:
   HOME: '/'
-  ABOUT&nbsp;I/O: '/about.html'
-  ARCHIVE: '/archive.html'
-  MEET&nbsp;THE&nbsp;AUTHORS: '/authors.html'
-  CAREERS: '/careers.html'
-  PSRC WEBSITE: 'http://www.psrc.org'
+  SCENARIOS: '/scenarios/'
+  DOCUMENTATION: '/docs/'
+  DOWNLOADS: '/downloads/'
+  NEWS: '/news/'
 
 psrc_links:
   PSRC Website: "http://www.psrc.org"
