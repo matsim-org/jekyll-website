@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Authors of PSRC I/O
+title: Authors of the MATSim.org blog
 ---
 
-### _I/O AUTHORS: WHO'S WRITING THIS STUFF?_
+### _MATSIM.ORG AUTHORS: WHO'S WRITING THIS STUFF?_
 
-This blog is brought to you by the technical writers of the Data Systems and Analysis team at the <a href="http://www.psrc.org">Puget Sound Regional Council</a>. We love talking about data.
+This blog is brought to you by the technical writers of the MATSim.org team.
 
 <table class="author_table">
 {% for person in site.data.authors %}

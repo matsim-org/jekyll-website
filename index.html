@@ -2,85 +2,68 @@
 layout: default
 ---
 
-<div class="infobox">
+<p class="sidebar_title">Welcome to MATSim.org</p>
+
+<h4>
 MATSim is an open-source framework for implementing large-scale agent-based transport simulations.
+</h4>
+
+
+<div class="col-md-12 text-left">
+
+<div class="col-md-4 text-left">
+<h3><a href="/docs/">Documentation</a></h3>
+Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
 </div>
 
-<table border="0">
-<tr>
-
-<td valign="top"><h3><a href="/docs/">Documentation</a></h3>
-Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
-</td>
-
-<td valign="top"><h3><a href="/scenarios/">Scenarios</a></h3>
+<div class="col-md-4 text-left">
+<h3><a href="/scenarios/">Scenarios</a></h3>
 MATSim is used all over the world! Have a look how others use MATSim and in what regions they apply it.
-</td>
+</div>
 
-<td valign="top"><h3><a href="/downloads/">Download/Install</a></h3>
+<div class="col-md-4 text-left">
+<h3><a href="/downloads/">Download/Install</a></h3>
 Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
-</td>
+</div>
 
-</tr><tr>
+</div>
+<div class="col-md-12 text-left">
 
-<td valign="top"><h3>Get Help</h3>
+<div class="col-md-4 text-left">
+<h3>Get Help</h3>
 Ask your questions on our <a href="/faq/">Q&A platform</a>.
-</td>
+</div>
 
-<td valign="top"><h3>Open Source</h3>
+<div class="col-md-4 text-left">
+<h3>Open Source</h3>
 MATSim is open source software written in Java. Visit us <a href="https://github.com/matsim-org/matsim">on GitHub</a> to have a look at the source code.
-</td>
+</div>
 
-</tr></table>
+</div>
 
 <br/>
+<p class="sidebar_title">Latest MATSim News</p>
 
-{% for post in site.posts limit: 7 %}
-    {% if forloop.first == true %}
-        <p class="sidebar_title">LATEST MATSIM NEWS</p>
-    {% elsif forloop.index == 2 %}
-        <p class="sidebar_title">RECENT POSTS</p>
-    {% endif %}
-
-    <div class="posts">
+<div class="posts">
+{% for post in site.posts limit: 5 %}
     <article class="post">
 
-      {% if forloop.first == true and post.image-wide %}
+    <div class="entry_image_wrapper">
+      <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
+    </div>
 
-        <div class="entry">
-            <h3 class="entry_list">
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </h3>
+    <div class="entry">
+        <h4>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h4>
 
-            <div class="entry_image_wide_wrapper">
-              <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image_wide" src="{{ post.image-wide }}" alt="{{ post.title }}" /></a>
-            </div>
+        {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
+    </div>
 
-            <div class="wide_blurb">
-              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
-            </div>
-        </div>
-
-      {% elsif post.image %}
-          <div class="entry_image_wrapper">
-            <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
-          </div>
-
-          <div class="entry">
-              <h3>
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-              </h3>
-
-              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
-          </div>
-        {% endif %}
-
-        {% if forloop.first == false %}
-            <div class="faint_border"></div>
-        {% endif %}
+    <div class="faint_border"></div>
 
     </article>
-  {% endfor %}
+{% endfor %}
 </div>
 
 <div class="entry">

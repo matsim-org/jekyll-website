@@ -3,7 +3,7 @@ nav_links:
   SCENARIOS: '/scenarios/'
   DOCUMENTATION: '/docs/'
   DOWNLOADS: '/downloads/'
-  NEWS: '/news/'
+  NEWS: '/archive.html'
 
 psrc_links:
   PSRC Website: "http://www.psrc.org"

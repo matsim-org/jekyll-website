@@ -1,41 +1,12 @@
 - name: Billy Charlton
   image: /authors/billy.jpg
-  blurb: Billy is the Director of Data at PSRC.
-         He's been doing travel forecasting since the '90s, and he
+  blurb: Billy has been doing travel forecasting since the '90s, and he
          dabbles in software development just enough to be dangerous.
          Billy has Bachelor's and Master's degrees in Civil Engineering, and feels weird
          talking about himself in the third person.  Hi!
 
-- name: Brice Nichols
-  image: /authors/brice.jpg
-  blurb: Brice is a travel modeler with an engineering and planning background.
-         He basically builds and plays a real-life version of SimCity every day to solve transportation problems.
-         He enjoys building cool software and walking on/around mountains in the Northwest.
+- name: Kai Nagel
+  image: /authors/kai-nagel.png
+  blurb: Dr. Nagel is the head of VSP at TU/Berlin.
+         He's been working on MATSim for a while now.
 
-- name: Craig Helmann
-  image: /authors/craig.png
-  blurb: Craig is a travel modeler with a background in transportation planning and traffic engineering.
-          He started his career way back in the 1990’s doing traffic signal design and found his way into the
-          wonderful world of travel modeling by chance almost 17 years ago.
-          Craig is a graduate of the University of Washington and loves solving puzzles which makes his job as a modeler a lot more fun.
-
-
-- name: Rebeccah Maskin
-  image: /authors/beccah.jpg
-  blurb: Beccah stands at the intersection of policy and analysis as a planner in PSRC’s Data Group.
-        She deals with all manners of "land use," from forecasting future people to amassing zoning shapefiles.
-        She also staffs the Regional Food Policy Council and hopes to further the melding of art and data.
-
-- name: Stefan Coe
-  image: /authors/stefan.png
-  blurb: Stefan is a Senior GIS Analyst / Travel Modeler at PSRC. He works on all aspects of travel model software
-        development as well as data integration between models. Prior to PSRC, he spent several years working at
-        the University of Washington’s Urban Ecology Research Lab where he used GIS and remote sensing to support
-        ecological modeling and research. He holds Master’s degrees in Urban Planning
-        and Public Administration from the University of Washington.
-
-- name: Suzanne Childress
-  image: /authors/ennazus.jpg
-  blurb: Suzanne is Principal Travel Modeler at PSRC and has a passion for understanding human behavior with statistics.
-         She loves to take deep dives in big data and survey results in order to tease out the hidden
-         relationships. But she really likes when people write print statements in their code that involve cute animals.
