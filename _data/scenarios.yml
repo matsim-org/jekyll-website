@@ -1,0 +1,29 @@
+- name: "Quito, Ecuador"
+  url: /gallery/quito
+  image: /gallery/quito_thumb.png
+
+- name: "Voralberg, Austria"
+  url: /gallery/voralberg
+  image: /gallery/voralberg_thumb.png
+
+- name: "Germany"
+  url: /gallery/germany
+  image: /gallery/germany_thumb.jpg
+
+- name: "Singapore"
+  url: /gallery/singapore
+  image: /gallery/singapore_thumb.jpg
+  
+- name: "Tel Aviv, Israel"
+  url: /gallery/telaviv
+  image: /gallery/telaviv_thumb.jpg
+  
+- name: "Poznan, Poland"
+  url: /gallery/poznan
+  image: /gallery/poznan_thumb.jpg
+  
+- name: "Freight in South Africa"
+  url: /gallery/south-africa
+  image: /gallery/safrica_thumb.jpg
+
+  

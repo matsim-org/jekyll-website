@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #4d4d4d;
-    padding-top: 175px;
+    padding-top: 125px;
 }
 
 /* prevents transition animations on page load (Fuck you IE!) */
@@ -1093,14 +1093,78 @@ body {
 }
 
 .infobox {
-  font-size: 20px;  
+  font-size: 16px;  
   background: #eee;
   border: 2px solid #ddd;
   border-radius: 10px;
-  padding: 15px 25px;
+  margin: 10px 0px;
+  padding: 20px 20px;
 }
 
 .title-link a { color: #f0a033; }
 .title-link:hover a {
   text-decoration: none;
+}
+
+/* Consistent Image Embedding */
+
+div.image-caption p {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: left;
+  padding: 0 0 0 0;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+div.source p {
+  font-style: italic;
+  font-size: 11px;
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+
+table.post-image img {
+  position: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: none;
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+table.post-image td {
+  position: none;
+  padding: 2px 2px 0 2px;
+  border-style: none;
+}
+
+table.post-image {
+  background-color: #f8f8f8;
+  border: 0px;
+  margin-bottom: 20px;
+  max-width: 75%;
+}
+
+table.post-image-right {
+  background-color: #dde;
+  border: 1px;
+  border-style: solid;
+  border-color: #bbb;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  max-width: 75%;
+  float: right;
+}
+
+img.post-title-image {
+  border: 0px;
+  width: 160px;
+  height: 90px;
 }

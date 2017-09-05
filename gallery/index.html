@@ -1,0 +1,38 @@
+---
+layout: default
+title: Scenarios
+---
+<h2>Scenario Gallery</h2>
+
+<div class="col-md-6">
+  MATSim is used all over the world! Have a look how others use MATSim and in what regions they apply it. Learn what data they used and how they prepared their data and processed the output.
+  
+  <div class="infobox">
+  Some scenario data is freely available. <a href="http://matsim.org/open-scenario-data">Have a look!</a>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <img width="100%" src="/images/matsim-locations.png" />
+</div>
+
+<div class="col-md-12">
+<hr/>
+</div>
+
+{% for scenario in site.data.scenarios %}
+
+<div class="col-md-4">
+<a href="{{ site.baseurl }}{{ scenario.url }}">
+<h4>{{ scenario.name }}</h4>
+<img src="{{ site.baseurl }}{{ scenario.image }}" width="320" height="180" alt="image"/>
+</a>
+</div>
+
+{% endfor %}
+
+
+<div class="col-md-12">
+<br/><br/>
+Do you have a scenario and want to present it here as well? Feel free to <a href="mailto:info@matsim.org">contact us</a> so we can add it!
+</div>
