@@ -236,6 +236,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #3b3b3b;
+    background-image: url("/images/banner.jpg");
 }
 
 .navbar-default .navbar-brand {
@@ -1114,7 +1115,7 @@ body {
   background: #eee;
   border: 2px solid #ddd;
   border-radius: 10px;
-  margin: 10px 0px;
+  margin: 10px 5px;
   padding: 20px 20px;
 }
 
@@ -1257,3 +1258,8 @@ img.post-title-image {
 .banner-logo { padding-top: 0px;}
 
 a:hover { text-decoration: none;}
+
+.infobox h4 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
