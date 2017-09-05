@@ -1,8 +1,7 @@
 ---
 title: "Quito, Ecuador"
 thumbnail: /gallery/quito_thumb.png
-layout: post
-tags: [scenario]
+layout: scenario
 
 image1:
   image: /gallery/quito_img1.jpg

@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="col-md-9">
-
 {% if page.tags.size > 0 %}
     {% capture tags_content %}<br/>filed under: {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
     {% for post_tag in page.tags %}
@@ -25,41 +23,53 @@ layout: default
 
 <article class="post">
 
-  <div id="title1">
-        <img class="post-title-image" src="{{ page.thumbnail }}" alt="{{ page.title }}" />
-        <h3>{{ page.title }}</h3>
-        <div class="date">
-            posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
-            {{ tags_content }}
-        </div>
-  </div>
+{% if page.image-wide %}
+      <div class="entry">
+          <img src="{{ page.image-wide }}" alt="{{ page.title }}" />
+      </div>
 
-  <hr/>
-  <div class="entry">
-      {{ content }}
-  </div>
+      <div id="title-wide">
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+                {{ tags_content }}
+            </div>
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% else %}
+      <div id="title1">
+            <img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" />
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+                {{ tags_content }}
+            </div>
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+{% endif %}
 
 
 
   <h2></h2>
   <div class="bottom-link">
     <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
+    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
+   target="_blank">&raquo;&nbsp;Share on Twitter</a>
     <br/><br/>
   </div>
 
+  {% if page.comments %}
+    <h4>Discussion and Comments</h4>
+      {% include comments.html %}
+  {% endif %}
+
 </article>
-
-</div>
-
-<div class="col-md-3">
-<h4>Scenario Gallery</h4>
-<hr/>
-
-{% for scenario in site.data.scenarios %}
-
-<p><a href="{{scenario.url}}">{{scenario.name}}</a></p>
-
-{% endfor %}
-
-
-</div>

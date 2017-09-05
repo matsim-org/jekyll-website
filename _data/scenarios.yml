@@ -2,9 +2,9 @@
   url: /gallery/quito
   image: /gallery/quito_thumb.png
 
-- name: "Voralberg, Austria"
-  url: /gallery/voralberg
-  image: /gallery/voralberg_thumb.png
+- name: "Vorarlberg, Austria"
+  url: /gallery/vorarlberg
+  image: /gallery/vorarlberg_thumb.png
 
 - name: "Poznan, Poland"
   url: /gallery/poznan

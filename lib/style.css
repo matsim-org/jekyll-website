@@ -649,7 +649,7 @@ body {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-image: url("/images/seattle-tours-2.png");
+        background-image: url("/images/banner.jpg");
         background-repeat: no-repeat;
         background-color: #3b3b4b;
         background-size: cover;
@@ -787,6 +787,7 @@ body {
   }
   .navbar {
 	  background: #248;
+        background-image: url("/images/banner.jpg");
   }
 
   #downloads {
@@ -1219,8 +1220,11 @@ img.post-title-image {
 }
 
 .section-thumb {
-  margin-top: 16px;
+  margin-top: 30px;
   padding-right: 50px;
-  font-size: 14px;
-  
+  font-size: 14px;  
+}
+
+.scenario-list {
+  margin-bottom: 2px;
 }

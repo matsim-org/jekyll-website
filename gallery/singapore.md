@@ -1,8 +1,7 @@
 ---
 title: "Singapore"
 thumbnail: /gallery/singapore_thumb.jpg
-layout: post
-tags: [scenario]  
+layout: scenario
   
 ---
 

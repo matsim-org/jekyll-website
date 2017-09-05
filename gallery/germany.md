@@ -1,8 +1,7 @@
 ---
 title: "Germany"
 thumbnail: /gallery/germany_thumb.jpg
-layout: post
-tags: [scenario]  
+layout: scenario
   
 ---
 

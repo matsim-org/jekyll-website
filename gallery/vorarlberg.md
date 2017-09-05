@@ -1,13 +1,8 @@
 ---
-title: "Voralberg, Austria"
-thumbnail: /gallery/voralberg_thumb.png
-layout: post
-tags: [scenario]
+title: "Vorarlberg, Austria"
+thumbnail: /gallery/vorarlberg_thumb.png
+layout: scenario
 
-image1:
-  image: /gallery/quito_img1.jpg
-  caption: "Percent of People With Driver's Licenses by Age Group"
-  source: "Gernot Lenz, AIT, Mobility DTS"
   
 ---
 
