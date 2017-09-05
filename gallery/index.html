@@ -13,7 +13,7 @@ title: Scenarios
 </div>
 
 <div class="col-md-6">
-  <img width="100%" src="/images/matsim-locations.png" />
+  <img width="100%" class="dataset-thumbnail" src="/images/matsim-locations.png" />
 </div>
 
 <div class="col-md-12">
@@ -22,10 +22,10 @@ title: Scenarios
 
 {% for scenario in site.data.scenarios %}
 
-<div class="col-md-4">
+<div class="col-md-4 scenario-thumb">
 <a href="{{ site.baseurl }}{{ scenario.url }}">
 <h4>{{ scenario.name }}</h4>
-<img src="{{ site.baseurl }}{{ scenario.image }}" width="320" height="180" alt="image"/>
+<img class="dataset-thumbnail" src="{{ site.baseurl }}{{ scenario.image }}" width="320" height="180" alt="image"/>
 </a>
 </div>
 

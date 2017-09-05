@@ -1168,3 +1168,59 @@ img.post-title-image {
   width: 160px;
   height: 90px;
 }
+
+.dataset-thumbnail {
+  display: table-cell;
+  vertical-align:top;
+  background: #fff;
+  padding: 0 0 0 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0, 0.3);
+}
+
+.dataset-thumbnail:hover {
+  background-color: #dde8ff;
+  opacity: 0.80;
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+  transition: all ease 0.15s;
+}
+
+.dataset-thumbnail:active {
+  background-color: #99f;
+  opacity: 1.0;
+  box-shadow: 6px 6px 10px rgba(0,0,0, 0.5);
+}
+
+.thumbnail-image {
+  vertical-align:top;
+  margin-bottom: 5px;
+}
+
+.thumbnail-title {
+  color: #3333aa;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+
+.scenario-thumb {
+  margin-top: 16px;
+}
+
+
+.bottom-link {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.bottom-link a {
+  margin-right: 15px;
+}
+
+.section-thumb {
+  margin-top: 16px;
+  padding-right: 50px;
+  font-size: 14px;
+  
+}
