@@ -3,9 +3,9 @@ layout: default
 title: Archive
 ---
 
-### _MATSim News Archive_
+#### MATSim News Archive
 
-{% assign years = "2022|2021|2020|2019|2018|2017|2016|2015|2014|2013|2012" | split: "|" %}
+{% assign years = "2022|2021|2020|2019|2018|2017|2016" | split: "|" %}
 {% capture strnowyear %}{{'now' | date: '%Y'}}{% endcapture %}
 {% assign nowyear = strnowyear | plus: 0 %}
 

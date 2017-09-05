@@ -58,11 +58,13 @@ MATSim is open source software written in Java. Visit us <a href="https://github
 </div>
 
 <div class="col-md-12 text-left">
-<br/>
-<p class="sidebar_title">Latest MATSim News</p>
+  <br/>
+  <br/>
+  <br/>
+  <p class="sidebar_title">Latest MATSim News</p>
 </div>
 
-<div class="posts">
+<div class="col-md-12 posts">
 {% for post in site.posts limit: 5 %}
     <article class="post">
 
@@ -75,16 +77,19 @@ MATSim is open source software written in Java. Visit us <a href="https://github
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h4>
 
-        {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More</a>
+        {{ post.content | truncatewords:40}}
+        <br/><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
     </div>
 
     <div class="faint_border"></div>
 
     </article>
 {% endfor %}
-</div>
 
 <div class="entry">
 <p>&raquo; See <a href="/archive.html">older posts</a>.</p>
 </div>
+
+</div>
+
 
