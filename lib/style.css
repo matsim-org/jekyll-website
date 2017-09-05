@@ -241,6 +241,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     color: #f0a033;
+    padding-top: 0px;
 }
 
 /* navbar items */
@@ -771,6 +772,21 @@ body {
 
 @media screen and (max-width: 600px) {
 
+.section-thumb {
+  margin-top: 10px;
+  padding-right: 0px;
+  font-size: 14px;  
+}
+
+.col-md-12 { 
+  padding: 0px 0px;
+}
+
+.container {
+  padding: 4px;
+  font-size: 14px;  
+}
+
   .mobilenav h5 {
 	display: block;
   }
@@ -1102,6 +1118,15 @@ body {
   padding: 20px 20px;
 }
 
+.infobox-thick {
+  font-size: 16px;  
+  background: #eee;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 30px 50px;
+}
+
 .title-link a { color: #f0a033; }
 .title-link:hover a {
   text-decoration: none;
@@ -1228,3 +1253,7 @@ img.post-title-image {
 .scenario-list {
   margin-bottom: 2px;
 }
+
+.banner-logo { padding-top: 0px;}
+
+a:hover { text-decoration: none;}
