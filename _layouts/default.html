@@ -52,7 +52,6 @@
   </head>
 
   <body id="page-top" class="index preload">
-  <div class="container">
 
   <!-- Navigation -->
   <header>
@@ -87,21 +86,19 @@
     <hr/>
   </div>
 -->
+  <div class="container">
 
     <!-- MAIN CONTENT -->
-    <div class="col-md-12 text-left">
-
       <section id="main_content" class="inner">
 
         {{ content }}
 
       </section>
-
-    </div>
+  </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap">
-      <footer id="footer_content">
+      <footer class="footer" id="footer_content">
         <p>&copy; {{'now' | date: '%Y'}} MATSim Community</p>
       </footer>
     </div>
@@ -120,6 +117,5 @@
     <!-- Custom Theme JavaScript -->
     <script src="/lib/agency.js"></script>
 
-  </div>
   </body>
 </html>
