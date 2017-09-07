@@ -1,6 +1,6 @@
 - name: "Quito, Ecuador"
   url: /gallery/quito
-  image: /gallery/quito_thumb.png
+  image: /gallery/quito_thumb.jpg
 
 - name: "Vorarlberg, Austria"
   url: /gallery/vorarlberg
@@ -14,10 +14,10 @@
   url: /gallery/germany
   image: /gallery/germany_thumb.jpg
 
-- name: "Tel Aviv, Israel"
-  url: /gallery/telaviv
-  image: /gallery/telaviv_thumb.jpg
-  
+- name: "Seoul, South Korea"
+  url: /gallery/seoul
+  image: /gallery/seoul_thumb.png
+
 - name: "Singapore"
   url: /gallery/singapore
   image: /gallery/singapore_thumb.jpg
@@ -26,4 +26,55 @@
   url: /gallery/south-africa
   image: /gallery/safrica_thumb.jpg
 
+- name: "Tel Aviv, Israel"
+  url: /gallery/telaviv
+  image: /gallery/telaviv_thumb.jpg
   
+- name: "Berlin, Germany"
+  url: /gallery/berlin
+  image: /gallery/berlin_thumb.jpg
+
+- name: "Air Traffic over Europe"
+  url: /gallery/air-traffic
+  image: /gallery/airtraffic_thumb.jpg
+
+- name: "Zurich, Switzerland"
+  url: /gallery/zurich
+  image: /gallery/zurich_thumb.jpg
+
+- name: "Munich, Germany"
+  url: /gallery/munich
+  image: /gallery/munich_thumb.jpg
+
+- name: "Gauteng, South Africa"
+  url: /gallery/gauteng
+  image: /gallery/gauteng_thumb.png
+
+- name: "Padang, Indonesia"
+  url: /gallery/padang
+  image: /gallery/padang_thumb.jpg
+
+- name: "Joinville, Brazil"
+  url: /gallery/joinville
+  image: /gallery/joinville_thumb.jpg
+
+- name: "Izmir, Turkey"
+  url: /gallery/izmir
+  image: /gallery/izmir_thumb.jpg
+
+- name: "Toronto, Canada"
+  url: /gallery/toronto
+  image: /gallery/toronto_thumb.jpg
+
+- name: "Sioux Falls, SD, USA"
+  url: /gallery/sioux-falls
+  image: /gallery/sioux_falls_thumb.jpg
+
+- name: "Aliaga, Turkey"
+  url: /gallery/aliaga
+  image: /gallery/aliaga_thumb.jpg
+
+- name: "Caracas, Venezuela"
+  url: /gallery/caracas
+  image: /gallery/caracas_thumb.jpg
+
