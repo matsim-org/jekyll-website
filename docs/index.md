@@ -19,7 +19,7 @@ title: Documentation
 
 - [Tutorials](http://matsim.org/docs/tutorials)
 - [Extensions](http://matsim.org/extensions)
-- [The MATSim Book](http://matsim.org/the-book)
+- [The MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
 - [Q&A](http://matsim.org/faq)
 - [The MATSim community pages  (user guides, DIY instructions, etc.)](http://matsim.org/wiki)
@@ -46,7 +46,7 @@ title: Documentation
 
 #### User's Guide
 
-The ["MATSim Book"](http://matsim.org/the-book) is now the authoritative reference. The book is diveded into four parts, covering a broad range of topics.
+The ["MATSim Book"](/the-book) is now the authoritative reference. The book is diveded into four parts, covering a broad range of topics.
 
 There is an extract of the first couple of chapters, which contains the most relevant topics for new users:
 
@@ -55,7 +55,7 @@ There is an extract of the first couple of chapters, which contains the most rel
    - If the above link seems not to work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.
    - It is planned that this book extract will be updated once a year to stay consistent with the code.
 
-- Some useful [Terminology]()
+- Some useful [Terminology](/docs/userguide/terminology)
 
 </div>
 
@@ -91,7 +91,7 @@ We have prepared some tutorials which should help you getting started with MATSi
 - [MATSim example project](http://matsim.org/content/matsim-example-project)
 - [General Tutorials](http://matsim.org/docs/tutorials/general)
 - [MATSim book and user's guide](http://matsim.org/content/matsim-book-and-users-guide)
-- [Simulation of public transport](http://matsim.org/docs/tutorials/transit)
+- [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
 
