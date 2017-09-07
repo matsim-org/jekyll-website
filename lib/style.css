@@ -256,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #f0a033;
+    color: #ffff66; /*#f0a099;*/
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -554,7 +554,7 @@ body {
 }
 
 .post h1 {
-  line-height: 1.1;
+  line-height: 1.0;
 }
 
 .faint_border {
@@ -587,7 +587,7 @@ body {
 }
 
 .entry_image {
-  width: 130px;
+  width: 48px;
   margin-top: 5px;
   margin-right: 20px;
 }
@@ -1253,4 +1253,13 @@ a:hover { text-decoration: none;}
 .infobox h4 {
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.blog-byline {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: -8px;
+  color: #aaa;
+  
+  
 }

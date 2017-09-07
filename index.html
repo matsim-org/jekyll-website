@@ -72,20 +72,22 @@ MATSim is open source software written in Java. Visit us <a href="https://github
 </div>
 
 <div class="col-md-12 posts">
-{% for post in site.posts limit: 5 %}
+
+{% for post in site.data.news %}
     <article class="post">
 
     <div class="entry_image_wrapper">
-      <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
+      <a href="{{ post.link }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
     </div>
 
     <div class="entry">
         <h4>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.link }}">{{ post.title }}</a>
         </h4>
+        <p class="blog-byline">Posted by <a href="{{post.author_link}}">{{post.author}}</a> on {{ post.date }}</p>
 
-        {{ post.content | truncatewords:40}}
-        <br/><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
+        {{ post.body | truncatewords:80}}
+        <br/><a href="{{ post.link }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
     </div>
 
     <div class="faint_border"></div>

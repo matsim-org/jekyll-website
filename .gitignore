@@ -1,4 +1,6 @@
 _site/
+_data/news.yml
+
 nohup.out
 Thumbs.db
 *.swp
