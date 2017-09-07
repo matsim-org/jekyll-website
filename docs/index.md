@@ -3,68 +3,74 @@ layout: default
 title: Documentation
 ---
 
-<div class="col-md-12" markdown="1">
+# <i class="fa fa-book">&nbsp;</i>MATSim Documentation
 
-## <span class="pull-left"><i class="fa fa-book">&nbsp;</i>MATSim Documentation
 
-</div>
+<div class="panel panel-info">
+	<div class="panel-heading">
+		<h3 class="panel-title">Quick Links</h3>
+	</div>
+  <div class="panel-body">
+		<div class="col-xs-12 col-sm-6" markdown="1">
+		
+### For Users
 
-<div class="col-md-10 infobox" markdown="1">
-
-#### Quick Links
-
-<div class="col-md-5" markdown="1">
-
-##### For Users:
-
-- [Tutorials](http://matsim.org/docs/tutorials)
-- [Extensions](http://matsim.org/extensions)
+- [Tutorials](/docs/tutorials)
+- [Extensions](/extensions)
 - [The MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
-- [Q&A](http://matsim.org/faq)
-- [The MATSim community pages  (user guides, DIY instructions, etc.)](http://matsim.org/wiki)
- 
-</div>
-
-<div class="col-md-5" markdown="1">
-
-##### For Developers:
-
-- [API Documentation](http://matsim.org/javadoc) (Javadoc)
-- [API Documentation](http://matsim.org/doxygen) (Doxygen)
-- [Issue Tracker](http://matsim.org/issuetracker) (JIRA)
-- [Build Server](http://matsim.org/buildserver) (Jenkins)
-- [Q&A](http://matsim.org/faq)
-- [The MATSim community pages  (user guides, DIY instructions, etc.)](http://matsim.org/wiki)
- 
-</div>
+- [Q&A](/faq)
+- [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
 </div>
+<div class="col-xs-12 col-sm-6" markdown="1">
+		
+### For Developers	
+		
+- [API Documentation](/javadoc) (Javadoc)
+- [API Documentation](/doxygen) (Doxygen)
+- [Issue Tracker](/issuetracker) (JIRA)
+- [Build Server](/buildserver) (Jenkins)
+- [Q&A](/faq)
+- [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
+
+</div>
+	</div>
+</div>
+
 
 <!-- ------------------------------------------- -->
-<div class="col-md-5 infobox" markdown="1">
 
-#### User's Guide
+<div class="row">
+
+<div class="col-md-6">
+<div class="infobox" markdown="1">
+
+
+### User's Guide
 
 The ["MATSim Book"](/the-book) is now the authoritative reference. The book is diveded into four parts, covering a broad range of topics.
 
 There is an extract of the first couple of chapters, which contains the most relevant topics for new users:
 
-- [Latest version of the book extract](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) [PDF]
+[Latest version of the book extract](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) [PDF]
 
-   - If the above link seems not to work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.
-   - It is planned that this book extract will be updated once a year to stay consistent with the code.
+- If the above link seems not to work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.
+- It is planned that this book extract will be updated once a year to stay consistent with the code.
 
-- Some useful [Terminology](/docs/userguide/terminology)
+Some useful [Terminology](/docs/userguide/terminology).
 
+</div>
 </div>
 
 <!-- ------------------------------------------- -->
-<div class="col-md-5 infobox" markdown="1">
 
-#### [Developers Guide](http://matsim.org/docs/devguide)
+<div class="col-md-6">
+<div class="infobox" markdown="1">
 
-The [developer guide](http://matsim.org/docs/devguide):
+### Developers Guide
+
+The developer guide
 
 - Provides specification of key-aspects of MATSim (e.g. file formats, simulation events, ...)
 - Lists some guidelines for developers (e.g. coding conventions) to keep MATSim maintainable.
@@ -79,11 +85,13 @@ Other useful links for MATSim developers:
 - [MATSim Benchmark](http://matsim.org/benchmark)
 
 </div>
+</div>
 
 <!-- ------------------------------------------- -->
-<div class="col-md-5 infobox" markdown="1">
+<div class="col-md-6">
+<div class="infobox" markdown="1">
 
-#### Tutorials
+### Tutorials
 
 We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
 
@@ -94,11 +102,14 @@ We have prepared some tutorials which should help you getting started with MATSi
 - [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
+</div>
 
 <!-- ------------------------------------------- -->
-<div class="col-md-5 infobox" markdown="1">
+<div class="col-md-6">
+<div class="infobox" markdown="1">
 
-#### Publications
+
+### Publications
 
 Being an open-source project heavily driven by research organizations world-wide, a lot of publications were written about MATSim. If you are interested in scientific publications about MATSim, the publication lists of the following institutions serve as a good entry point: 
 
@@ -108,13 +119,19 @@ Being an open-source project heavily driven by research organizations world-wide
   - in particular the [working paper series](http://www.ivt.ethz.ch/vpl/publications/reports)
 
 </div>
+</div>
 
 
 <!-- ------------------------------------------- -->
-<div class="col-md-5 infobox" markdown="1">
+<div class="col-md-6">
+<div class="infobox" markdown="1">
 
-#### Old Website
+
+### Old Website
 
 Some links on third-party sites may refer to content that no longer exists on this website. You might have a look at the [archived, old website](http://archive.matsim.org/) and see if the content is still available there.
+
+</div>
+<div>
 
 </div>
