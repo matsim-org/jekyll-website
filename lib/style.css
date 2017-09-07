@@ -18,7 +18,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #4d4d4d;
     padding-top: 125px;
 }
@@ -100,7 +100,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     padding-top: 10px;
 }
@@ -133,7 +133,7 @@ h4 {
 
 .btn-primary {
     border-color: #f0a033;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #f0a033;
@@ -183,7 +183,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #f0a033;
     border-radius: 3px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -237,14 +237,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,cursive;
     color: #f0a033;
     padding-top: 0px;
 }
 
 /* navbar items */
 .navbar-default .nav li a {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -334,7 +334,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -342,7 +342,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -361,7 +361,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 40px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -435,7 +435,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -479,14 +479,14 @@ footer {
 
 footer span.copyright {
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -685,7 +685,7 @@ body {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -693,7 +693,7 @@ body {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -1052,7 +1052,7 @@ body {
 }
 .nav-user-link {
     color: #157AB5;
-    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Arial,sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
@@ -1106,7 +1106,7 @@ body {
   background: #eee;
   border: 2px solid #ddd;
   border-radius: 10px;
-  margin: 10px 5px;
+  margin: 10px 10px 10px 0px;
   padding: 20px 20px;
 }
 
