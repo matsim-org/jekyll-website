@@ -87,10 +87,10 @@ Other useful links for MATSim developers:
 
 We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
 
-- [Quickstart](http://matsim.org/content/quickstart)
-- [MATSim example project](http://matsim.org/content/matsim-example-project)
-- [General Tutorials](http://matsim.org/docs/tutorials/general)
-- [MATSim book and user's guide](http://matsim.org/content/matsim-book-and-users-guide)
+- [Quickstart](/content/quickstart)
+- [MATSim example project](/content/matsim-example-project)
+- [General Tutorials](/docs/tutorials/general)
+- [MATSim book and user's guide](/content/matsim-book-and-users-guide)
 - [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
