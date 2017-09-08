@@ -15,15 +15,15 @@ image2:
   
 ---
 
-The Metropolitan District of Quito (DMQ) is Ecuador's capital where currently more than two million people are living. It has grown fast in recent years causing traffic congestion and pollution. Our research integrates evolutionary computation, public and private mobility and emission simulation and data mining tools to gain a better understanding of complex mobility problems in the city.
+The Metropolitan District of Quito (DMQ) is Ecuador's capital where currently more than two million people are living. It has grown quickly in recent years, causing traffic congestion and pollution. Our research integrates evolutionary computation, public and private mobility and emission simulation and data mining tools to gain a better understanding of complex mobility problems in the city.
 
 The geographical area of study is the business district which covers approximately 5×8 km2. A first scenario dealt with the optimization of 70 traffic signals with 20.000 agents moving in two main trips. The plans are designed so that all the agents move first from each home location to different points along the zone. The network comes from OpenStreetMap and includes the primary and secondary pathways, represented in total by 8192 links. The evolutionary algorithm (EA) together with MATSim found the optimal signal setting of the DMQ Scenario, minimizing average travel time. 
 
-We implemented several genetic operators and designed and tested several experiments to find a proper configuration that allows a fluid traffic through a proper coordination between signals. Using data mining techniques, we group the optimal solutions in clusters. Finally, we analyze the effects of traffic signal settings in respect to the environmental impact using the output data from the MATSim emission module.
+We implemented several genetic operators and designed and tested several experiments to find a proper configuration that allows fluid traffic flow through proper coordination between signals. Using data mining techniques, we group the optimal solutions in clusters. Finally, we analyze the effects of traffic signal settings in respect to the environmental impact using the output data from the MATSim emission module.
 
 {% include image.html image=page.image1 %}
 
-A second approach examines traffic density levels in urban transportation. The EA searches the combinations of a number of private/public transport users, capacity and headways of Bus Rapid Transit (BRT) of five main corridors on DMQ Scenario. The traffic density is influenced by the proportions of the population that use public (NPt) and private transportation and implies a bi-level optimization problem. Different proportions and configurations impact in traffic density, travel time and fuel consumption. That criteria are in conflict with each other. We developped a framework to minimize simultaneously those three objectives coupling a multi-objective EA with MATSim.
+A second approach examines traffic density levels in urban transportation. The EA searches the combinations of a number of private/public transport users, capacity and headways of Bus Rapid Transit (BRT) of five main corridors on DMQ Scenario. The traffic density is influenced by the proportions of the population that use public (NPt) and private transportation and implies a bi-level optimization problem. Different proportions and configurations impact the traffic density, travel time and fuel consumption. Those criteria are in conflict with each other; we developed a framework to minimize simultaneously the three objectives, coupling a multi-objective EA with MATSim.
 
 {% include image.html image=page.image2 %}
 

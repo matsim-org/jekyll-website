@@ -5,7 +5,7 @@ layout: scenario
 
 image1:
   image: /gallery/toronto_1.jpg
-  caption: "Figure 1. MATSim in Toronto."
+  caption: "MATSim in Greater Toronto."
   
 ---
 {% include image.html image=page.image1 %}
