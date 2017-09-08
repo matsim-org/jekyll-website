@@ -40,12 +40,7 @@ title: Documentation
 
 
 <!-- ------------------------------------------- -->
-
-<div class="row">
-
-<div class="col-md-6">
-<div class="infobox" markdown="1">
-
+<div class="col-md-6" markdown="1">
 
 ### User's Guide
 
@@ -61,12 +56,10 @@ There is an extract of the first couple of chapters, which contains the most rel
 Some useful [Terminology](/docs/userguide/terminology).
 
 </div>
-</div>
 
 <!-- ------------------------------------------- -->
 
-<div class="col-md-6">
-<div class="infobox" markdown="1">
+<div class="col-md-6" markdown="1">
 
 ### Developers Guide
 
@@ -85,12 +78,11 @@ Other useful links for MATSim developers:
 - [MATSim Benchmark](http://matsim.org/benchmark)
 
 </div>
-</div>
 
 <!-- ------------------------------------------- -->
-<div class="col-md-6">
-<div class="infobox" markdown="1">
+<div class="col-md-6" markdown="1">
 
+---
 ### Tutorials
 
 We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
@@ -102,13 +94,11 @@ We have prepared some tutorials which should help you getting started with MATSi
 - [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
-</div>
 
 <!-- ------------------------------------------- -->
-<div class="col-md-6">
-<div class="infobox" markdown="1">
+<div class="col-md-6" markdown="1">
 
-
+---
 ### Publications
 
 Being an open-source project heavily driven by research organizations world-wide, a lot of publications were written about MATSim. If you are interested in scientific publications about MATSim, the publication lists of the following institutions serve as a good entry point: 
@@ -119,19 +109,14 @@ Being an open-source project heavily driven by research organizations world-wide
   - in particular the [working paper series](http://www.ivt.ethz.ch/vpl/publications/reports)
 
 </div>
-</div>
 
 
 <!-- ------------------------------------------- -->
-<div class="col-md-6">
-<div class="infobox" markdown="1">
+<div class="col-md-6" markdown="1">
 
-
+---
 ### Old Website
 
 Some links on third-party sites may refer to content that no longer exists on this website. You might have a look at the [archived, old website](http://archive.matsim.org/) and see if the content is still available there.
-
-</div>
-<div>
 
 </div>
