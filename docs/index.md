@@ -74,7 +74,7 @@ Other useful links for MATSim developers:
 
 - [Developer Resources](/content/developer-resources)
 - [Getting and Building the Code](http://matsim.org/docs/devguide/development-environment)
-- [Contributing / Writing Code](http://matsim.org/docs/contributing)
+- [Contributing / Writing Code](/docs/contributing)
 - [MATSim Benchmark](/benchmark)
 
 </div>
