@@ -72,10 +72,10 @@ offers additional pieces of information that may/should be of interest to develo
 
 Other useful links for MATSim developers:
 
-- [Developer Resources](http://matsim.org/content/developer-resources)
+- [Developer Resources](/content/developer-resources)
 - [Getting and Building the Code](http://matsim.org/docs/devguide/development-environment)
 - [Contributing / Writing Code](http://matsim.org/docs/contributing)
-- [MATSim Benchmark](http://matsim.org/benchmark)
+- [MATSim Benchmark](/benchmark)
 
 </div>
 
