@@ -7,7 +7,7 @@ title: Terminology
 <h3>Choice set → “plan set” of an agent</h3>
 <p>During MATSim iterations, agent accumulate plans. This can be interpreted as building a choice set over time. A problem is that the process that generates the choice set at this point is not systematic.</p>
 <p>Possible future developments: Once it has been made explicit that ”plans generation” means ”choice set generation”, the terminology may be made standard.</p>
-<h3>Choice set generation → Time mutation/re-route/... ; ”inno- vation”</h3>
+<h3>Choice set generation → Time mutation/re-route/... ; ”innovation”</h3>
 <p>As said above, the set of MATSim plans can be seen as this agent’s choice set. MATSim generates new plans ”on-the-fly”, i.e. while the simulation is running. We sometimes call this ”innovation”, since agents create new plans (= add entries to the choice set), rather than choosing between existing plans.</p>
 <h3>Choice set generation, choice → replanning</h3>
 <p>In MATSim, there is no strict separation between ”choice set generation” and ”choice”: at the replanning step, for each agent, a replanning strategy is randomly choosen. This strategy may consist in selecting a random plan to use to generate a new plan by mutation (”choice set generation” part), or just to select a past plan based on the experienced score (”choice” part).&nbsp;</p>

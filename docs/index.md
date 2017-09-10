@@ -38,8 +38,8 @@ title: Documentation
 	</div>
 </div>
 
-
 <!-- ------------------------------------------- -->
+
 <div class="col-md-6" markdown="1">
 
 ### User's Guide
@@ -73,7 +73,7 @@ offers additional pieces of information that may/should be of interest to develo
 Other useful links for MATSim developers:
 
 - [Developer Resources](/content/developer-resources)
-- [Getting and Building the Code](http://matsim.org/docs/devguide/development-environment)
+- [Getting and Building the Code](/docs/devguide/development-environment)
 - [Contributing / Writing Code](/docs/contributing)
 - [MATSim Benchmark](/benchmark)
 
