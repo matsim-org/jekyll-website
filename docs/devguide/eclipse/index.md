@@ -16,7 +16,7 @@ You must have the following software installed and ready to use:
 - **Eclipse**
   Download Eclipse from [eclipse.org](http://www.eclipse.org/downloads/), the package "Eclipse IDE for Java Developers" is enough for MATSim. Unzip the downloaded file and place it on some suitable location on your harddisk. Eclipse does not require any special installation. Experience shows that on Windows it's best to install Eclipse at a location that does not require administrative rights.
 - **Configure Eclipse**
-  Use [UTF8 as File-Encoding](/docs/devguide/eclipse-configuration).
+  Use [UTF8 as File-Encoding](/docs/devguide/ide-configuration).
 - **Make sure Eclipse is running from a JDK**
   [Configure Eclipse to use a JDK](/docs/devguide/eclipse/jdk)
  
