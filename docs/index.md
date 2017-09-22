@@ -5,6 +5,7 @@ title: Documentation
 
 # <i class="fa fa-book">&nbsp;</i>MATSim Documentation
 
+<br/>
 
 <div class="panel panel-info">
 	<div class="panel-heading">
