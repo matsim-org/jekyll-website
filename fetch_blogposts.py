@@ -31,8 +31,7 @@ for post in results:
       item['image'] = 'https://matsim.atlassian.net' + image
 
       posts.append(item)        
-      print(item['date'], item['title'])
-      print()
+      print item['date'], item['title']
 
 outfile = open('_data/news.yml','w')
 yaml.dump(posts, outfile, default_flow_style=False)      
