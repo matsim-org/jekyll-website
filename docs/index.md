@@ -16,7 +16,7 @@ title: Documentation
 		
 ### For Users
 
-- [Tutorials](/docs/tutorials)
+- [Tutorials](#tutorials)
 - [Extensions](/extensions)
 - [The MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
@@ -84,7 +84,7 @@ Other useful links for MATSim developers:
 <div class="col-md-6" markdown="1">
 
 ---
-### Tutorials
+### <a name="tutorials"></a>Tutorials
 
 We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
 
