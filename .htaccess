@@ -15,3 +15,4 @@ RewriteRule ^wiki$ https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Commu
 RewriteRule ^docs/tutorials$ /docs/#tutorials
 </IfModule>
 
+ErrorDocument 404 404.html
