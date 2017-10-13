@@ -14,14 +14,8 @@ The following API documentations are available:
 <tr>
 <th scope="col" >Component</th>
 <th scope="col" >Development</th>
-<th scope="col" >
-<p>0.9.0</p>
-<p>(Spring 2017)</p>
-</th>
-<th scope="col" >
-<p>0.8.1</p>
-<p>(Spring 2016)</p>
-</th>
+<th scope="col" >0.9.0<br>(Spring 2017)</th>
+<th scope="col" >0.8.1<br>(Spring 2016)</th>
 <th scope="col" >0.7.0<br>(Fall 2015)</th>
 <th scope="col" >0.6.0<br>(Fall 2014)</th>
 <th scope="col" >0.5.0<br>(Spring 2013)</th>
@@ -64,7 +58,7 @@ The following API documentations are available:
 <td ></td>
 </tr>
 <tr>
-<td ><strong><a href="internal:extensions">Contribs</a></strong></td>
+<td ><strong><a href="/extensions">Contribs</a></strong></td>
 <td ></td>
 <td ></td>
 <td ></td>
