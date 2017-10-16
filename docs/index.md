@@ -17,7 +17,7 @@ title: Documentation
 ### For Users
 
 - [Tutorials](#tutorials)
-- [Extensions](http://old.matsim.org/extensions)
+- [Extensions](/extensions)
 - [The MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
 - [Q&A](/faq)

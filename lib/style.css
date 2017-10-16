@@ -619,18 +619,6 @@ body {
     margin-top: 13px;
 }
 
-.author {
-    color: #aaa;
-    font-size: 11px;
-    padding-top: 0px;
-}
-
-.author-tight {
-    color: #aaa;
-    font-size: 11px;
-    padding-top: 0px;
-    margin-top: -12px;
-}
 
 /* ################################################################# */
 
@@ -768,16 +756,16 @@ body {
 .section-thumb {
   margin-top: 10px;
   padding-right: 0px;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
-.col-md-12 { 
+.col-md-12 {
   padding: 0px 0px;
 }
 
 .container {
   padding: 4px;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
   .mobilenav h5 {
@@ -1101,7 +1089,7 @@ body {
 }
 
 .infobox {
-  font-size: 16px;  
+  font-size: 16px;
   border: 2px solid #ddd;
   border-radius: 10px;
   margin: 10px 10px 10px 0px;
@@ -1109,7 +1097,7 @@ body {
 }
 
 .infobox-thick {
-  font-size: 16px;  
+  font-size: 16px;
   background: #eee;
   border: 2px solid #ddd;
   border-radius: 10px;
@@ -1237,7 +1225,7 @@ img.post-title-image {
 .section-thumb {
   margin-top: 30px;
   padding-right: 50px;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 .scenario-list {
@@ -1258,6 +1246,34 @@ a:hover { text-decoration: none;}
   font-style: italic;
   margin-top: -8px;
   color: #aaa;
-  
-  
+}
+
+td.extension-details {
+  border: 10px solid white;
+  text-align: right;
+  vertical-align: top;
+}
+
+.extension-table {
+		width:100%;
+		border-collapse:collapse;
+}
+.extension-table th,td{
+  padding:8px; border:none;
+}
+/* provide some minimal visual accomodation for IE8 and below */
+.extension-table tr{
+  background: #b8d1f3;
+}
+/*  Define the background color for all the ODD background rows  */
+.extension-table tr:nth-child(odd){
+  background: #eeeeee;
+}
+/*  Define the background color for all the EVEN background rows  */
+.extension-table tr:nth-child(even){
+  background: #f8f8f8;
+}
+
+.extension-table tr:hover td {
+background-color: #e5e5e5;
 }

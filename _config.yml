@@ -6,5 +6,21 @@ kramdown:
   input: GFM
 timezone: Europe/Brussels
 permalink: /:categories/:year/:title
-gems:
+plugins:
   - jekyll-sitemap
+page_gen:
+  - data: 'extensions-main'
+    template: 'extension'
+    name: 'name'
+    dir: 'extension'
+    index_files: true
+  - data: 'extensions-external'
+    template: 'extension'
+    name: 'name'
+    dir: 'extension'
+    index_files: true
+  - data: 'extensions-contrib'
+    template: 'extension'
+    name: 'name'
+    dir: 'extension'
+    index_files: true

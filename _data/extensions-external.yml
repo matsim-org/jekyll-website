@@ -1,0 +1,48 @@
+- name: bdiintegration
+  maintainer: Lin Padgham, Dhirendra&nbsp;Singh
+  status: Unspecified
+  availability: External
+  user-docs: <a href="https://sites.google.com/site/rmitagents/software#TOC-BDI-ABM-Integration-Framework">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: A package that integrates several BDI (belief-desire-intention) frameworks (such as JACK or Jadex) with several agent-based modelling frameworks (such as Repast, Simphony, and MATSim).
+
+- name: freightChainsFromTravelDiaries
+  maintainer: unmaintained
+  status: Unspecified
+  availability: External
+  user-docs: <a href="http://github.com/matsim-org/freightchainsFromTravelDiaries">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: Generate freight chains from travel diaries, specifically the German survey "KiD". Code used by Sebastian Schneider for his dissertation.
+
+- name: GTFS2MATSim
+  maintainer: Michael Zilske
+  status: Unspecified
+  availability: External
+  user-docs: <a href="https://github.com/matsim-org/GTFS2MATSim">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: Another package to convert GTFS (google transit feed specification) data into a MATSim transit schedule.
+
+- name: GTFS2TransitSchedule
+  maintainer: Sergio Ordonez
+  status: Unspecified
+  availability: External
+  user-docs: <a href="http://matsim.org/docs/extensions/gtfs2transitschedule">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: See matsim.org/javadoc under "gtfs2matsimtransitschedule" for more information.
+
+- name: josm-plugin
+  maintainer: "Nico Kühnel, Michael Zilske"
+  status: Unspecified
+  availability: External
+  user-docs: <a href="https://github.com/matsim-org/josm-matsim-plugin">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: A plug-in for JOSM, the OpenStreetMap editor, to save OSM data in the MATSim format.
+
+- name: Via
+  maintainer: Senozon AG
+  status: Stable
+  availability: External
+  user-docs: <a href="http://via.senozon.com/">Available here</a>
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: Via is a stand-alone application that allows to visualize and analyze MATSim data as well as generic spatial and temporal data sets. Being a commercial software developed and distributed by Senozon, the application is not open source as the rest of MATSim. A limited, free version is available.
+  
