@@ -1,8 +1,8 @@
 nav_links:
   HOME: '/'
+  INSTALL: '/downloads/'
   GALLERY: '/gallery/'
   DOCUMENTATION: '/docs/'
-  DOWNLOADS: '/downloads/'
   NEWS: '/archive.html'
 
 psrc_links:

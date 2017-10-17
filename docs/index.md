@@ -108,6 +108,7 @@ Being an open-source project heavily driven by research organizations world-wide
   - in particular the [working paper series](http://www.vsp.tu-berlin.de/publications/vspwp/)
 - Publications at [IVT ETH Zurich](http://www.ivt.ethz.ch/vpl/publications/) 
   - in particular the [working paper series](http://www.ivt.ethz.ch/vpl/publications/reports)
+- [Google Scholar search](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=MATSim&btnG=)
 
 </div>
 

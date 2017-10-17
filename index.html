@@ -3,66 +3,62 @@ layout: default
 ---
 
 <div class="jumbotron">
-	<div class="row">
-		<div class="col-sm-6">
-			<p>MATSim is an open-source framework for implementing large-scale agent-based transport simulations.</p>
-		</div>
-		<div class="col-sm-5 col-sm-push-1">
-			<p><a class="btn btn-default btn-lg" href="/about-matsim">Learn more…</a></p>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>MATSim is an open-source framework for implementing large-scale agent-based transport simulations.</p>
+    </div>
+    <div class="col-sm-5 col-sm-push-1">
+      <p><a class="btn btn-default btn-lg" href="/about-matsim">Learn more…</a></p>
+    </div>
+  </div>
 </div>
 
 <div class="row">
-<div class="col-md-12 text-left">
+  <div class="col-md-12 text-left">
 
-<div class="col-md-4 text-left section-thumb">
-<a href="/docs/">
-<h3>Documentation</h3></a>
-<span class="pull-left"><a href="/docs"><i class="fa fa-book fa-4x">&nbsp;</i></a></span>
-Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
-</a>
-</div>
+    <div class="col-md-4 text-left section-thumb">
+      <h3><a href="/downloads/">Install</a></h3>
+      <span class="pull-left"><a href="downloads"><i class="fa fa-cloud-download fa-4x">&nbsp;</i></a></span>
+      Install MATSim on your computer.
+    </div>
 
-<div class="col-md-4 text-left section-thumb">
-<h3><a href="/gallery/">
-Gallery
-</a></h3>
-<span class="pull-left"><a href="/gallery"><i class="fa fa-globe fa-4x">&nbsp;</i></a></span>
-MATSim is used all over the world! Have a look at the gallery to see how others are using MATSim.
-</div>
+    <div class="col-md-4 text-left section-thumb">
+      <h3><a href="/gallery/">
+	  Gallery
+      </a></h3>
+      <span class="pull-left"><a href="/gallery"><i class="fa fa-globe fa-4x">&nbsp;</i></a></span>
+      MATSim is used all over the world! Have a look at the gallery to see how others are using MATSim.
+    </div>
 
-<div class="col-md-4 text-left section-thumb">
-<h3><a href="/downloads/">Download/Install</a></h3>
-<span class="pull-left"><a href="downloads"><i class="fa fa-cloud-download fa-4x">&nbsp;</i></a></span>
-Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
-</div>
+    <div class="col-md-4 text-left section-thumb">
+      <a href="/docs/">
+	<h3>Documentation</h3></a>
+      <span class="pull-left"><a href="/docs"><i class="fa fa-book fa-4x">&nbsp;</i></a></span>
+      Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
+    </div>
 
-</div>
+    <div class="col-md-4 text-left section-thumb">
+      <a href="/faq">
+	<h3>Get Help</h3></a>
+      <span class="pull-left"><a href="/faq"><i class="fa fa-comments fa-4x">&nbsp;</i></a></span>
+      Ask your questions on our<br/><a href="/faq">Q&A platform</a>.
+    </div>
 
-<div class="col-md-12 text-left">
+    <!-- Commenting this out for the time being in attempt to point people to rather cloning the matsim-example-project.  kai, oct'17 -->
+    <!-- <div class="col-md-4 text-left section-thumb"> -->
+    <!-- <a href="https://github.com/matsim-org/matsim"> -->
+    <!-- <h3>Open Source</h3></a> -->
+    <!-- <span class="pull-left"><a href="https://github.com/matsim-org/matsim"><i class="fa fa-github fa-4x">&nbsp;</i></a></span> -->
+    <!-- MATSim is open source software written in Java. Visit us <a href="https://github.com/matsim-org/matsim">on GitHub</a> to have a look at the source code. -->
+    <!-- </div> -->
 
-<div class="col-md-2"></div>
+  </div>
 
-<div class="col-md-4 text-left section-thumb">
-<a href="/faq">
-<h3>Get Help</h3></a>
-<span class="pull-left"><a href="/faq"><i class="fa fa-comments fa-4x">&nbsp;</i></a></span>
-Ask your questions on our<br/><a href="/faq">Q&A platform</a>.
-</div>
-
-<div class="col-md-4 text-left section-thumb">
-<a href="https://github.com/matsim-org/matsim">
-<h3>Open Source</h3></a>
-<span class="pull-left"><a href="https://github.com/matsim-org/matsim"><i class="fa fa-github fa-4x">&nbsp;</i></a></span>
-MATSim is open source software written in Java. Visit us <a href="https://github.com/matsim-org/matsim">on GitHub</a> to have a look at the source code.
-</div>
-
-<div class="col-md-2" id="news"></div>
+  <!-- <div class="col-md-2" id="news"></div> -->
 
 </div>
 
-<div class="col-md-12 text-left">
+<div class="col-md-12 text-left" id="news">
   <br/>
   <br/>
   <br/>
@@ -71,31 +67,31 @@ MATSim is open source software written in Java. Visit us <a href="https://github
 
 <div class="col-md-12 posts">
 
-{% for post in site.data.news %}
-    <article class="post">
+  {% for post in site.data.news %}
+  <article class="post">
 
     <div class="entry_image_wrapper">
       <a href="{{ post.link }}"><img class="entry_image" src="{{ post.image }}" /></a>
     </div>
 
     <div class="entry">
-        <h4>
-            <a href="{{ post.link }}">{{ post.title }}</a>
-        </h4>
-        <p class="blog-byline">Posted by <a href="{{post.author_link}}">{{post.author}}</a> on {{ post.date }}</p>
+      <h4>
+        <a href="{{ post.link }}">{{ post.title }}</a>
+      </h4>
+      <p class="blog-byline">Posted by <a href="{{post.author_link}}">{{post.author}}</a> on {{ post.date }}</p>
 
-        {{ post.body | truncatewords:80}}
-        <br/><a href="{{ post.link }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
+      {{ post.body | truncatewords:80}}
+      <br/><a href="{{ post.link }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
     </div>
 
     <div class="faint_border"></div>
 
-    </article>
-{% endfor %}
+  </article>
+  {% endfor %}
 
-<div class="entry">
-<p>&raquo; See <a href="https://matsim.atlassian.net/wiki/spaces/MATPUB/overview">all posts</a> on the MATSim wiki.</p>
-</div>
+  <div class="entry">
+    <p>&raquo; See <a href="https://matsim.atlassian.net/wiki/spaces/MATPUB/overview">all posts</a> on the MATSim wiki.</p>
+  </div>
 
 </div>
 

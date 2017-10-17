@@ -29,9 +29,12 @@ Some smaller scenarios are directly contained in the MATSim source repository, o
 
 <https://github.com/matsim-org/matsim/tree/master/examples>
 
-matsimExamples
---------------
-There is also a separate "matsimExamples" repository on our GitHub site, but that seems to be rarely used.
+<!-- matsimExamples -->
+<!-- -------------- -->
+<!-- There is also a separate "matsimExamples" repository on our GitHub site, but that seems to be rarely used. -->
+
+<!-- (We are on the way to retire this. kai, oct'17) -->
+
 
 
 Other links to open data
