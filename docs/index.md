@@ -47,9 +47,7 @@ title: Documentation
 
 The ["MATSim Book"](/the-book) is now the authoritative reference. The book is diveded into four parts, covering a broad range of topics.
 
-There is an extract of the first couple of chapters, which contains the most relevant topics for new users:
-
-[Latest version of the book extract](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) [PDF]
+There is an extract of the first couple of chapters, which contains the most relevant topics for new users: [Latest version of the book extract](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) [PDF]
 
 - If the above link seems not to work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.
 - It is planned that this book extract will be updated once a year to stay consistent with the code.
@@ -71,12 +69,15 @@ The developer guide:
 - Gives information about certain packages, how to (programmatically) use them and what features they offer.
 offers additional pieces of information that may/should be of interest to developers (e.g. how to use Eclipse for development, or some Java-tips)
 
-Other useful links for MATSim developers:
+<!-- Other useful links for MATSim developers: -->
 
-- [Developer Resources](/content/developer-resources)
-- [Getting and Building the Code](/docs/devguide/development-environment)
-- [Contributing / Writing Code](/docs/contributing)
-- [MATSim Benchmark](/benchmark)
+[Developer Resources](/content/developer-resources)
+
+[Getting and Building the Code](/docs/devguide/development-environment)
+
+[Contributing / Writing Code](/docs/contributing)
+
+[MATSim Benchmark](/benchmark)
 
 </div>
 
