@@ -43,7 +43,7 @@ title: Documentation
 
 <div class="col-md-6" markdown="1">
 
-### User's Guide
+### User Guide
 
 The ["MATSim Book"](/the-book) is now the authoritative reference. The book is diveded into four parts, covering a broad range of topics.
 
@@ -62,9 +62,9 @@ Some useful [Terminology](/docs/userguide/terminology).
 
 <div class="col-md-6" markdown="1">
 
-### Developers Guide
+### Developer Guide
 
-The developer guide
+The developer guide:
 
 - Provides specification of key-aspects of MATSim (e.g. file formats, simulation events, ...)
 - Lists some guidelines for developers (e.g. coding conventions) to keep MATSim maintainable.
