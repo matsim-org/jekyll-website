@@ -29,7 +29,7 @@ The book is divided into four parts, covering a broad range of topics on more th
 
 #### Current User's Guide
 
-> There is an [extract of the first couple of chapters](http://matsim.org/docs/userguide), which contains the most relevant topics for new users.  This extract is updated every year to the newest version of MATSim.
+> There is an [extract of the first couple of chapters](http://matsim.org/docs/), which contains the most relevant topics for new users.  This extract is updated every year to the newest version of MATSim.
 
 
 <i class="fa fa-creative-commons fa-lg"></i> The book is published and available unter the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/us/) license.
