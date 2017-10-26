@@ -475,6 +475,12 @@ footer {
     background-color: #479ccc;
     color:white;
 }
+footer a {
+	color:white;
+}
+footer a:hover {
+	color:#23527c;
+}
 
 footer span.copyright {
     text-transform: none;
@@ -859,10 +865,6 @@ body {
 
   #header_line {
     display: none;
-  }
-
-  #footer_wrap {
-    padding: 10px 10px 10px 20px;
   }
 
   .post-title-image {
