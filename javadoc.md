@@ -4,7 +4,7 @@ title: Javadoc
 ---
 
 
-#API Documentation
+# API Documentation
 
 The following API documentations are available:
 
@@ -36,15 +36,16 @@ The following API documentations are available:
 <td ><a href="/apidocs/core/0.3.0/">API 0.3.0</a></td>
 </tr>
 <tr>
-<td >matsim tutorial (until 0.8.1, this was<br>included in matsim main above)</td>
-<td ><a href="http://ci.matsim.org:8080/view/All/job/MATSim_tutorial/javadoc/index.html">HEAD</a></td>
-<td ></td>
-<td ></td>
-<td ></td>
-<td ></td>
-<td ></td>
-<td ></td>
-<td ></td>
+<td >matsim tutorial/code-examples<br>(until 0.8.1, this was included<br>in matsim main above)</td>
+<!-- <td ><a href="http://ci.matsim.org:8080/view/All/job/MATSim_tutorial/javadoc/index.html">HEAD</a></td> -->
+<td><a href="https://github.com/matsim-org/matsim-code-examples">code-examples</a></td>
+<td >please try to use<br><a href="https://github.com/matsim-org/matsim-code-examples">code-examples</a></td>
+<td >included<br>above</td>
+<td >included<br>above</td>
+<td >included<br>above</td>
+<td >included<br>above</td>
+<td >included<br>above</td>
+<td >included<br>above</td>
 </tr>
 <tr>
 <td ></td>
