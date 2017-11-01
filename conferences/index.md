@@ -36,13 +36,14 @@ The 2018 MATSim User Meeting will be held on **23 June, 2018, in Atlanta, Georgi
 
 ### Past Conferences
 
-Here you can find information and documentation from the annual MATSim user meeting and MATSim tutorials. The user meeting and a preceding overview tutorial take place annually, alternatingly in Zurich and Berlin. Special tutorials are held upon request.
+Here you can find information and documentation from the annual MATSim user meeting and MATSim tutorials. The user meeting and a preceding overview tutorial take place annually, often alternating between Zurich and Berlin. Special tutorials are held upon request.
 
+- [2017 User Meeting - Haifa, Israel](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/117899265/MATSim+User+Meeting+special+session+hEART+2017) (some [presentation slides](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/112202007/Presentations+at+the+MATSim+User+Meeting+2017) also available)
 - [2015 User Meeting - Singapore](http://archive.matsim.org/singapore2015)
 - [2015 Tutorial - Singapore](http://archive.matsim.org/tutorial/singapore2015)
 - [2014 Tutorial - Berlin](http://archive.matsim.org/tutorial/berlin2014)
 - [2013 User Meeting - Zurich](http://archive.matsim.org/zurich2013)
-- [2013 Tutorial 2013 - Berlin](http://archive.matsim.org/tutorial/berlin2013)
+- [2013 Tutorial - Berlin](http://archive.matsim.org/tutorial/berlin2013)
 - [2012 User Meeting and Tutorial - Berlin](http://archive.matsim.org/usermeeting12)
 - [2012 MATSim Tutorial in July 2012 - Madison, WI](http://archive.matsim.org/tutorial/madison2012)
 - [2011 Special Tutorial - Shanghai](http://archive.matsim.org/node/636)
