@@ -16,34 +16,52 @@ layout: default
 <div class="row">
   <div class="col-md-12 text-left">
 
-    <div class="col-md-4 text-left section-thumb">
-      <h3><a href="/downloads/">Install</a></h3>
+  <div class="col-md-4 text-left section-thumb">
+      <h3><a href="/downloads/">
+      Install
+      </a></h3>
       <span class="pull-left"><a href="downloads"><i class="fa fa-cloud-download fa-4x">&nbsp;</i></a></span>
       Install MATSim on your computer.
-    </div>
+  </div>
 
-    <div class="col-md-4 text-left section-thumb">
+  <div class="col-md-4 text-left section-thumb">
       <h3><a href="/gallery/">
-	  Gallery
+	    Gallery
       </a></h3>
       <span class="pull-left"><a href="/gallery"><i class="fa fa-globe fa-4x">&nbsp;</i></a></span>
       MATSim is used all over the world! Have a look at the gallery to see how others are using MATSim.
-    </div>
+  </div>
 
     <div class="col-md-4 text-left section-thumb">
-      <a href="/docs/">
-	<h3>Documentation</h3></a>
+      <h3><a href="/docs/">
+      Documentation
+      </a></h3>
       <span class="pull-left"><a href="/docs"><i class="fa fa-book fa-4x">&nbsp;</i></a></span>
       Read up upon MATSim or have a look at the available tutorials to learn how to use MATSim.
     </div>
 
-    <div class="col-md-4 text-left section-thumb">
-      <a href="/faq">
-	<h3>Get Help</h3></a>
-      <span class="pull-left"><a href="/faq"><i class="fa fa-comments fa-4x">&nbsp;</i></a></span>
-      Ask your questions on our<br/><a href="/faq">Q&A platform</a>.
-    </div>
+</div>
+<div class="row">
 
+  <div class="col-md-2" id="news"></div>
+
+  <div class="col-md-4 text-left section-thumb">
+      <h3><a href="http://matsim.org/faq">
+      Get Help
+      </a></h3>
+      <span class="pull-left"><a href="http://matsim.org/faq"><i class="fa fa-comments fa-4x">&nbsp;</i></a></span>
+      Ask your questions on our<br/><a href="http://matsim.org/faq">Q&A platform</a>.
+  </div>
+
+  <div class="col-md-4 text-left section-thumb">
+      <h3><a href="/conferences">
+      Conferences &amp; Meetings
+      </a></h3>
+      <span class="pull-left"><a href="conferences"><i class="fa fa-calendar fa-4x">&nbsp;</i></a></span>
+      Upcoming conferences and archives of previous conferences, papers, and presentations.</a>
+  </div>
+
+    
     <!-- Commenting this out for the time being in attempt to point people to rather cloning the matsim-example-project.  kai, oct'17 -->
     <!-- <div class="col-md-4 text-left section-thumb"> -->
     <!-- <a href="https://github.com/matsim-org/matsim"> -->
@@ -52,9 +70,7 @@ layout: default
     <!-- MATSim is open source software written in Java. Visit us <a href="https://github.com/matsim-org/matsim">on GitHub</a> to have a look at the source code. -->
     <!-- </div> -->
 
-  </div>
-
-  <!-- <div class="col-md-2" id="news"></div> -->
+  <div class="col-md-2" id="news"></div>
 
 </div>
 
@@ -67,6 +83,8 @@ layout: default
 
 <div class="col-md-12 posts">
 
+  <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
+   
   {% for post in site.data.news %}
   <article class="post">
 
