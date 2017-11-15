@@ -64,11 +64,11 @@
 
 - name: evacuation
   maintainer: Gregor Lämmel
-  availability: Contrib
+  availability: Contrib (ending with MATSim release 0.9.x)
   status: Unknown
   user-docs: <a href="https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial">Available here</a>
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Adopts integrated approach for performing evacuation simulations
+  description: Adopts integrated approach for performing evacuation simulations.  Replaced by "evacuation-gui" (see under "external" above) starting with MATSim release 0.10.x.
 
 - name: freight
   maintainer: Michael Zilske

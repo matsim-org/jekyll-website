@@ -6,6 +6,14 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: A package that integrates several BDI (belief-desire-intention) frameworks (such as JACK or Jadex) with several agent-based modelling frameworks (such as Repast, Simphony, and MATSim).
 
+- name: evacuation-gui
+  maintainer: Gregor Lämmel
+  availability: External (starting with MATSim release 0.10.x)
+  status: Unknown
+  user-docs: <a href="https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial">Available here</a>
+  api-docs: <a href="https://github.com/matsim-org/evacuation-gui">Available here</a>
+  description: Adopts integrated approach for performing evacuation simulations. Replaces the "evacuation contrib" starting with release 0.10.x. 
+
 - name: freightChainsFromTravelDiaries
   maintainer: unmaintained
   status: Unspecified
