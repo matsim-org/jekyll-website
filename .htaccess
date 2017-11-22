@@ -14,8 +14,8 @@ RewriteRule ^faq$ https://matsim.atlassian.net/wiki/questions [R=301,L]
 RewriteRule ^issuetracker$ https://matsim.atlassian.net/projects/MATSIM/issues [R=301,L]
 RewriteRule ^wiki$ https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Space [R=301,L]
 RewriteRule ^/?scenario/?([a-z/.]+)$ gallery/$1 [R=301,L]
-RewriteRule ^/?scenario$ gallery/ [R=301,L]
-RewriteRule ^/docs/tutorial(s?)/*$ /docs [R=301,L]
+RewriteRule ^/?scenario/?$ gallery/ [R=301,L]
+RewriteRule ^/docs/tutorial(s?)/?$ /docs [R=301,L]
 </IfModule>
 
 ErrorDocument 404 /404.html
