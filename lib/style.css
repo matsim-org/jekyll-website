@@ -1180,21 +1180,22 @@ img.post-title-image {
   vertical-align:top;
   background: #fff;
   padding: 0 0 0 0;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 2px 2px 5px rgba(0,0,0, 0.3);
 }
 
 .dataset-thumbnail:hover {
   background-color: #dde8ff;
-  opacity: 0.80;
-  box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+  opacity: 0.90;
+  box-shadow: 5px 5px 10px rgba(0,0,40, 0.5);
   transition: all ease 0.15s;
+  transform: translateY(-1px);
 }
 
 .dataset-thumbnail:active {
   background-color: #99f;
   opacity: 1.0;
-  box-shadow: 6px 6px 10px rgba(0,0,0, 0.5);
+  box-shadow: 6px 6px 10px rgba(0,0,80, 0.6);
 }
 
 .thumbnail-image {
