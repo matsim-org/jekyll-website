@@ -1,3 +1,7 @@
+- name: "Santiago, Chile"
+  url: /gallery/santiago
+  image: /gallery/santiago_thumb.jpg
+
 - name: "Quito, Ecuador"
   url: /gallery/quito
   image: /gallery/quito_thumb.jpg
