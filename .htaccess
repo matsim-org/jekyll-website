@@ -19,3 +19,4 @@ RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
 
 ErrorDocument 404 /404.html
 
+AddType text/plain .dtd
