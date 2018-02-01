@@ -5,6 +5,16 @@ title: MATSim Extensions
 
 # MATSim Extensions
 
+## _Important Note_
+
+_The following text is no longer up to date and needs to be revised.  We now say that "extensions" is everything that extends MATSim, but there are two categories of extensions:_
+* _"contribs", which are inside the MATSim main repository_
+* _"other extensions", which are maintained outside the MATSim main repository.  This category again splits into two subcategories_
+  * _extensions hosted in the matsim-org repository but not in the MATSim main repository_
+  * _other extensions.  VIA is the most prominent example here._
+
+_So please read the following text with care; quite often it says "extension" but means "contrib"._
+
 ## Introduction
 
 As a lot of functionality in MATSim is created by PhD students, there is often a 
