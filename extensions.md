@@ -28,7 +28,7 @@ If you want to contribute an extension, please [see here](http://matsim.org/docs
 
   {% for ext in site.data.extensions-main %}
     <tr>
-        <td> <a href="/extension/{{ext.name}}">{{ ext.name }} </a> </td>
+        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
         <td> {{ ext.maintainer }} </td>
         <td> {{ ext.description }} </td>
     </tr>
@@ -48,7 +48,7 @@ If you want to contribute an extension, please [see here](http://matsim.org/docs
 
   {% for ext in site.data.extensions-external %}
     <tr>
-        <td> <a href="/extension/{{ext.name}}">{{ ext.name }} </a> </td>
+        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
         <td> {{ ext.maintainer }} </td>
         <td> {{ ext.description }} </td>
     </tr>
@@ -69,7 +69,7 @@ If you want to contribute an extension, please [see here](http://matsim.org/docs
 
   {% for ext in site.data.extensions-contrib %}
     <tr>
-        <td> <a href="/extension/{{ext.name}}">{{ ext.name }} </a> </td>
+        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
         <td> {{ ext.maintainer }} </td>
         <td> {{ ext.description }} </td>
     </tr>
