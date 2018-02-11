@@ -16,6 +16,7 @@ The two main drivers for the development of MATSim are:
 In addition, the following groups and companies contribute regularly, or have so in the past, to the development of MATSim:
 
 - [Senozon](https://senozon.com/), a company in Switzerland with subsidiaries in Germany and Austria, founded by former PhD and research students.
+- [Simunto](https://simunto.com/), another company in Switzerland, founded by a former PhD and research student.
 - [Center for Transport Development](http://www.up.ac.za/en/centre-for-transport-development/) at the University of Pretoria, especially the group led by Prof. Dr. Johan Joubert.
 - [Future Cities Laboratory](http://www.fcl.ethz.ch), part of the Singapore-ETH Centre.
 - [Department of Transport Systems](http://www.dts.put.poznan.pl/) at Poznan University of Technology (Poland), especially Michał Maciejewski.
