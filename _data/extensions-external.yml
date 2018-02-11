@@ -47,10 +47,10 @@
   description: A plug-in for JOSM, the OpenStreetMap editor, to save OSM data in the MATSim format.
 
 - name: Via
-  maintainer: Senozon AG
+  maintainer: Simunto GmbH
   status: Stable
   availability: External
-  user-docs: <a href="http://via.senozon.com/">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Via is a stand-alone application that allows to visualize and analyze MATSim data as well as generic spatial and temporal data sets. Being a commercial software developed and distributed by Senozon, the application is not open source as the rest of MATSim. A limited, free version is available.
+  user-docs: <a href="https://www.simunto.com/via/">Available here</a>
+  api-docs: There is no API available currently.
+  description: Via is a stand-alone application that allows to visualize and analyze MATSim data as well as generic spatial and temporal data sets. Being a commercial software developed and distributed by Simunto, the application is not open source as the rest of MATSim. A limited, free version is available.
   
