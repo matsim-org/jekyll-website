@@ -1,6 +1,6 @@
 name: MATSim.org
 description: "MATSim | Multi-agent Transport Simulation"
-url: http://matsim.org
+url: https://matsim.org
 lsi: false
 kramdown:
   input: GFM
