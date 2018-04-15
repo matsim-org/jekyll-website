@@ -7,7 +7,7 @@ title: Download/Install
 
 Some options to get hold of MATSim are described here. These are in the recommended order for most users.
  
-## (1) MATSim example project on GitHub
+## (1) MATSim-example-project on GitHub
 
 The recommended approach to getting started with MATSim is to clone the example project on GitHub. This approach targets programmers who are comfortable with Java and an IDE (e.g. Eclipse or IntelliJ). This will automatically download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots. 
 
@@ -15,7 +15,7 @@ You will _not_ be able to modify the existing MATSim source code -- which, in mo
 
 - [<i class="fa fa-github"></i> Clone the example project on GitHub](https://github.com/matsim-org/matsim-example-project)
  
-## (2) MATSim code examples on GitHub
+## (2) MATSim-code-examples on GitHub
 
 There is also a MATSim code examples project, which contains code examples of how to work with MATSim.  You can clone this project to have it locally on your computer, or browse the code in github directly.  This project is meant to be used in parallel with (1).
 
@@ -28,7 +28,7 @@ The "Standalone" version is targeted to users who want to use MATSim by editing 
 <div class="row">
 <div class="col-md-6" markdown="1">
 
-#### <i class="fa fa-cube"></i> Latest Release
+#### <i class="fa fa-cube"></i> Latest Stable Release
 
 Version 0.9.0 "Spring 2017", released August 2017
 
@@ -61,7 +61,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
 <div class="row">
 <div class="col-xs-12 col-md-6" markdown="1">
 
-#### <i class="fa fa-cube"></i> Latest Release
+#### <i class="fa fa-cube"></i> Latest Stable Release
 
 Version 0.9.0
 
@@ -105,13 +105,13 @@ These versions are typically less stable and don't come with up-to-date documena
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>0.10.0-SNAPSHOT</version>
+        <version>0.11.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
 
 You can also clone the [example project on GitHub](https://github.com/matsim-org/matsim-example-project) which includes a correct pom.xml.
 
-[Extensions](/extensions) can be added in the same way; see the example project pom.xml for a commented-out example.
+[Extensions](/extensions) can be added in the same way; see the matsim-code-examples pom.xml for a commented-out example.
 </div>
 </div>
 
@@ -122,7 +122,7 @@ You can also clone the [example project on GitHub](https://github.com/matsim-org
 
 ### <i class="fa fa-tachometer"></i> &nbsp; Benchmark
 
-[Download Benchmark](/files/benchmark/benchmark.zip) ZIP, ca. 35MB</p>
+[Download Benchmark](/files/benchmark/benchmark.zip) ZIP, ca. 35MB
 
 More information about the [MATSim Benchmark](/benchmark).
 
