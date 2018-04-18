@@ -15,22 +15,18 @@ Here you will find links to upcoming and past conferences and meetings related t
       <h3 class="panel-title">2018 MATSim User Meeting</h3>
   </div>
   <div class="panel-body" markdown="1">
-		
-The 2018 MATSim User Meeting will be held on **23 June, 2018, in Atlanta, Georgia USA**. That is the Saturday before the Transportation Research Board’s bi-annual **Innovations in Travel Modeling conference**, which is June 24-27, 2018.
 
-- Abstracts and/or short papers are due on <b><font style="color:red;">November 30, 2017</font></b>. The papers are expected to be very short (< 2500 equivalent words), but the deadline is fast approaching. ITM has an alternative “lightning talk” track which is quite interesting and only requires an abstract submission. See below for details.
+The 2018 MATSim User Meeting will be held on **June 23, 2018, in Atlanta, Georgia USA**. That is the Saturday before the Transportation Research Board’s bi-annual **Innovations in Travel Modeling conference**, which is June 24-27, 2018.
 
-- Abstracts and papers can be submitted to the ITM conference, to the MATSim Meeting, or both. We will coordinate with the main conference so that papers are not presented twice. The submission channel for the user meeting will be communicated at a later date.
+- Join us for a full day of presentations and discussions about the MATSim simulation framework.
 
-- The ITM announcement is below. Details on registration for the MATSim User Meeting will be forthcoming.
+- Abstracts and short papers for ITM were due on <b><font style="color:red;">December 11, 2017</font></b>. ITM has an alternative “lightning talk” track which is quite interesting and only requires an abstract submission. Abstracts and papers can be submitted to the ITM conference, to the MATSim Meeting, or both. We will coordinate with the main conference so that papers are not presented twice.
 
 - [MATSim User Meeting 2018 @ ITM, Atlanta, June 23](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/116916260/MATSim+User+Meeting+2018+ITM+Atlanta+June+23)
 
-   
-</div>
 </div>
 
-<!-- ------------------------------------------- -->
+</div>
 
 <br/>
 
@@ -62,4 +58,3 @@ Here you can find information and documentation from the annual MATSim user meet
 Some links on third-party sites may refer to content that no longer exists on this website. You might have a look at the [archived, old website](http://archive.matsim.org/) and see if the content is still available there.
 
 - Look here for the [archived conference page](http://archive.matsim.org/usermeetings).
-
