@@ -61,9 +61,8 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
 <div class="row">
 <div class="col-xs-12 col-md-6" markdown="1">
 
-#### <i class="fa fa-cube"></i> Latest Stable Release
+#### <i class="fa fa-cube"></i> Latest (Pre-)Release
 
-Version 0.9.0
 
     <repositories>
       <repository>
@@ -76,20 +75,19 @@ Version 0.9.0
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>0.9.0</version>
+        <version>0.10.0</version>
       </dependency>
     </dependencies>
 
-You can also clone the [example project on GitHub](https://github.com/matsim-org/matsim-example-project) which includes a correct pom.xml.
+The [example project on GitHub](https://github.com/matsim-org/matsim-example-project) contains a valid `pom.xml`.
 
-[Extensions](/extensions) can be added in the same way; see the example project pom.xml for a commented-out example.
+[Extensions](/extensions) can be added in the same way; see the `pom.xml` in the [code examples on GitHub](https://github.com/matsim-org/matsim-code-examples)
 
 </div>
 <div class="col-xs-12 col-md-6" markdown="1">
 
 #### <i class="fa fa-bug"></i> Development Version
 
-These versions are typically less stable and don't come with up-to-date documenation, but may contain new features.
 
     <repositories>
       <repository>
@@ -109,25 +107,30 @@ These versions are typically less stable and don't come with up-to-date documena
       </dependency>
     </dependencies>
 
-You can also clone the [example project on GitHub](https://github.com/matsim-org/matsim-example-project) which includes a correct pom.xml.
+These versions are typically less stable and don't come with up-to-date documenation, but may contain new features.
 
-[Extensions](/extensions) can be added in the same way; see the matsim-code-examples pom.xml for a commented-out example.
 </div>
 </div>
 
 
-<div class="row">
-<div class="col-md-4" markdown="1">
+## About releases
+
+We normally release together with our summer term class taught at TU Berlin:
+1. A pre-release in march/april.
+1. Possible bugfix versions while the class is running.
+1. In june/july, the last bugfix version becomes the stable release.
+
+In consequence, the "latest (pre-)release" may be more modern than the "latest stable release".
 
 
-### <i class="fa fa-tachometer"></i> &nbsp; Benchmark
+
+
+
+## <i class="fa fa-tachometer"></i> &nbsp; Benchmark
 
 [Download Benchmark](/files/benchmark/benchmark.zip) ZIP, ca. 35MB
 
 More information about the [MATSim Benchmark](/benchmark).
-
-</div>
-<div class="col-md-4" markdown="1">
 
 
 <!-- Not advertising to clone the source code any more.  kai, oct'17 -->
@@ -150,5 +153,4 @@ More information about the [MATSim Benchmark](/benchmark).
 <!-- To get you started writing your own code with MATSim, we provide an [example project on GitHub](https://github.com/matsim-org/matsim-example-project) you can fork, which includes a complete pom.xml to use MATSim as a Maven dependency for your own code.</p> -->
 
 <!-- </div> -->
-</div>
 
