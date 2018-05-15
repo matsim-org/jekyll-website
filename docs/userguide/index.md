@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Terminology
+title: User Guide
 ---
 
 <!-- http://matsim.org/docs/userguide should remain available as a ``landing page'', since it is referenced from outside (e.g. from the matsim tutorial at TU Berlin). -->
