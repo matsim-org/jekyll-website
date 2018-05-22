@@ -3,19 +3,20 @@ layout: default
 title: MATSim Extensions
 ---
 
-# MATSim Extensions
+## MATSim Extensions
 
-## _Important Note_
+### <font style="color:red;">Important Note</font>
 
-_The following text is no longer up to date and needs to be revised.  We now say that "extensions" is everything that extends MATSim, but there are two categories of extensions:_
-* _"contribs", which are inside the MATSim main repository_
-* _"other extensions", which are maintained outside the MATSim main repository.  This category again splits into two subcategories_
-  * _extensions hosted in the matsim-org repository but not in the MATSim main repository_
-  * _other extensions.  VIA is the most prominent example here._
+The following text is no longer up to date and needs to be revised.  We now say that "extensions" is everything that extends MATSim, but there are three categories of extensions:
+* "extensions which are part of the MATSim main distribution
+* "contribs", which are outside the MATSim main distribution, but inside the MATSim main repository
+* "other extensions", which are maintained outside the MATSim main repository.  This category again splits into two subcategories
+  * extensions hosted at [github.com/matsim-org](https://github.com/matsim-org) but not in the MATSim main repository
+  * other extensions.  VIA is the most prominent example here.
 
-_So please read the following text with care; quite often it says "extension" but means "contrib"._
+So please read the following text with care; quite often it says "extension" but means "contrib".
 
-## Introduction
+### Introduction
 
 As a lot of functionality in MATSim is created by PhD students, there is often a 
 problem maintaining this functionality after the respective students finished their 
@@ -34,7 +35,7 @@ for releases and be thus optional parts of MATSim releases. This requires that
 extensions follow certain guidelines, also in order to keep code maintenance 
 and user support in reasonable bounds.
 
-## Requirements
+### Requirements
 - You feel responsible for your extension
 - Document the functionality of your extension
 - Document the usage of your extension. This documentation should cover topics
@@ -44,7 +45,7 @@ like (a) How to use it, (b) How to configure it, (c) if it has any special syste
 - You will maintain the code in the case that some updates in MATSim-Core break some functionality in your extension
 - You are wiling to assist interested users in the case something is not working as described by your documentation.
 
-## Creating your own extension
+### Creating your own extension
 
 - Create the code in your playground or private repository
 - Make sure you meet the code requirements outline above
@@ -53,7 +54,7 @@ like (a) How to use it, (b) How to configure it, (c) if it has any special syste
 - Write documentation about your extension to comply with the above-mentioned documentation requirements.
 - Once all the code and documentation requirements are met, your extension will be included in future releases and nightly builds will be created for it.
 
-## Documenting extensions in the contrib section
+### Documenting extensions in the contrib section
 
 Extensions in the contrib section are stand-alone documentations.  The entry 
 points are under [matsim.org/javadoc](/javadoc). Always please do the following:
