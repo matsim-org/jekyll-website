@@ -1,0 +1,38 @@
+Somewhat unfortunately, the actual, automatically generated website and the material from which it is generated are intertwined.
+
+An attempt to sort some of this out:
+
+_site -- the actual, auto-generated, website
+
+Everything else is input (I think) from which the above is auto-generated.
+
+index.html -- home page
+
+benchmark
+authors
+archive.md
+about-matsim.md
+open-scenario-data.md
+javadoc.md
+about-us.md
+the-book.md
+signups.md
+gallery
+downloads
+conferences
+docs
+extensions.md
+
+-- This is all material that in the end is called as matsim.org/abc .  Note that in some cases we have abc.md, in some other cases we have abc/index.html.  Presumably, the latter should only be used for more complicated renderings; in practice, I think it rather depends on history.
+
+The jekyll build states:
+
+Configuration file: /Users/kainagel/git/jekyll-website/_config.yml
+            Source: /Users/kainagel/git/jekyll-website
+       Destination: /Users/kainagel/git/jekyll-website/_site
+
+Implies to me that we should try to move the source material into some "src" folder.
+
+
+
+
