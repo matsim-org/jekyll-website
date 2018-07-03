@@ -5,28 +5,7 @@ title: Conferences and Meetings
 
 # <i class="fa fa-calendar">&nbsp;</i>MATSim Conferences and Meetings
 
-
 Here you will find links to upcoming and past conferences and meetings related to MATSim research and application.
-
-<br/>
-
-<div class="panel panel-info">
-  <div class="panel-heading">
-      <h3 class="panel-title">2018 MATSim User Meeting</h3>
-  </div>
-  <div class="panel-body" markdown="1">
-
-The 2018 MATSim User Meeting will be held on **June 23, 2018, in Atlanta, Georgia USA**. That is the Saturday before the Transportation Research Board’s bi-annual **Innovations in Travel Modeling conference**, which is June 24-27, 2018.
-
-- Join us for a full day of presentations and discussions about the MATSim simulation framework.
-
-- Abstracts and short papers for ITM were due on <b><font style="color:red;">December 11, 2017</font></b>. ITM has an alternative “lightning talk” track which is quite interesting and only requires an abstract submission. Abstracts and papers can be submitted to the ITM conference, to the MATSim Meeting, or both. We will coordinate with the main conference so that papers are not presented twice.
-
-- [MATSim User Meeting 2018 @ ITM, Atlanta, June 23](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/116916260/MATSim+User+Meeting+2018+ITM+Atlanta+June+23)
-
-</div>
-
-</div>
 
 <br/>
 
@@ -34,6 +13,7 @@ The 2018 MATSim User Meeting will be held on **June 23, 2018, in Atlanta, Georgi
 
 Here you can find information and documentation from the annual MATSim user meeting and MATSim tutorials. The user meeting and a preceding overview tutorial take place annually, often alternating between Zurich and Berlin. Special tutorials are held upon request.
 
+- [2018 User Meeting - Atlanta, USA](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/116916260/MATSim+User+Meeting+2018+ITM+Atlanta+June+23) - [(Slides available)](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/299335682/Presentations+from+MATSim+User+meeting+2018)
 - [2017 User Meeting - Haifa, Israel](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/117899265/MATSim+User+Meeting+special+session+hEART+2017) (some [presentation slides](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/112202007/Presentations+at+the+MATSim+User+Meeting+2017) also available)
 - [2015 User Meeting - Singapore](http://archive.matsim.org/singapore2015)
 - [2015 Tutorial - Singapore](http://archive.matsim.org/tutorial/singapore2015)
