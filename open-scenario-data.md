@@ -14,6 +14,10 @@ VSP, TU Berlin
 
 Some open source example data sets, including some regional real world data sets. The directories are hierarchically organized and should be self-explanatory. We try to provide readme files, but this does not always work.
 
+new Berlin scenario:
+<https://github.com/matsim-vsp/matsim-berlin>
+
+other scenarios:
 <https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/>
 
 South Africa
