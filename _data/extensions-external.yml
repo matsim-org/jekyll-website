@@ -12,7 +12,7 @@
   status: Unknown
   user-docs: <a href="https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial">Available here</a>
   api-docs: <a href="https://github.com/matsim-org/evacuation-gui">Available here</a>
-  description: Adopts integrated approach for performing evacuation simulations. Replaces the "evacuation contrib" starting with release 0.10.x. 
+  description: Adopts integrated approach for performing evacuation simulations. Replaces the "evacuation contrib" starting with release 0.10.x.
 
 - name: freightChainsFromTravelDiaries
   maintainer: unmaintained
@@ -46,6 +46,14 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: A plug-in for JOSM, the OpenStreetMap editor, to save OSM data in the MATSim format.
 
+- name: Opdyts
+  maintainer: Amit Agarwal
+  status: Unspecified
+  availability: External
+  user-docs: <a href="https://github.com/matsim-org/Opdyts-MATSim-Integration">Available on Github</a>
+  api-docs: <a href="https://github.com/matsim-org/Opdyts-MATSim-Integration">Available on Github</a>
+  description: Provides integration of Opdyts with MATSim
+
 - name: Via
   maintainer: Simunto GmbH
   status: Stable
@@ -53,4 +61,4 @@
   user-docs: <a href="https://www.simunto.com/via/">Available here</a>
   api-docs: There is no API available currently.
   description: Via is a stand-alone application that allows to visualize and analyze MATSim data as well as generic spatial and temporal data sets. Being a commercial software developed and distributed by Simunto, the application is not open source as the rest of MATSim. A limited, free version is available.
-  
+
