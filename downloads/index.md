@@ -30,10 +30,10 @@ The "Standalone" version is targeted to users who want to use MATSim by editing 
 
 #### <i class="fa fa-cube"></i> Latest Stable Release
 
-Version 0.9.0 "Spring 2017", released August 2017
+Version 0.10.1 "Summer 2018", released August 2018
 
-- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim/releases/download/matsim-0.9.0/matsim-0.9.0.zip)  ca. 20 MB
-- [<i class="fa fa-cubes"></i> Extensions / Contribs](https://github.com/matsim-org/matsim/releases/tag/matsim-0.9.0)
+- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim/releases/download/matsim-0.10.1/matsim-0.10.1-release.zip)  ca. 20 MB
+- [<i class="fa fa-cubes"></i> Extensions / Contribs](https://github.com/matsim-org/matsim/releases/tag/matsim-0.10.1)
 - [Older versions](https://github.com/matsim-org/matsim/tags)
 - [Even older versions (on sourceforge)](https://sourceforge.net/projects/matsim/files/MATSim/)
 
@@ -75,7 +75,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>0.10.0</version>
+        <version>0.10.1</version>
       </dependency>
     </dependencies>
 
