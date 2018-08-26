@@ -32,7 +32,7 @@ The "Standalone" version is targeted to users who want to use MATSim by editing 
 
 Version 0.10.1 "Summer 2018", released August 2018
 
-- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim/releases/download/matsim-0.10.1/matsim-0.10.1.zip)  ca. 20 MB
+- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim/releases/download/matsim-0.10.1/matsim-0.10.1.zip	)  ca. 63 MB
 - [<i class="fa fa-cubes"></i> Extensions / Contribs](https://github.com/matsim-org/matsim/releases/tag/matsim-0.10.1)
 - [Older versions](https://github.com/matsim-org/matsim/tags)
 - [Even older versions (on sourceforge)](https://sourceforge.net/projects/matsim/files/MATSim/)
