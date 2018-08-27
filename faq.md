@@ -1,16 +1,18 @@
 ---
 layout: default
-title: Frequently asked questions
+title: Frequently Asked Questions
 ---
 
-### MATSim frequently asked questions
+### MATSim Q&A and FAQ
 
-MATSim uses the Atlassian Wiki for Q&A discussion and FAQ entries. 
+We have moved to using Github Issues for tracking user questions and answers. Anyone can view existing issues without a login. To pose your own questions, you'll first need to sign up for a free Github account.
 
-In general, the URL is <https://matsim.atlassian.net/wiki/questions>.
+- **MATSim Q&A on Github here: --> <https://github.com/matsim-org/matsim-example-project/issues>**
 
-If that does not work, try 
-<https://matsim.atlassian.net/wiki> and then go to "Questions". 
+---
 
-Note that you need to be signed up, otherwise you just get an empty or an error page.  See <https://id.atlassian.com/signup>.
+**NOTE:** the former Q&A on the Atlassian Confluence Wiki is still online for reference at:
 
+- <https://matsim.atlassian.net/wiki/questions>
+- Note that you must be signed up for Confluence in order to view the old Q&A site -- which is why we've moved to using Github Issues.
+- You can sign up at <https://id.atlassian.com/signup>.

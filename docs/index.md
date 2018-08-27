@@ -13,26 +13,25 @@ title: Documentation
 	</div>
   <div class="panel-body">
 		<div class="col-xs-12 col-sm-6" markdown="1">
-		
+
 ### For Users
 
 - [Tutorials](#tutorials)
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
-- [Q&A](/faq)
+- [Q&A - **Now on Github!**](https://github.com/matsim-org/matsim-example-project/issues)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
 </div>
 <div class="col-xs-12 col-sm-6" markdown="1">
-		
-### For Developers	
-		
+
+### For Developers
+
 - [API Documentation](/javadoc) (Javadoc)
 - [API Documentation](/doxygen) (Doxygen)
 - [Issue Tracker](/issuetracker) (JIRA)
 - [Build Server](/buildserver) (Jenkins)
-- [Q&A](/faq)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
 </div>
@@ -45,9 +44,9 @@ title: Documentation
 
 ### Information for users
 
-The ["MATSim Book"](/the-book) is now the authoritative reference. 
+The ["MATSim Book"](/the-book) is now the authoritative reference.
 
-There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide).  This is sometimes also referred to as the [``MATSim user guide''](/docs/userguide).
+There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide). This is sometimes also referred to as the [``MATSim user guide''](/docs/userguide).
 
 Some [Terminology](/docs/userguide/terminology) (i.e. correspondences between MATSim terminology and more standard transport modelling terminology, and reasons why ours is different) can be found [here](/docs/userguide/terminology).
 
@@ -64,7 +63,7 @@ These documents ...
 - ... provide specification of key-aspects of MATSim (e.g. file formats, simulation events, ...)
 - ... list some guidelines for developers (e.g. coding conventions) to keep MATSim maintainable.
 - ... give information about certain packages, how to (programmatically) use them and what features they offer.
-offers additional pieces of information that may/should be of interest to developers (e.g. how to use Eclipse for development, or some Java-tips)
+  offers additional pieces of information that may/should be of interest to developers (e.g. how to use Eclipse for development, or some Java-tips)
 
 <!-- Other useful links for MATSim developers: -->
 
@@ -82,6 +81,7 @@ offers additional pieces of information that may/should be of interest to develo
 <div class="col-md-6" markdown="1">
 
 ---
+
 ### <a name="tutorials"></a>Tutorials
 
 We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
@@ -98,24 +98,25 @@ We have prepared some tutorials which should help you getting started with MATSi
 <div class="col-md-6" markdown="1">
 
 ---
+
 ### Publications
 
-Being an open-source project heavily driven by research organizations world-wide, a lot of publications were written about MATSim. If you are interested in scientific publications about MATSim, the publication lists of the following institutions serve as a good entry point: 
+Being an open-source project heavily driven by research organizations world-wide, a lot of publications were written about MATSim. If you are interested in scientific publications about MATSim, the publication lists of the following institutions serve as a good entry point:
 
-- Publications by [VSP TU-Berlin](http://www.vsp.tu-berlin.de/publications/) 
+- Publications by [VSP TU-Berlin](http://www.vsp.tu-berlin.de/publications/)
   - in particular the [working paper series](http://www.vsp.tu-berlin.de/publications/vspwp/)
-- Publications at [IVT ETH Zurich](http://www.ivt.ethz.ch/vpl/publikationen/) 
+- Publications at [IVT ETH Zurich](http://www.ivt.ethz.ch/vpl/publikationen/)
   - in particular the [working paper series](http://www.ivt.ethz.ch/institut/vpl/publikationen/papers.html)
 - [Google Scholar search, newest first](https://scholar.google.com/scholar?hl=en&as_sdt=0,5&q=MATSim&scisbd=1)
 - [Google Scholar search, most relevant first](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=MATSim&btnG=)
 
 </div>
 
-
 <!-- ------------------------------------------- -->
 <div class="col-md-6" markdown="1">
 
 ---
+
 ### Old Website
 
 Some links on third-party sites may refer to content that no longer exists on this website. You might have a look at the [archived, old website](http://archive.matsim.org/) and see if the content is still available there.
