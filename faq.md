@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 
 We have moved to using Github Issues for tracking user questions and answers. Anyone can view existing issues without a login. To pose your own questions, you'll first need to sign up for a free Github account.
 
-- **MATSim Q&A on Github here: --> <https://github.com/matsim-org/matsim-example-project/issues>**
+- **MATSim Q&A on Github here: --> <https://github.com/matsim-org/matsim-code-examples/issues>**
 
 ---
 
