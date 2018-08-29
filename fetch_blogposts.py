@@ -34,14 +34,15 @@ base_url = data['_links']['base']
 for post in results:
       item = {}
       item['date'] = post['history']['createdDate'][:10]
-      item['title'] = post['title']
-      item['author'] = post['history']['createdBy']['displayName']
+      item['title'] = post['title'].encode('utf-8')
+      item['author'] = post['history']['createdBy']['displayName'].encode('utf-8')
       item['author_link'] = base_url + '/display/~' + post['history']['createdBy']['username']
       item['link'] = base_url + post['_links']['webui']
 
       # fix relative links to /wiki
       body = post['body']['view']['value']
       body = body.replace('="/wiki', '="https://matsim.atlassian.net/wiki')
+      body = body.encode('utf-8')
 
       # strip out confluence images. Screw you Confluence! You suck.
       # cleaned = remove_tag(body, '<img ', '/>')
