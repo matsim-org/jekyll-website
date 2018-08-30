@@ -1,0 +1,49 @@
+- name: matsim4urbansim
+  maintainer: currently unmaintained
+  availability: Contrib
+  status: Deprecated, last available version: 0.10.1
+  user-docs: The current travel model plug-in implementation is applicable for PSRC (Puget Sound Region Council) parcel, Seattle parcel and Zurich parcel scenario. Other scenarios might work, but on your own risk.
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: Allows the coupling of UrbanSim and MATSim.
+
+- name: networkEditor
+  maintainer: Marcel Rieser, Daniel Ampuero
+  availability: Contrib
+  status: Deprecated, last available version: 0.10.1
+  user-docs: The networkEditor extension provides basic network and counts editing functionality. The editor can load an existing MATSim network, or extract the network from OpenStreetMap data. The network can be saved as MATSim network, or be exported as ESRI Shape file, used by many GIS applications. For editing, links and nodes can be inserted and deleted, links' attributes can be changed (e.g. free speed, capacity), and links can be splitted into multiple segments. In addition, the network editor also supports working with data from counting stations. An existing counts file can be loaded along a network, and the count values can be edited, or additional counting stations can be created.
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: The networkEditor allows the editing of networks, creating networks from OpenStreetMap data, and exporting networks to Shape files. The editor also allows to edit counts data referenced to the network.
+
+- name: socnetgen
+  maintainer: Unknown
+  availability: Contrib
+  status: Unknown
+  status: Deprecated, last available version: 0.10.1
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: Code that generates social networks according to certain predefined statistical criteria. Part of dissertation work by Johannes Illenberger. Much less "behavioral" than socnetsim by Thibaut Dubernet.
+
+- name: transenergysim-transportation-energy-simulation
+  maintainer: Rashid A. Waraich
+  availability: Contrib
+  status: Unknown
+  user-docs: transEnergySim (Transportation Energy Simulation)
+  status: Deprecated, last available version: 0.10.1
+  description: Used to simulate a whole range of tranportation related energy scenarios including electric vehicles.
+
+- name: travelsummary
+  maintainer: Alexander Erath
+  availability: Contrib
+  status: Unknown
+  status: Deprecated, last available version: 0.10.1
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  description: 
+
+- name: wagonSim
+  maintainer: Michael Balmer
+  availability: Contrib
+  status: Deprecated, last available version: 0.10.1
+  user-docs: The wagonSim contribution allows one to use MATSim's route-optimization process to find the optimal paths for rail based freight wagons on a given rail based freight infrastructure.
+      In this case, the network links define the rails, the nodes define the train stations and the schedule transit stops defines the train station stopping points. Freight locomotives drives on a strictly fixed schedule where each locomotive is given as a single transit line with a single transit route and a single departure. The freight wagons are the agents with a given origin and destination (single trip agents). Routing takes various constraints into account. i.e. a minimum shunting time while switching locomotives, maximum weight and length of a freight train and it differentiates between locomotive stops for shunting and stops for just waiting (without the possibility for shunting).
+  api-docs: Unknown
+  description: Use MATSim's route-optimization process to find the optimal paths for rail based freight wagons on a given rail based freight infrastructure.
+
