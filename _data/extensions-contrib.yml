@@ -1,4 +1,4 @@
-- name: autonomous-vehicles-av
+- name: av (autonomous vehicles)
   maintainer: Michal&nbsp;Maciejewski, Joschka Bischoff
   availability: Contrib
   status: Unknown
