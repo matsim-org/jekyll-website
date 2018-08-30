@@ -20,7 +20,7 @@ title: Documentation
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
-- [Q&A - **Now on Github!**](https://github.com/matsim-org/matsim-code-examples/issues)
+- [Q&A - **Now on Github!**](/faq)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
 </div>
