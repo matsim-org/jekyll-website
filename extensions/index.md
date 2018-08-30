@@ -77,6 +77,26 @@ If you want to contribute an extension, please see [here](/docs/contributing/ext
 
 </table>
 
+---
+
+### Availability: Deprecated
+
+<table class="extension-table">
+
+  <tr>
+    <th>Title</th><th>Maintainer</th><th>Description</th>
+  </tr>
+
+  {% for ext in site.data.extensions-deprecated %}
+    <tr>
+        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
+        <td> {{ ext.maintainer }} </td>
+        <td> {{ ext.description }} </td>
+    </tr>
+  {% endfor %}
+
+</table>
+
 <br/><br/><br/>
 
 
