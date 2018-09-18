@@ -3,5 +3,5 @@ nav_links:
   INSTALL: '/downloads/'
   GALLERY: '/gallery/'
   DOCUMENTATION: '/docs/'
-  NEWS: '/archive.html'
+  NEWS: 'https://matsim.atlassian.net/wiki/spaces/MATPUB/blog'
 
