@@ -20,7 +20,7 @@ title: Documentation
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
-- [Q&A - **Now on Github!**](/faq)
+- [Q&A](/faq)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
 </div>
@@ -119,7 +119,7 @@ Being an open-source project heavily driven by research organizations world-wide
 
 ### Newsletter
 
-The MATSim Newsletter will replace the Community Reports. Feel free to sign up to get news about MATSim about every other month.
+Sign up to our newsletter to get news about MATSim about every other month.
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -157,14 +157,3 @@ The MATSim Newsletter will replace the Community Reports. Feel free to sign up t
 
 </div>
 
-
-<!-- ------------------------------------------- -->
-<div class="col-md-6" markdown="1">
-
----
-
-### Old Website
-
-Some links on third-party sites may refer to content that no longer exists on this website. You might have a look at the [archived, old website](http://archive.matsim.org/) and see if the content is still available there.
-
-</div>
