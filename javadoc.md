@@ -434,7 +434,7 @@ The following API documentations are available:
 <tr>
 <td >wagonSim</td>
 <td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/wagonSim/target/site/apidocs/index.html">HEAD</a></td>
-<td ><a href="/apidocs/wagonSim/0.8.1/">API 0.9.0</a></td>
+<td ><a href="/apidocs/wagonSim/0.9.0/">API 0.9.0</a></td>
 <td ><a href="/apidocs/wagonSim/0.8.1/">API 0.8.1</a></td>
 <td ><a href="/apidocs/wagonSim/0.7.0/">API 0.7.0</a></td>
 <td ><a href="/apidocs/wagonSim/0.6.0/">API 0.6.0</a></td>
