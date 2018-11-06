@@ -218,7 +218,7 @@ The following documentations are available:
 </tr>
 <tr>
 <td >evacuation (was: grips)</td>
-<td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/evacuation/target/site/apidocs/index.html">HEAD</a></td>
+<td ></td>
 <td ></td>
 <td ><a href="/apidocs/evacuation/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/evacuation/0.8.1/">0.8.1</a></td>
@@ -230,7 +230,7 @@ The following documentations are available:
 </tr>
 <tr>
 <td >gtfs2matsimtransitschedule</td>
-<td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/gtfs2matsimtransitschedule/target/site/apidocs/index.html">HEAD</a></td>
+<td ></td>
 <td ></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.8.1/">0.8.1</a></td>
