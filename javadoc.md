@@ -40,9 +40,9 @@ The following documentations are available:
 <tr>
 <td >matsim tutorial/code-examples</td>
 <!-- <td ><a href="http://ci.matsim.org:8080/view/All/job/MATSim_tutorial/javadoc/index.html">HEAD</a></td> -->
-<td><a href="https://github.com/matsim-org/matsim-code-examples">code-examples</a></td>
-<td><a href="https://github.com/matsim-org/matsim-code-examples">code-examples</a></td>
-<td><a href="https://github.com/matsim-org/matsim-code-examples">code-examples</a></td>
+<td><a href="https://github.com/matsim-org/matsim-code-examples">repo</a></td>
+<td><a href="https://github.com/matsim-org/matsim-code-examples">repo</a></td>
+<td><a href="https://github.com/matsim-org/matsim-code-examples">repo</a></td>
 <td >included<br>above</td>
 <td >included<br>above</td>
 <td >included<br>above</td>
@@ -218,7 +218,7 @@ The following documentations are available:
 </tr>
 <tr>
 <td >evacuation (was: grips)</td>
-<td ></td>
+<td ><a href="https://github.com/matsim-org/evacuation-web-app">repo</a></td>
 <td ></td>
 <td ><a href="/apidocs/evacuation/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/evacuation/0.8.1/">0.8.1</a></td>
@@ -230,7 +230,7 @@ The following documentations are available:
 </tr>
 <tr>
 <td >gtfs2matsimtransitschedule</td>
-<td ></td>
+<td ><a href="https://github.com/matsim-org/GTFS2MATSim">repo</a></td>
 <td ></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.8.1/">0.8.1</a></td>
