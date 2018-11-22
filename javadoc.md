@@ -159,6 +159,18 @@ The following documentations are available:
 <td ></td>
 </tr>
 <tr>
+<td >decongestion</td>
+<td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/decongestion/target/site/apidocs/index.html">HEAD</a></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
 <td >drt</td>
 <td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/drt/target/site/apidocs/index.html">HEAD</a></td>
 <td ><a href="/apidocs/drt/0.10.1/">0.10.1</a></td>
