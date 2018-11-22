@@ -61,41 +61,45 @@ If you want to contribute an extension, please see [here](/docs/contributing/ext
 
 ### Availability: Contrib
 
-<table class="extension-table">
+The separate entries for the contribs are no longer maintained.   Please see our [Javadoc page](/javadoc).
 
-  <tr>
-    <th>Title</th><th>Maintainer</th><th>Description</th>
-  </tr>
+For maintainers: Please use `src/main/javadoc/overview.html` inside your contrib for an introductory description of your contrib.  See, e.g., the emissions contrib for an example.
 
-  {% for ext in site.data.extensions-contrib %}
-    <tr>
-        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
-        <td> {{ ext.maintainer }} </td>
-        <td> {{ ext.description }} </td>
-    </tr>
-  {% endfor %}
+<!-- <table class="extension-table"> -->
 
-</table>
+<!--   <tr> -->
+<!--     <th>Title</th><th>Maintainer</th><th>Description</th> -->
+<!--   </tr> -->
 
----
+<!--   {% for ext in site.data.extensions-contrib %} -->
+<!--     <tr> -->
+<!--         <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td> -->
+<!--         <td> {{ ext.maintainer }} </td> -->
+<!--         <td> {{ ext.description }} </td> -->
+<!--     </tr> -->
+<!--   {% endfor %} -->
 
-### Availability: Deprecated
+<!-- </table> -->
 
-<table class="extension-table">
+<!-- --- -->
 
-  <tr>
-    <th>Title</th><th>Status</th><th>Description</th>
-  </tr>
+<!-- ### Availability: Deprecated -->
 
-  {% for ext in site.data.extensions-deprecated %}
-    <tr>
-        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
-        <td> {{ ext.status }} </td>
-        <td> {{ ext.description }} </td>
-    </tr>
-  {% endfor %}
+<!-- <table class="extension-table"> -->
 
-</table>
+<!--   <tr> -->
+<!--     <th>Title</th><th>Status</th><th>Description</th> -->
+<!--   </tr> -->
+
+<!--   {% for ext in site.data.extensions-deprecated %} -->
+<!--     <tr> -->
+<!--         <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td> -->
+<!--         <td> {{ ext.status }} </td> -->
+<!--         <td> {{ ext.description }} </td> -->
+<!--     </tr> -->
+<!--   {% endfor %} -->
+
+<!-- </table> -->
 
 <br/><br/><br/>
 
