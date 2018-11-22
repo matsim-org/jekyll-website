@@ -59,16 +59,8 @@
   availability: Contrib
   status: Unknown
   user-docs: Unknown
-  api-docs: Unknown
+  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: Take link enter and link exit events, get average link speed for vehicle, get stop&go and free flow section on that link, use HBEFA data base to look up emissions. Can be used for arbitrary vehicle types, after the emission characteristics are entered for these vehicle types.
-
-- name: evacuation
-  maintainer: Gregor Lämmel
-  availability: Contrib (ending with MATSim release 0.9.x)
-  status: Unknown
-  user-docs: <a href="https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Adopts integrated approach for performing evacuation simulations.  Replaced by "evacuation-gui" (see under "external" above) starting with MATSim release 0.10.x.
 
 - name: freight
   maintainer: Michael Zilske
@@ -83,7 +75,7 @@
   availability: Contrib
   status: Unknown
   user-docs: Unknown
-  api-docs: Unknown
+  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: Using the protobuf extension in order to couple MATSim with an external (higher resolution) mobsim.
 
 - name: locationchoice
@@ -94,30 +86,14 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: Location choice as MATSim choice dimension. Several different modules.
 
-- name: map2mapmatching
-  maintainer: Sergio Arturo Ordóñez
-  availability: Contrib
-  status: Unknown
-  user-docs: <a href="https://vimeo.com/37719740">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: A semi-automatic tool developed to map navigation and planning networks, allowing updating of navigation network (high-res network) main links/capacities and free speeds with those of the planning network (low-res network).
-
 - name: matrixbasedptrouter
   maintainer: currently unmaintained
   availability: Contrib
   status: Unknown
   user-docs: In some places, this module does not function like someone trained in transport engineering may think. 
       For example, (1) It does not work without pt stops, although intuitively routing from zone to zone should be possible even without pt stops.(2) It uses the nearest pt stops rather than the multi-node Dijkstra that is used in matsim schedule-based transit, which in general looks into more than one pt stop.  This would useful since walking to a somewhat farther away stop might lead to  a much better connection. (3) It can currently only read distances and travel times between pt stops, although in general it should be possible to include fare or number of line switches. (4) The result does not depend on the time-of-day.
-  api-docs: Unknown
+  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: Reads a list of pt stops and constructs pt routes using the stops nearest to origin and destination. Travel times and travel distances between pt stops can be given by corresponding matrices.
-
-- name: matsim4urbansim
-  maintainer: currently unmaintained
-  availability: Contrib
-  status: Unknown
-  user-docs: The current travel model plug-in implementation is applicable for PSRC (Puget Sound Region Council) parcel, Seattle parcel and Zurich parcel scenario. Other scenarios might work, but on your own risk.
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Allows the coupling of UrbanSim and MATSim.
 
 - name: minibus
   maintainer: Andreas Neumann
@@ -135,13 +111,7 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: An efficient approach, for modeling multimodal scenarios considering persons' biking and walking speeds to improve the teleportation estimates for these modes.
 
-- name: networkEditor
-  maintainer: Marcel Rieser, Daniel Ampuero
-  availability: Contrib
-  status: Unknown
-  user-docs: The networkEditor extension provides basic network and counts editing functionality. The editor can load an existing MATSim network, or extract the network from OpenStreetMap data. The network can be saved as MATSim network, or be exported as ESRI Shape file, used by many GIS applications. For editing, links and nodes can be inserted and deleted, links' attributes can be changed (e.g. free speed, capacity), and links can be splitted into multiple segments. In addition, the network editor also supports working with data from counting stations. An existing counts file can be loaded along a network, and the count values can be edited, or additional counting stations can be created.
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: The networkEditor allows the editing of networks, creating networks from OpenStreetMap data, and exporting networks to Shape files. The editor also allows to edit counts data referenced to the network.
+# '
 
 - name: noise
   maintainer: Ihab Kaddoura
@@ -156,6 +126,8 @@
       <li>noise damages (= noise exposure costs) at receiver points (based on population units and noise levels)</li></ul>
       The computation of noise levels is based on the German RLS 90 approach (Richtlinien fuer den Laermschutz and Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen), but applies some simplifications and minor modifications. Thus, noise levels should be considered as estimates rather than exact values. The conversion of noise exposures into monetary costs follows a slightly modified version of the German EWS approach (Empfehlungen fuer Wirtschaftlichkeitsuntersuchungen an Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen). A more detailed description of the computation methodology and the model limitations is provided in the related publications.
       See matsim.org/javadoc under "noise" for more information.
+
+# '
 
 - name: otfvis
   maintainer: Michael Zilske
@@ -189,6 +161,8 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: A pseudo-simulation engine, PSim, uses travel time information from the preceding QSim iteration to estimate how well an agent day plan might perform, allowing multiple iterations of mutation and evaluation between QSim iterations to more rapidly explore the agents' solution space, producing better performing plans in a shorter time.
 
+# '
+
 - name: roadpricing
   maintainer: Johan W. Joubert
   availability: Contrib
@@ -205,14 +179,6 @@
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: This package contains interfaces and classes that provide functionality to plug a signal system model in the MATSim framework.
 
-- name: socnetgen
-  maintainer: Unknown
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Code that generates social networks according to certain predefined statistical criteria. Part of dissertation work by Johannes Illenberger. Much less "behavioral" than socnetsim by Thibaut Dubernet.
-
 - name: socnetsim
   maintainer: Thibaut Dubernet
   availability: Contrib
@@ -228,29 +194,4 @@
   user-docs: Unknown
   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
   description: This extension offers a taxi service functionality for MATSim using the DVRP packages and within day replanning.
-
-- name: transenergysim-transportation-energy-simulation
-  maintainer: Rashid A. Waraich
-  availability: Contrib
-  status: Unknown
-  user-docs: transEnergySim (Transportation Energy Simulation)
-  api-docs: Unknown
-  description: Used to simulate a whole range of tranportation related energy scenarios including electric vehicles.
-
-- name: travelsummary
-  maintainer: Alexander Erath
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: 
-
-- name: wagonSim
-  maintainer: Michael Balmer
-  availability: Contrib
-  status: Unknown
-  user-docs: The wagonSim contribution allows one to use MATSim's route-optimization process to find the optimal paths for rail based freight wagons on a given rail based freight infrastructure.
-      In this case, the network links define the rails, the nodes define the train stations and the schedule transit stops defines the train station stopping points. Freight locomotives drives on a strictly fixed schedule where each locomotive is given as a single transit line with a single transit route and a single departure. The freight wagons are the agents with a given origin and destination (single trip agents). Routing takes various constraints into account. i.e. a minimum shunting time while switching locomotives, maximum weight and length of a freight train and it differentiates between locomotive stops for shunting and stops for just waiting (without the possibility for shunting).
-  api-docs: Unknown
-  description: Use MATSim's route-optimization process to find the optimal paths for rail based freight wagons on a given rail based freight infrastructure.
 
