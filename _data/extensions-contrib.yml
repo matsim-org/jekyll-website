@@ -1,197 +1,197 @@
-- name: av (autonomous vehicles)
-  maintainer: Michal&nbsp;Maciejewski, Joschka Bischoff
-  availability: Contrib
-  status: Unknown
-  user-docs: Autonomous Vehicles (AV)
-  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: The AV contribution provides a toolset for simulating autonomous vehicles. This includes autonomous taxis ("robotaxis") and other tools
+# - name: av (autonomous vehicles)
+#   maintainer: Michal&nbsp;Maciejewski, Joschka Bischoff
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Autonomous Vehicles (AV)
+#   api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: The AV contribution provides a toolset for simulating autonomous vehicles. This includes autonomous taxis ("robotaxis") and other tools
 
-- name: bicycle
-  maintainer: Dominik Ziemke
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Contains functionality to take into account cycling-relevant attributes like slopes and surface types to find routes for cyclists.
+# - name: bicycle
+#   maintainer: Dominik Ziemke
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Contains functionality to take into account cycling-relevant attributes like slopes and surface types to find routes for cyclists.
 
-- name: cadytsIntegration
-  maintainer: Michael Zilske, Kai Nagel
-  availability: Contrib
-  status: Unknown
-  user-docs: See http://matsim.org/javadoc under "cadytsIntegration" for more information.
-  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Cadyts infrastructure for car and pt plan calibration based on counts. Also contains "scripts-in-java" to run cadyts with matsim.
+# - name: cadytsIntegration
+#   maintainer: Michael Zilske, Kai Nagel
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: See http://matsim.org/javadoc under "cadytsIntegration" for more information.
+#   api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Cadyts infrastructure for car and pt plan calibration based on counts. Also contains "scripts-in-java" to run cadyts with matsim.
 
-- name: carsharing
-  maintainer: Milos Balac
-  availability: Contrib
-  status: Unknown
-  user-docs: See matsim.org/javadoc --> carsharing for more information.
-  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: This extension models car sharing in the sense of short-term rental. It has the variants "round-trip based", "one-way", and "free floating" car sharing.
+# - name: carsharing
+#   maintainer: Milos Balac
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: See matsim.org/javadoc --> carsharing for more information.
+#   api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: This extension models car sharing in the sense of short-term rental. It has the variants "round-trip based", "one-way", and "free floating" car sharing.
 
-- name: common
-  maintainer: various
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Functionality that is needed by other contribs, but that does not really belong to any of them and also does not (yet?) belong into the main distribution.
+# - name: common
+#   maintainer: various
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Functionality that is needed by other contribs, but that does not really belong to any of them and also does not (yet?) belong into the main distribution.
 
-- name: drt
-  maintainer: Michal Maciejewski, Joschka Bischoff
-  availability: Contrib
-  status: Unknown
-  user-docs: It uses the DVRP contrib to implement DRT as a on-demand transport service, i.e. DRT requests are submitted in an online manner. The main difference to the taxi contrib is that rides can be shared (e.g. shared taxis or minibuses) and occupied vehicles can be diverted from the current destination to pick up new passengers on the way (taxi allowed diversion for empty vehicles only).
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: This extension provides the demand-responsive transport service functionality in MATSim. 
+# - name: drt
+#   maintainer: Michal Maciejewski, Joschka Bischoff
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: It uses the DVRP contrib to implement DRT as a on-demand transport service, i.e. DRT requests are submitted in an online manner. The main difference to the taxi contrib is that rides can be shared (e.g. shared taxis or minibuses) and occupied vehicles can be diverted from the current destination to pick up new passengers on the way (taxi allowed diversion for empty vehicles only).
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: This extension provides the demand-responsive transport service functionality in MATSim. 
 
-- name: dvrp
-  maintainer: Michal Maciejewski
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: An extension designed to be highly general and customizable to model and simulate a wide range of dynamic vehicle routing and scheduling processes
+# - name: dvrp
+#   maintainer: Michal Maciejewski
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: An extension designed to be highly general and customizable to model and simulate a wide range of dynamic vehicle routing and scheduling processes
 
-- name: emissions
-  maintainer: Benjamin Kickhöfer
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Take link enter and link exit events, get average link speed for vehicle, get stop&go and free flow section on that link, use HBEFA data base to look up emissions. Can be used for arbitrary vehicle types, after the emission characteristics are entered for these vehicle types.
+# - name: emissions
+#   maintainer: Benjamin Kickhöfer
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Take link enter and link exit events, get average link speed for vehicle, get stop&go and free flow section on that link, use HBEFA data base to look up emissions. Can be used for arbitrary vehicle types, after the emission characteristics are entered for these vehicle types.
 
-- name: freight
-  maintainer: Michael Zilske
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Creates vehicle fleets for freight transport companies based on delivery commitments specified in XML files. Vehicles are scored regarding on schedule deliveries. Route planning may be replaced to test different freight route finding algorithms.
+# - name: freight
+#   maintainer: Michael Zilske
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Creates vehicle fleets for freight transport companies based on delivery commitments specified in XML files. Vehicles are scored regarding on schedule deliveries. Route planning may be replaced to test different freight route finding algorithms.
 
-- name: hybridsim
-  maintainer: Gregor Lämmel
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Using the protobuf extension in order to couple MATSim with an external (higher resolution) mobsim.
+# - name: hybridsim
+#   maintainer: Gregor Lämmel
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Using the protobuf extension in order to couple MATSim with an external (higher resolution) mobsim.
 
-- name: locationchoice
-  maintainer: Andreas Horni
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Location choice as MATSim choice dimension. Several different modules.
+# - name: locationchoice
+#   maintainer: Andreas Horni
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Location choice as MATSim choice dimension. Several different modules.
 
-- name: matrixbasedptrouter
-  maintainer: currently unmaintained
-  availability: Contrib
-  status: Unknown
-  user-docs: In some places, this module does not function like someone trained in transport engineering may think. 
-      For example, (1) It does not work without pt stops, although intuitively routing from zone to zone should be possible even without pt stops.(2) It uses the nearest pt stops rather than the multi-node Dijkstra that is used in matsim schedule-based transit, which in general looks into more than one pt stop.  This would useful since walking to a somewhat farther away stop might lead to  a much better connection. (3) It can currently only read distances and travel times between pt stops, although in general it should be possible to include fare or number of line switches. (4) The result does not depend on the time-of-day.
-  api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Reads a list of pt stops and constructs pt routes using the stops nearest to origin and destination. Travel times and travel distances between pt stops can be given by corresponding matrices.
+# - name: matrixbasedptrouter
+#   maintainer: currently unmaintained
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: In some places, this module does not function like someone trained in transport engineering may think. 
+#       For example, (1) It does not work without pt stops, although intuitively routing from zone to zone should be possible even without pt stops.(2) It uses the nearest pt stops rather than the multi-node Dijkstra that is used in matsim schedule-based transit, which in general looks into more than one pt stop.  This would useful since walking to a somewhat farther away stop might lead to  a much better connection. (3) It can currently only read distances and travel times between pt stops, although in general it should be possible to include fare or number of line switches. (4) The result does not depend on the time-of-day.
+#   api-docs:  See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Reads a list of pt stops and constructs pt routes using the stops nearest to origin and destination. Travel times and travel distances between pt stops can be given by corresponding matrices.
 
-- name: minibus
-  maintainer: Andreas Neumann
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Modeling competing minibus operators exploring the public transport market offering their services.
+# - name: minibus
+#   maintainer: Andreas Neumann
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Modeling competing minibus operators exploring the public transport market offering their services.
 
-- name: multimodal
-  maintainer: Christoph Dobler
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: An efficient approach, for modeling multimodal scenarios considering persons' biking and walking speeds to improve the teleportation estimates for these modes.
+# - name: multimodal
+#   maintainer: Christoph Dobler
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: An efficient approach, for modeling multimodal scenarios considering persons' biking and walking speeds to improve the teleportation estimates for these modes.
 
-# '
+# # '
 
-- name: noise
-  maintainer: Ihab Kaddoura
-  availability: Contrib
-  status: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Computation of road traffic noise levels and noise damages
-  user-docs: This package provides some tools to compute... <ul>
-      <li>noise (emission) levels on network links (based on traffic volume, share of heavy goods vehicles, speed level)</li>
-      <li>noise (immission) levels at receiver points (based on the surrounding links' emissions and distances)</li>
-      <li>population units (= population densities) at receiver points (mapping agents to the nearest receiver point)</li>
-      <li>noise damages (= noise exposure costs) at receiver points (based on population units and noise levels)</li></ul>
-      The computation of noise levels is based on the German RLS 90 approach (Richtlinien fuer den Laermschutz and Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen), but applies some simplifications and minor modifications. Thus, noise levels should be considered as estimates rather than exact values. The conversion of noise exposures into monetary costs follows a slightly modified version of the German EWS approach (Empfehlungen fuer Wirtschaftlichkeitsuntersuchungen an Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen). A more detailed description of the computation methodology and the model limitations is provided in the related publications.
-      See matsim.org/javadoc under "noise" for more information.
+# - name: noise
+#   maintainer: Ihab Kaddoura
+#   availability: Contrib
+#   status: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Computation of road traffic noise levels and noise damages
+#   user-docs: This package provides some tools to compute... <ul>
+#       <li>noise (emission) levels on network links (based on traffic volume, share of heavy goods vehicles, speed level)</li>
+#       <li>noise (immission) levels at receiver points (based on the surrounding links' emissions and distances)</li>
+#       <li>population units (= population densities) at receiver points (mapping agents to the nearest receiver point)</li>
+#       <li>noise damages (= noise exposure costs) at receiver points (based on population units and noise levels)</li></ul>
+#       The computation of noise levels is based on the German RLS 90 approach (Richtlinien fuer den Laermschutz and Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen), but applies some simplifications and minor modifications. Thus, noise levels should be considered as estimates rather than exact values. The conversion of noise exposures into monetary costs follows a slightly modified version of the German EWS approach (Empfehlungen fuer Wirtschaftlichkeitsuntersuchungen an Strassen, Forschungsgesellschaft fuer Strassen- und Verkehrswesen). A more detailed description of the computation methodology and the model limitations is provided in the related publications.
+#       See matsim.org/javadoc under "noise" for more information.
 
-# '
+# # '
 
-- name: otfvis
-  maintainer: Michael Zilske
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: OTFVis is an open source, OpenGL-based visualizer for looking at MATSim scenarios and output.
+# - name: otfvis
+#   maintainer: Michael Zilske
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: OTFVis is an open source, OpenGL-based visualizer for looking at MATSim scenarios and output.
 
-- name: parking
-  maintainer: Joschka Bischoff / Rashid A. Waraich (?)
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Simulation of parking search and parking choice.
+# - name: parking
+#   maintainer: Joschka Bischoff / Rashid A. Waraich (?)
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Simulation of parking search and parking choice.
 
-- name: protobuf
-  maintainer: Gregor Lämmel
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Basic infrastructure for protocol buffer based communication with other simulations.
+# - name: protobuf
+#   maintainer: Gregor Lämmel
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Basic infrastructure for protocol buffer based communication with other simulations.
 
-- name: pseudosimulation
-  maintainer: Pieter Fourie
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: A pseudo-simulation engine, PSim, uses travel time information from the preceding QSim iteration to estimate how well an agent day plan might perform, allowing multiple iterations of mutation and evaluation between QSim iterations to more rapidly explore the agents' solution space, producing better performing plans in a shorter time.
+# - name: pseudosimulation
+#   maintainer: Pieter Fourie
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: A pseudo-simulation engine, PSim, uses travel time information from the preceding QSim iteration to estimate how well an agent day plan might perform, allowing multiple iterations of mutation and evaluation between QSim iterations to more rapidly explore the agents' solution space, producing better performing plans in a shorter time.
 
-# '
+# # '
 
-- name: roadpricing
-  maintainer: Johan W. Joubert
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: This package provides functionality to simulate different road-pricing scenarios in MATSim. It provides support for different toll schemes, for example distance tolls, cordon tolls and area tolls.
+# - name: roadpricing
+#   maintainer: Johan W. Joubert
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: This package provides functionality to simulate different road-pricing scenarios in MATSim. It provides support for different toll schemes, for example distance tolls, cordon tolls and area tolls.
 
-- name: signals
-  maintainer: Theresa Thunig
-  availability: Contrib
-  status: Unknown
-  user-docs: <a href="http://www.matsim.org/docs/extensions/traffic-lights">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: This package contains interfaces and classes that provide functionality to plug a signal system model in the MATSim framework.
+# - name: signals
+#   maintainer: Theresa Thunig
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: <a href="http://www.matsim.org/docs/extensions/traffic-lights">Available here</a>
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: This package contains interfaces and classes that provide functionality to plug a signal system model in the MATSim framework.
 
-- name: socnetsim
-  maintainer: Thibaut Dubernet
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: Allows to represent agent coordination, for social travel and activities.
+# - name: socnetsim
+#   maintainer: Thibaut Dubernet
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: Allows to represent agent coordination, for social travel and activities.
 
-- name: taxi
-  maintainer: Michal Maciejewski
-  availability: Contrib
-  status: Unknown
-  user-docs: Unknown
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
-  description: This extension offers a taxi service functionality for MATSim using the DVRP packages and within day replanning.
+# - name: taxi
+#   maintainer: Michal Maciejewski
+#   availability: Contrib
+#   status: Unknown
+#   user-docs: Unknown
+#   api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+#   description: This extension offers a taxi service functionality for MATSim using the DVRP packages and within day replanning.
 
