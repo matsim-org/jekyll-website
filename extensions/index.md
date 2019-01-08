@@ -65,41 +65,6 @@ The separate entries for the contribs are no longer maintained.   Please see our
 
 For maintainers: Please use `src/main/javadoc/overview.html` inside your contrib for an introductory description of your contrib.  See, e.g., the emissions contrib for an example.
 
-<!-- <table class="extension-table"> -->
-
-<!--   <tr> -->
-<!--     <th>Title</th><th>Maintainer</th><th>Description</th> -->
-<!--   </tr> -->
-
-<!--   {% for ext in site.data.extensions-contrib %} -->
-<!--     <tr> -->
-<!--         <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td> -->
-<!--         <td> {{ ext.maintainer }} </td> -->
-<!--         <td> {{ ext.description }} </td> -->
-<!--     </tr> -->
-<!--   {% endfor %} -->
-
-<!-- </table> -->
-
-<!-- --- -->
-
-<!-- ### Availability: Deprecated -->
-
-<!-- <table class="extension-table"> -->
-
-<!--   <tr> -->
-<!--     <th>Title</th><th>Status</th><th>Description</th> -->
-<!--   </tr> -->
-
-<!--   {% for ext in site.data.extensions-deprecated %} -->
-<!--     <tr> -->
-<!--         <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td> -->
-<!--         <td> {{ ext.status }} </td> -->
-<!--         <td> {{ ext.description }} </td> -->
-<!--     </tr> -->
-<!--   {% endfor %} -->
-
-<!-- </table> -->
 
 <br/><br/><br/>
 

@@ -19,8 +19,3 @@ page_gen:
     name: 'name'
     dir: 'extension'
     index_files: true
-  - data: 'extensions-contrib'
-    template: 'extension'
-    name: 'name'
-    dir: 'extension'
-    index_files: true
