@@ -5,7 +5,7 @@ layout: scenario
   
 ---
 
-The MATSim model of Paris was built by [GeoTwin](https://geotwin.io) for the [CityMakers challenge](https://citymakers.io). 
+The MATSim model of Paris was built by [GeoTwin](https://www.geotwin.io) for the [CityMakers challenge](https://citymakers.io). 
 Most of the data sources used for the model are available as OpenData, including network (from OpenStreetMap), population census, commuter matrix and travel diary.
 
 <iframe src="https://player.vimeo.com/video/319314052" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
