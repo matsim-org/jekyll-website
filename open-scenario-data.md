@@ -17,7 +17,7 @@ Some open source example data sets, including some regional real world data sets
 new Berlin scenario:
 <https://github.com/matsim-vsp/matsim-berlin>
 
-other scenarios:
+other scenarios (incl. Cottbus and Sweden):
 <https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/>
 
 South Africa
