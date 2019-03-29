@@ -7,6 +7,9 @@ title: Conferences and Meetings
 
 Here you will find links to upcoming and past conferences and meetings related to MATSim research and application.
 
+- [2019 User Meeting - Leuven, Belgium](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/365133825/MATSim+User+Meeting+2019)
+
+
 <br/>
 
 ### Past Conferences
