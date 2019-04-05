@@ -249,7 +249,7 @@ The following documentations are available:
 <tr>
 <td >evacuation (was: grips)</td>
 <td ></td>
-<td ><a href="https://github.com/matsim-org/evacuation-web-app">repo</a></td>
+<td ></td>
 <td ><a href="https://github.com/matsim-org/evacuation-web-app">repo</a></td>
 <td ><a href="/apidocs/evacuation/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/evacuation/0.8.1/">0.8.1</a></td>
@@ -262,7 +262,7 @@ The following documentations are available:
 <tr>
 <td >gtfs2matsimtransitschedule</td>
 <td ></td>
-<td ><a href="https://github.com/matsim-org/GTFS2MATSim">repo</a></td>
+<td ></td>
 <td ><a href="https://github.com/matsim-org/GTFS2MATSim">repo</a></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/gtfs2matsimtransitschedule/0.8.1/">0.8.1</a></td>
@@ -317,7 +317,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/matsim4urbansim/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/matsim4urbansim/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/matsim4urbansim/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/matsim4urbansim/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/matsim4urbansim/0.8.1/">0.8.1</a></td>
@@ -351,7 +351,6 @@ The following documentations are available:
 <td ><a href="/apidocs/multimodal/0.6.0/">0.6.0</a></td>
 <td ></td>
 <td ></td>
-<td ></td>
 </tr>
 <tr>
 <td >networkEditor</td>
@@ -359,7 +358,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/networkEditor/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/networkEditor/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/networkEditor/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/networkEditor/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/networkEditor/0.8.1/">0.8.1</a></td>
@@ -466,7 +465,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/socnetgen/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/socnetgen/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/socnetgen/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/socnetgen/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/socnetgen/0.8.1/">0.8.1</a></td>
@@ -508,7 +507,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/transEnergySim/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/transEnergySim/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/transEnergySim/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/transEnergySim/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/transEnergySim/0.8.1/">0.8.1</a></td>
@@ -524,7 +523,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/travelsummary/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/travelsummary/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/travelsummary/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/travelsummary/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/travelsummary/0.8.1/">0.8.1</a></td>
@@ -539,7 +538,7 @@ The following documentations are available:
 <!-- <a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/wagonSim/target/site/apidocs/index.html">HEAD</a> -->
 <!-- phased out -->
 </td>
-<td ><a href="/apidocs/wagonSim/11.0/">11.0</a></td>
+<td ></td>
 <td ><a href="/apidocs/wagonSim/0.10.1/">0.10.1</a></td>
 <td ><a href="/apidocs/wagonSim/0.9.0/">0.9.0</a></td>
 <td ><a href="/apidocs/wagonSim/0.8.1/">0.8.1</a></td>
