@@ -9,9 +9,8 @@ title: User Guide
 
 <br/>
 
+The [MATSim user guide (pdf)](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) is an extract of the first couple of chapters of the [MATSim book](/the-book).  These chapters contain the most relevant topics for new users.
 
-There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf) [PDF].
+<small><mark>If the above link does not work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.</mark></small>
 
-<small><mark>If the above link does not seem to work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.</mark></small>
-
-The user guide is typically updated along with the MATSim class that we teach every year at TU Berlin between April and July.
+The user guide is typically updated along with the MATSim class that we teach at TU Berlin every year between April and July. 

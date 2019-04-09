@@ -21,6 +21,7 @@ RewriteRule ^wiki$ https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Commu
 RewriteRule ^scenarios?/?([a-z/.]+)?$ gallery/$1 [R=301,NC,L]
 RewriteRule ^install?/?([a-z/.]+)?$ downloads/$1 [R=301,NC,L]
 RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
+RewriteRule ^userguide$ /docs/userguide [R=301,NC,L]
 </IfModule>
 
 ErrorDocument 404 /404.html

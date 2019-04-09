@@ -16,6 +16,7 @@ title: Documentation
 
 ### For Users
 
+- [Userguide](/docs/userguide)
 - [Tutorials](#tutorials)
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
@@ -46,7 +47,7 @@ title: Documentation
 
 The ["MATSim Book"](/the-book) is now the authoritative reference.
 
-There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide). This is sometimes also referred to as the [``MATSim user guide''](/docs/userguide).
+There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide). This is also referred to as the [``MATSim user guide''](/docs/userguide).
 
 Some [Terminology](/docs/userguide/terminology) (i.e. correspondences between MATSim terminology and more standard transport modelling terminology, and reasons why ours is different) can be found [here](/docs/userguide/terminology).
 
