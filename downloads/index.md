@@ -6,21 +6,21 @@ title: Download/Install
 # Install MATSim
 
 Some options to get hold of MATSim are described here. These are in the recommended order for most users.
- 
+
 ## (1) MATSim-example-project on GitHub
 
-The recommended approach to getting started with MATSim is to clone the example project on GitHub. This approach targets programmers who are comfortable with Java and an IDE (e.g. Eclipse or IntelliJ). This will automatically download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots. 
+The recommended approach to getting started with MATSim is to clone the example project on GitHub. This approach targets programmers who are comfortable with Java and an IDE (e.g. Eclipse or IntelliJ). This will automatically download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots.
 
 You will _not_ be able to modify the existing MATSim source code -- which, in most cases, should not be necessary. It is preferred that you contact the developers in such situations and we will try to help or implement missing extension points.
 
 - [<i class="fa fa-github"></i> Clone the example project on GitHub](https://github.com/matsim-org/matsim-example-project)
- 
+
 ## (2) MATSim-code-examples on GitHub
 
 There is also a MATSim code examples project, which contains code examples of how to work with MATSim.  You can clone this project to have it locally on your computer, or browse the code in github directly.  This project is meant to be used in parallel with (1).
 
 - [<i class="fa fa-github"></i> See the code examples on GitHub](https://github.com/matsim-org/matsim-code-examples)
- 
+
 ## (3) Standalone
 
 The "Standalone" version is targeted to users who want to use MATSim by editing the input files, including config.xml directly. A basic GUI is provided.
@@ -55,14 +55,14 @@ These versions are typically less stable and don't come with up-to-date documena
 
 ## (4) Maven
 
-The "Maven" version is targeted to programmers who know about Maven, and want to include MATSim into an already existing Maven project.  Similar to the "MATSim example project" above, the Maven approach will maven-download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots (depending on your pom.xml). 
+The "Maven" version is targeted to programmers who know about Maven, and want to include MATSim into an already existing Maven project.  Similar to the "MATSim example project" above, the Maven approach will maven-download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots (depending on your pom.xml).
 
 It will _not_ allow you to modify the existing MATSim code -- which, in most cases, also should not be necessary: it is preferred that you contact the developers in such situations and we will try to help or implement missing extension points.
 
 <div class="row">
-<div class="col-xs-12 col-md-6" markdown="1">
+<div class="col-md-6" markdown="1">
 
-#### <i class="fa fa-cube"></i> Latest (Pre-)Release
+#### <i class="fa fa-cube"></i> (Pre-)Release
 
 
     <repositories>
@@ -70,13 +70,16 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
         <id>matsim</id>
         <name>MATSim release repository</name>
         <url>http://dl.bintray.com/matsim/matsim</url>
+
+
+
       </repository>
     </repositories>
     <dependencies>
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>0.10.1</version>
+        <version>11.0</version>
       </dependency>
     </dependencies>
 
@@ -85,9 +88,9 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
 [Extensions](/extensions) can be added in the same way; see the `pom.xml` in the [code examples on GitHub](https://github.com/matsim-org/matsim-code-examples)
 
 </div>
-<div class="col-xs-12 col-md-6" markdown="1">
+<div class="col-md-6" markdown="1">
 
-#### <i class="fa fa-bug"></i> Development Version
+#### <i class="fa fa-bug"></i> Automatic snapshot of development version
 
 
     <repositories>
@@ -104,7 +107,7 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>0.11.0-SNAPSHOT</version>
+        <version>12.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
 
@@ -154,4 +157,3 @@ More information about the [MATSim Benchmark](/benchmark).
 <!-- To get you started writing your own code with MATSim, we provide an [example project on GitHub](https://github.com/matsim-org/matsim-example-project) you can fork, which includes a complete pom.xml to use MATSim as a Maven dependency for your own code.</p> -->
 
 <!-- </div> -->
-
