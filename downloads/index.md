@@ -3,11 +3,26 @@ layout: default
 title: Download/Install
 ---
 
-# Install MATSim
+# Quickstart
 
-Some options to get hold of MATSim are described here. These are in the recommended order for most users.
+1. (optional) Fork [matsim-example-project](https://github.com/matsim-org/matsim-example-project).
+1. Clone matsim-example-project into local directory.
+1. Import as maven project into IDE.
+   1. IntelliJ: Import project --> browse to dir --> maven --> Next, Next, Next
+   1. Eclipse: Import ... --> ... as maven project --> browse to dir --> accept, accept, accept
 
-## (1) MATSim-example-project on GitHub
+   Maven will sort out the dependencies.  No need to download the MATSim main repository.  Sources are available.
+1. Run `MATSimGUI` .  
+   1. An example config file is in `scenarios/equil`.
+   1. Press `Run` to run MATSim.
+1. Run `RunMATSim` directly from the IDE.
+1. (optional) Connect your forked repo to [travis](https://travis-ci.org).
+
+# More options/explanations
+
+Some options (with overlap to the quickstart option above) to get hold of MATSim are described here. These are in the recommended order for most users.
+
+### (1) MATSim-example-project on GitHub
 
 The recommended approach to getting started with MATSim is to clone the example project on GitHub. This approach targets programmers who are comfortable with Java and an IDE (e.g. Eclipse or IntelliJ). This will automatically download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots.
 
@@ -15,13 +30,13 @@ You will _not_ be able to modify the existing MATSim source code -- which, in mo
 
 - [<i class="fa fa-github"></i> Clone the example project on GitHub](https://github.com/matsim-org/matsim-example-project)
 
-## (2) MATSim-code-examples on GitHub
+### (2) MATSim-code-examples on GitHub
 
 There is also a MATSim code examples project, which contains code examples of how to work with MATSim.  You can clone this project to have it locally on your computer, or browse the code in github directly.  This project is meant to be used in parallel with (1).
 
 - [<i class="fa fa-github"></i> See the code examples on GitHub](https://github.com/matsim-org/matsim-code-examples)
 
-## (3) Standalone
+### (3) Standalone
 
 The "Standalone" version is targeted to users who want to use MATSim by editing the input files, including config.xml directly. A basic GUI is provided.
 
@@ -53,7 +68,7 @@ These versions are typically less stable and don't come with up-to-date documena
 </div>
 </div>
 
-## (4) Maven
+### (4) Maven
 
 The "Maven" version is targeted to programmers who know about Maven, and want to include MATSim into an already existing Maven project.  Similar to the "MATSim example project" above, the Maven approach will maven-download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots (depending on your pom.xml).
 
@@ -117,7 +132,7 @@ These versions are typically less stable and don't come with up-to-date documena
 </div>
 
 
-## About releases
+### About releases
 
 We normally release together with our summer term class taught at TU Berlin:
 1. A pre-release in march/april.
@@ -130,7 +145,7 @@ In consequence, the "latest (pre-)release" may be more modern than the "latest s
 
 
 
-## <i class="fa fa-tachometer"></i> &nbsp; Benchmark
+### <i class="fa fa-tachometer"></i> &nbsp; Benchmark
 
 [Download Benchmark](/files/benchmark/benchmark.zip) ZIP, ca. 35MB
 
