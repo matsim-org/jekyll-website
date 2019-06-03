@@ -2,63 +2,55 @@
   maintainer: Lin Padgham, Dhirendra Singh
   status: Unspecified
   availability: External
-  user-docs: <a href="https://sites.google.com/site/rmitagents/software#TOC-BDI-ABM-Integration-Framework">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  docs: https://sites.google.com/site/rmitagents/software#TOC-BDI-ABM-Integration-Framework
   description: A package that integrates several BDI (belief-desire-intention) frameworks (such as JACK or Jadex) with several agent-based modelling frameworks (such as Repast, Simphony, and MATSim).
 
 - name: evacuation-gui
   maintainer: Gregor Lämmel
   availability: External (starting with MATSim release 0.10.x)
   status: Unknown
-  user-docs: <a href="https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial">Available here</a>
-  api-docs: <a href="https://github.com/matsim-org/evacuation-gui">Available here</a>
+  docs: https://matsim.atlassian.net/wiki/display/MATPUB/Evacuation+Tutorial
   description: Adopts integrated approach for performing evacuation simulations. Replaces the "evacuation contrib" starting with release 0.10.x.
 
 - name: freightChainsFromTravelDiaries
   maintainer: unmaintained
   status: Unspecified
   availability: External
-  user-docs: <a href="http://github.com/matsim-org/freightchainsFromTravelDiaries">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  docs: http://github.com/matsim-org/freightchainsFromTravelDiaries
   description: Generate freight chains from travel diaries, specifically the German survey "KiD". Code used by Sebastian Schneider for his dissertation.
 
 - name: GTFS2MATSim
   maintainer: Michael Zilske
   status: Unspecified
   availability: External
-  user-docs: <a href="https://github.com/matsim-org/GTFS2MATSim">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  docs: https://github.com/matsim-org/GTFS2MATSim
   description: Another package to convert GTFS (google transit feed specification) data into a MATSim transit schedule.
 
 - name: GTFS2TransitSchedule
   maintainer: Sergio Ordonez
   status: Unspecified
   availability: External
-  user-docs: <a href="http://matsim.org/docs/extensions/gtfs2transitschedule">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  docs: http://matsim.org/docs/extensions/gtfs2transitschedule
   description: See matsim.org/javadoc under "gtfs2matsimtransitschedule" for more information.
 
 - name: josm-plugin
   maintainer: "Nico Kühnel, Michael Zilske"
   status: Unspecified
   availability: External
-  user-docs: <a href="https://github.com/matsim-org/josm-matsim-plugin">Available here</a>
-  api-docs: See <a href="http://matsim.org/javadoc">Javadoc overview page</a>
+  docs: https://github.com/matsim-org/josm-matsim-plugin
   description: A plug-in for JOSM, the OpenStreetMap editor, to save OSM data in the MATSim format.
 
 - name: Opdyts
   maintainer: Amit Agarwal
   status: Unspecified
   availability: External
-  user-docs: <a href="https://github.com/matsim-org/Opdyts-MATSim-Integration">Available on Github</a>
-  api-docs: <a href="https://github.com/matsim-org/Opdyts-MATSim-Integration">Available on Github</a>
+  docs: https://github.com/matsim-org/Opdyts-MATSim-Integration
   description: Provides integration of Opdyts with MATSim
 
 - name: Via
   maintainer: Simunto GmbH
   status: Stable
   availability: External
-  user-docs: <a href="https://www.simunto.com/via/">Available here</a>
-  api-docs: There is no API available currently.
+  docs: https://www.simunto.com/via/
   description: Via is a stand-alone application that allows to visualize and analyze MATSim data as well as generic spatial and temporal data sets. Being a commercial software developed and distributed by Simunto, the application is not open source as the rest of MATSim. A limited, free version is available.
 

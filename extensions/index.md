@@ -17,15 +17,7 @@ If you want to contribute an extension, please see [here](/docs/contributing/ext
 
 ---
 
-<!-- ### Availability: Main Distribution -->
-
-<!-- The separate entries for what may be considered an extension within the main repository are no longer maintaned.  Please see the non-core packages under matsim main at our [Javadoc page](/javadoc). -->
-
-<!-- --- -->
-
 ### Availability: Contrib
-
-<!-- The separate entries for the contribs are no longer maintained.    -->
 
 Please see our [Javadoc page](/javadoc).
 
@@ -45,7 +37,7 @@ For maintainers: Please use `src/main/javadoc/overview.html` inside your contrib
 
   {% for ext in site.data.extensions-external %}
     <tr>
-        <td> <a href="/extension/{{ext.name | downcase }}">{{ ext.name }} </a> </td>
+        <td> <a href="{{ext.docs}}">{{ ext.name }} </a> </td>
         <td> {{ ext.maintainer }} </td>
         <td> {{ ext.description }} </td>
     </tr>
