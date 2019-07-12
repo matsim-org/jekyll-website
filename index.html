@@ -145,7 +145,7 @@ layout: default
           <a href="{{ post.link }}">{{ post.title }}</a>
         </h4>
         <p class="blog-byline">Posted by
-          <a href="{{post.author_link}}">{{post.author}}</a> on {{ post.date }}</p>
+          {{post.author}} on {{ post.date }}</p>
 
         {{ post.body | truncatewords:80}}
         <br/>

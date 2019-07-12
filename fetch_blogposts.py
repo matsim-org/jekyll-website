@@ -36,7 +36,8 @@ for post in results:
       item['date'] = post['history']['createdDate'][:10]
       item['title'] = post['title'].replace('<','&lt;').encode('utf-8')
       item['author'] = post['history']['createdBy']['displayName'].encode('utf-8')
-      item['author_link'] = base_url + '/display/~' + post['history']['createdBy']['username']
+      # username seems to be no longer available
+      # item['author_link'] = base_url + '/display/~' + post['history']['createdBy']['username']
       item['link'] = base_url + post['_links']['webui']
 
       # fix relative links to /wiki
