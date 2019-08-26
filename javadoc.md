@@ -221,6 +221,18 @@ The following documentations are available:
 <td ></td>
 </tr>
 <tr>
+<td >ev</td>
+<td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/ev/target/site/apidocs/index.html">HEAD</a></td>
+<td ><a href="/apidocs/ev/11.0/">11.0</a></td>
+<td ></td>
+<td ></td><td >
+</td><td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+<td ></td>
+</tr>
+<tr>
 <td >eventsBasedPTRouter</td>
 <td ><a href="http://ci.matsim.org:8080/job/MATSim_contrib_M2/ws/contribs/eventsBasedPTRouter/target/site/apidocs/index.html">HEAD</a></td>
 <td ><a href="/apidocs/eventsBasedPTRouter/11.0/">11.0</a></td>
