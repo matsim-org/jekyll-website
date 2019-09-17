@@ -16,8 +16,8 @@ title: Documentation
 
 ### For Users
 
-- [Userguide](/docs/userguide)
 - [Tutorials](#tutorials)
+- [Userguide](/docs/userguide)
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
 - [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
@@ -40,19 +40,21 @@ title: Documentation
 </div>
 
 <!-- ------------------------------------------- -->
-
 <div class="col-md-6" markdown="1">
 
-### Information for users
+### <a name="tutorials"></a>Tutorials
 
-The ["MATSim Book"](/the-book) is now the authoritative reference.
+We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
 
-There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide). This is also referred to as the [``MATSim user guide''](/docs/userguide).
-
-Some [Terminology](/docs/userguide/terminology) (i.e. correspondences between MATSim terminology and more standard transport modelling terminology, and reasons why ours is different) can be found [here](/docs/userguide/terminology).
+- [Quickstart](/content/quickstart)
+- [MATSim example project](/content/matsim-example-project)
+- [General Tutorials](/docs/tutorials/general)
+- [MATSim book and user's guide](/content/matsim-book-and-users-guide)
+- [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
 
+<!-- ------------------------------------------- -->
 <!-- ------------------------------------------- -->
 
 <div class="col-md-6" markdown="1">
@@ -79,22 +81,23 @@ These documents ...
 </div>
 
 <!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
+
 <div class="col-md-6" markdown="1">
 
 ---
 
-### <a name="tutorials"></a>Tutorials
+### Information for users
 
-We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
+The ["MATSim Book"](/the-book) is now the authoritative reference.
 
-- [Quickstart](/content/quickstart)
-- [MATSim example project](/content/matsim-example-project)
-- [General Tutorials](/docs/tutorials/general)
-- [MATSim book and user's guide](/content/matsim-book-and-users-guide)
-- [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
+There is an [extract of the first couple of chapters, which contains the most relevant topics for new users](/docs/userguide). This is also referred to as the [``MATSim user guide''](/docs/userguide).
+
+Some [Terminology](/docs/userguide/terminology) (i.e. correspondences between MATSim terminology and more standard transport modelling terminology, and reasons why ours is different) can be found [here](/docs/userguide/terminology).
 
 </div>
 
+<!-- ------------------------------------------- -->
 <!-- ------------------------------------------- -->
 <div class="col-md-6" markdown="1">
 
