@@ -25,6 +25,8 @@ title: Download/Install
 
 This approach targets programmers who are comfortable with Java and an IDE (e.g. Eclipse or IntelliJ). This will automatically download MATSim, allow you to browse the source code, and keep you up-to-date with releases or snapshots.
 
+Install:
+
 1. (optional but recommended) Fork [matsim-example-project](https://github.com/matsim-org/matsim-example-project).
 1. Clone matsim-example-project into local directory.
 1. Import as maven project into IDE. 	Maven will sort out the dependencies.  No need to download the MATSim main repository.  Sources are available.
@@ -37,9 +39,14 @@ This approach targets programmers who are comfortable with Java and an IDE (e.g.
 1. (optional but recommended) Connect your forked repo to [travis](https://travis-ci.org).
 <!-- 1. Consult [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples). -->
 
-Code examples are in  [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples) on github.
+Notes:
 
-You will not be able to modify the existing MATSim source code -- which, in most cases, should not be necessary. It is preferred that you contact use [https://matsim.org/faq](https://matsim.org/faq) in such situations and we will try to help or implement missing extension points.
+* Code examples are in  [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples) on github.  Also see there for examples of how to use extensions (package `extensions`). 
+* If you want/need to write your own extensions:
+1. Again, look at [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples) for examples.
+1. Look at `ControlerDefaultsModule` (in your IDE, source is retrieved by maven) to see how MATSim is plugged together.
+* You will not be able to modify the existing MATSim source code -- which, in most cases, should not be necessary. If you feel the need to modify the existing MATSim source code, it is preferred that you contact use [https://matsim.org/faq](https://matsim.org/faq) in such situations and we will try to help or implement missing extension points.
+* You can generate a "clickable jar file" of your own code with `mvn package`.
 
 <!-- ### MATSim-example-project on GitHub -->
 
