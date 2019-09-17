@@ -40,16 +40,17 @@ title: Documentation
 </div>
 
 <!-- ------------------------------------------- -->
+<!-- ------------------------------------------- -->
 <div class="col-md-6" markdown="1">
 
 ### <a name="tutorials"></a>Tutorials
 
-We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials.
+<!-- We have prepared some tutorials which should help you getting started with MATSim. The "General Tutorials" section provides the most in-depth tutorials. -->
 
-- [Quickstart](/content/quickstart)
-- [MATSim example project](/content/matsim-example-project)
+- Quickstart: See [Install](/downloads)
+<!-- - [MATSim example project](/content/matsim-example-project) -->
 - [General Tutorials](/docs/tutorials/general)
-- [MATSim book and user's guide](/content/matsim-book-and-users-guide)
+- [MATSim book and user guide](/content/matsim-book-and-users-guide)
 - [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
 
 </div>
