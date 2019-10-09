@@ -5,3 +5,5 @@ nohup.out
 Thumbs.db
 *.swp
 Makefile
+.bundle/
+vendor/
