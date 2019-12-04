@@ -41,7 +41,7 @@ layout: default
           {{ content }}
       </div>
 
-{% else %}
+{% elsif page.image %}
       <div id="title1">
             <img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" />
             <h3>{{ page.title }}</h3>
@@ -55,15 +55,29 @@ layout: default
       <div class="entry">
           {{ content }}
       </div>
+
+{% else %}
+      <div id="title1">
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+                {{ tags_content }}
+            </div>
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
 {% endif %}
-
-
 
   <h2></h2>
   <div class="bottom-link">
     <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
-    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
+    <!-- <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
    target="_blank">&raquo;&nbsp;Share on Twitter</a>
+    -->
     <br/><br/>
   </div>
 

@@ -10,11 +10,11 @@
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<atom:link href="{{ site.url }}/feed/index.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.data.news limit:10 %}
+		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				<author>{{ post.author | xml_escape }}</author>
-				<description>{{ post.body | xml_escape }}</description>
+				<description>{{ post.summary | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ post.link }}</link>
 				<guid isPermaLink="true">{{ post.link }}</guid>

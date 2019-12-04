@@ -1,11 +1,7 @@
-- tag: 4k
-  description: 4K model
+- tag: events
+  description: "Events & Conferences"
 
-- tag: soundcast
-  description: SoundCast model
+- tag: jobs
+  description: "Jobs and Opportunities"
 
-- tag: tools
-  description: Tools and Software
 
-- tag: visualization
-  description: Visualization

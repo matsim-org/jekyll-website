@@ -1,10 +1,10 @@
-- name: "Sweden"
-  url: /gallery/sweden
-  image: /gallery/sweden_thumb.png
-
 - name: "Paris, France"
   url: /gallery/paris
   image: /gallery/paris_thumb.jpg
+
+- name: "Sweden"
+  url: /gallery/sweden
+  image: /gallery/sweden_thumb.png
 
 - name: "Santiago, Chile"
   url: /gallery/santiago

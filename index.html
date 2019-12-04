@@ -131,36 +131,32 @@ layout: default
 
     <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
 
-    {% for post in site.data.news %}
+    {% for post in site.posts limit:7 %}
     <article class="post">
 
       <div class="entry_image_wrapper">
-        <a href="{{ post.link }}">
+        <a href="{{ post.url }}">
           <img class="entry_image" src="{{ post.image }}" />
         </a>
       </div>
 
       <div class="entry">
         <h4>
-          <a href="{{ post.link }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.title }}</a>
         </h4>
-        <p class="blog-byline">Posted by
-          {{post.author}} on {{ post.date }}</p>
+        <p class="blog-byline">Posted by {{post.author}} on {{ post.date  | date: "%e %b, %Y" }}</p>
 
-        {{ post.body | truncatewords:80}}
+        {{ post.summary }}
         <br/>
-        <a href="{{ post.link }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
+        <br/>
+
+        <a href="{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
       </div>
 
       <div class="faint_border"></div>
 
     </article>
     {% endfor %}
-
-    <div class="entry">
-      <p>&raquo; See
-        <a href="https://matsim.atlassian.net/wiki/spaces/MATPUB/overview">all posts</a> on the MATSim wiki.</p>
-    </div>
 
   </div>
 
