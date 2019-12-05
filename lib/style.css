@@ -1298,3 +1298,8 @@ td.extension-details {
 .extension-table tr:hover td {
 background-color: #e5e5e5;
 }
+
+code.highlighter-rouge {
+  color: green;
+  background-color: #e8e8ee;
+}
