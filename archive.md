@@ -3,6 +3,8 @@ layout: default
 title: Archive
 ---
 
+<p class="matsim-rss-link"><a href="/submit-news/">SUBMIT NEWS</a></p>
+
 ## MATSim News Archive
 
 {% assign years = "2025|2024|2023|2022|2021|2020|2019" | split: "|" %}
