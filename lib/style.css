@@ -291,6 +291,7 @@ p.sidebar_title {
     border: 1px;
     border-style: dotted;
     background-color: #f4f4f4;
+    margin-left: 1rem;
 }
 
 .matsim-rss-link:hover {
