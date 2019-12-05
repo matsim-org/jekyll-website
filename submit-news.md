@@ -46,4 +46,4 @@ Here is my news item.
 
 #### If this is too complicated
 
-If this is just too much, [send us an email](mailto:info@matsim.org) and we'll post your item for you.
+If this is just too much, [send us an email](mailto:nagel@vsp.tu-berlin.de) and we'll post your item for you.
