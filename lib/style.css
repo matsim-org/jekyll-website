@@ -1308,6 +1308,32 @@ a.news-headline {
   color: #0f8b66;
 }
 
+a.news-headline:hover {
+  color: #294870;
+}
+
 p.blog-byline {
   color: #999;
 }
+
+.submit-link {
+  float: right;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 15px;
+  color: green;
+  padding: 0.5rem 1.5rem;
+  border: 1px;
+  border-right: 5px;
+  border-style: solid;
+  background-color: #f4f4f4;
+  margin-left: 1rem;
+  text-align: right;
+  line-height: 1.2;
+}
+
+.submit-link:hover {
+  background-color: #ffffee;
+  color: purple;
+}
+

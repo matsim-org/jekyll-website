@@ -7,6 +7,8 @@ title: Submit MATSim News
 
 ---
 
+<div><a target="_blank" href="https://github.com/matsim-org/jekyll-website/tree/master/_posts"><p class="submit-link">TAKE ME &raquo;<br/>TO GITHUB &raquo;</p></a></div>
+
 We welcome MATSim-related news items, job postings, and event announcements for our front page. To submit news, create a pull request on Github.com with the content of your news item in Markdown format. Here's how to do that:
 
 1. Log into [Github.com](https://Github.com) (free account required)
@@ -49,4 +51,4 @@ Here is my news item.
 
 #### If this is too complicated
 
-If this is just too much, [send us an email](mailto:nagel@vsp.tu-berlin.de) and we'll post your item for you.
+If this is just too much, [send us an email](mailto:sekretariat@vsp.tu-berlin.de) and we'll post your item for you.
