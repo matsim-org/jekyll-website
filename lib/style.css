@@ -1307,3 +1307,7 @@ code.highlighter-rouge {
 a.news-headline {
   color: #0f8b66;
 }
+
+p.blog-byline {
+  color: #999;
+}
