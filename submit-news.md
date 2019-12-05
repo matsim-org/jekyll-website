@@ -11,7 +11,7 @@ We welcome MATSim-related news items, job postings, and event announcements for 
 
 1. Log into [Github.com](https://Github.com) (free account required)
 2. Browse to <https://github.com/matsim-org/jekyll-website/tree/master/_posts>, the folder containing all of our news items
-3. Click **`Create new file`** to add a file to the `posts` directory
+3. Click **`Create new file`** to add a file to the `_posts` directory
 4. Give your file a name in **THIS SPECIFIC FORMAT**:
    - `2020-03-25-your-news-item.md` - the date MUST be in YYYY-MM-DD format and the file MUST end   in `.md`
 5. Paste the template found below into your new file
