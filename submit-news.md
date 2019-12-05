@@ -11,6 +11,8 @@ title: Submit MATSim News
 
 We welcome MATSim-related news items, job postings, and event announcements for our front page. To submit news, create a pull request on Github.com with the content of your news item in Markdown format. Here's how to do that:
 
+#### Instructions for posting news via GitHub
+
 1. Log into [Github.com](https://Github.com) (free account required)
 2. Browse to <https://github.com/matsim-org/jekyll-website/tree/master/_posts>, the folder containing all of our news items
 3. Click **`Create new file`** to add a file to the `_posts` directory
