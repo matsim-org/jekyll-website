@@ -16,8 +16,7 @@ We continue to welcome MATSim-related news items, job postings, and event announ
 Now, you’ll submit news by creating a pull request on Github.com with the content of your
 news item in Markdown format.
 
-Explicit directions for submitting news are found here: <https://matsim.org/submit-news>
-
+- Explicit directions for submitting news items: see <https://matsim.org/submit-news>
 - And if those instructions aren’t clear enough just let us know!
 
 Thank you! Hopefully this transition will be straightforward.
