@@ -3,12 +3,11 @@ layout: post
 author: Golan Ben-Dor
 title: "MATSim-related Post-Doc Position in Tel-Aviv University, Israel"
 summary: The Geosimulation and Spatial Analysis Laboratory, Porter School of the Environment and Earth Sciences, Faculty of Exact Sciences, Tel Aviv University, Israel have an immediate open position for a postdoc expert in MATSim and Transportation Modeling.
-tags: jobs
 ---
 
 
 
- 
+
 
 The [Geosimulation and Spatial Analysis Laboratory](https://www.geosimlab.org/), Porter School of the Environment and Earth Sciences, Faculty of Exact Sciences, [Tel Aviv University, Israel](https://english.tau.ac.il/) have an immediate open position for a postdoc expert in MATSim and Transportation Modeling. The position is for a period of **1.5-2 years** with an annual scholarship of **16,500-20,500** euros, depending on the qualification.
 
@@ -32,4 +31,4 @@ The Geosimulation lab is looking for a strongly motivated candidate who can work
 
 For any other inquires please contact Prof. Itzhak Benenson,  <mailto:bennya@tauex.tau.ac.il>
 
- 
+
