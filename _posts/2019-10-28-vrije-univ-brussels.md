@@ -1,9 +1,8 @@
 ---
 layout: post
 author: Koen Mommens
-title: Ph.D. at MOBI (Vrije Universiteit Brussel Belgium)
+title: "Ph.D. at MOBI (Vrije Universiteit Brussel Belgium)"
 summary: The Vrije Universiteit Brussels has currently an open position for pursuing a PhD in the domain of freight transport with a strong focus on transport externalities. 
-tags: jobs
 ---
 
 The Vrije Universiteit Brussels has currently an open position for pursuing a PhD in the domain of freight transport with a strong focus on transport externalities. 

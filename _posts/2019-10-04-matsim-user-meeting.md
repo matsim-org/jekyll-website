@@ -3,7 +3,6 @@ layout: post
 author: Stefano Penazzi
 title: "Announcing MATSim User Meeting 2020: April 6th at ANT in Warsaw, Poland"
 summary: This year the annual MATSim user meeting will be in Warsaw, Poland. The meeting occurs on April 6th, just a day before the ANT conference, which begins on Tuesday, April 7th.
-tags: events
 ---
 
 Dear MATSim community,

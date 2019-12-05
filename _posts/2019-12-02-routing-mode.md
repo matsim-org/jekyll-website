@@ -2,7 +2,7 @@
 layout: post
 title: Routing mode + (helper) walk modes
 author: Gregor Leich
-summary: We (Kai Nagel, Gregor Leich) just merged the branch `routingMode5` into the development head master branch. This is a pretty old topic, partly solves several Jira issues, and makes life easier for intermodal trips.
+summary: "We (Kai Nagel, Gregor Leich) just merged the branch `routingMode5` into the development head master branch. This is a pretty old topic, partly solves several Jira issues, and makes life easier for intermodal trips."
 ---
 
 We (Kai Nagel, Gregor Leich) just merged the branch `routingMode5` into the development head master branch (<https://github.com/matsim-org/matsim/pull/738>).
