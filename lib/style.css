@@ -118,7 +118,7 @@ h4 {
 }
 
 .img-left {
-    margin-left 0px;
+    margin-left: 0px;
     margin-bottom: 5px;
 }
 
@@ -957,7 +957,7 @@ body {
         background-color: #f36621;
         text-decoration: none;
         font-size: 2em;
-        text-shadow: -2px 1px 1px rgba(255,255,255,0.7)
+        text-shadow: -2px 1px 1px rgba(255,255,255,0.7);
 
         -webkit-transition: color 0.3s ease-in-out 0s;
         -moz-transition: color 0.3s ease-in-out 0s;
@@ -1302,4 +1302,8 @@ background-color: #e5e5e5;
 code.highlighter-rouge {
   color: green;
   background-color: #e8e8ee;
+}
+
+a.news-headline {
+  color: #0f8b66;
 }
