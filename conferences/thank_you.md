@@ -3,7 +3,7 @@ layout: default
 title: Thank You!
 ---
 
-{% A page to be used when submitting webforms (for instance registration for an event) %}
+{% comment %} A page to be used when submitting webforms (for instance registration for an event) {% endcomment %}
 
 # Thank you for your submission!
 
