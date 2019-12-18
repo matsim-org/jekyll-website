@@ -42,10 +42,6 @@ Here you will find links to upcoming and past conferences and meetings related t
 
 </div>
 
-
-- [2020 User Meeting - Warsaw, Poland](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/463044644/MATSim+User+Meeting+2020)
-
-
 <br/>
 
 ### Past Conferences
