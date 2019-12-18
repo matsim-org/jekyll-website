@@ -19,3 +19,16 @@ page_gen:
     name: 'name'
     dir: 'extension'
     index_files: true
+
+collections:
+    conferences:
+        output: true
+
+defaults:
+    - # _conferences
+        scope:
+            path: ""
+            type: "conferences"
+        values:
+            layout: event
+

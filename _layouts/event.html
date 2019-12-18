@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+{% if page.tags.size > 0 %}
+    {% capture tags_content %}<br/>filed under: {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
+    {% for post_tag in page.tags %}
+        {% assign tag = '' %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.tag == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag != '' %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ tag.tag }}/">{{ tag.description }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+
+<article class="post">
+
+{% capture title_section %}
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                Event starts on {{ page.event_start_date | date: "%e %B, %Y" }}
+                {{ tags_content }}
+            </div>
+{% endcapture %}
+
+
+{% if page.image-wide %}
+      <div class="entry">
+          <img src="{{ page.image-wide }}" alt="{{ page.title }}" />
+      </div>
+
+      <div id="title-wide">
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% elsif page.image %}
+      <div id="title1">
+            <img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" />
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% else %}
+      <div id="title1">
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% endif %}
+
+  <h2></h2>
+  <div class="bottom-link">
+    <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
+    <!-- <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
+   target="_blank">&raquo;&nbsp;Share on Twitter</a>
+    -->
+    <br/><br/>
+  </div>
+
+  {% if page.comments %}
+    <h4>Discussion and Comments</h4>
+      {% include comments.html %}
+  {% endif %}
+
+</article>

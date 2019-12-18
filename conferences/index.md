@@ -7,6 +7,42 @@ title: Conferences and Meetings
 
 Here you will find links to upcoming and past conferences and meetings related to MATSim research and application.
 
+<div class="col-md-12 posts">
+
+    <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
+
+    {% for post in site.conferences %}
+    <article class="post">
+
+      <div class="entry_image_wrapper">
+        <a href="{{ post.url }}">
+          <img class="entry_image" src="{{ post.image }}" />
+        </a>
+      </div>
+
+      <div class="entry">
+        <h4>
+          <a class="news-headline" href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        {% if post.event_start_date %}
+        <p class="blog-byline">Event starts on {{ post.date  | date: "%e %b, %Y" }}</p>
+        {% endif %}
+
+        {{ post.summary }}
+        <br/>
+        <br/>
+
+        <a href="{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
+      </div>
+
+      <div class="faint_border"></div>
+
+    </article>
+    {% endfor %}
+
+</div>
+
+
 - [2020 User Meeting - Warsaw, Poland](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/463044644/MATSim+User+Meeting+2020)
 
 
