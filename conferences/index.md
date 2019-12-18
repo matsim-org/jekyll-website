@@ -7,6 +7,8 @@ title: Conferences and Meetings
 
 Here you will find links to upcoming and past conferences and meetings related to MATSim research and application.
 
+{% comment %} with some liquid wizardry, one can probably detect those posts that are older than the current date and move them to "past events" automatically {% endcomment %}
+
 <div class="col-md-12 posts">
 
     <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
@@ -25,7 +27,7 @@ Here you will find links to upcoming and past conferences and meetings related t
           <a class="news-headline" href="{{ post.url }}">{{ post.title }}</a>
         </h4>
         {% if post.event_start_date %}
-        <p class="blog-byline">Event starts on {{ post.date  | date: "%e %b, %Y" }}</p>
+        <p class="blog-byline">Event starts on {{ post.event_start_date  | date: "%e %b, %Y" }}</p>
         {% endif %}
 
         {{ post.summary }}
