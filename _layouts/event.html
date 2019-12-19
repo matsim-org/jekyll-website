@@ -26,8 +26,33 @@ layout: default
 {% capture title_section %}
             <h3>{{ page.title }}</h3>
             <div class="date">
-                Event starts on {{ page.event_start_date | date: "%e %B, %Y" }}
+                <p>
+                {% if page.event_date.start %}
+                    <i class="fa fa-calendar">&nbsp;</i>
+                    {% if page.event_date.end %}
+                        {{ page.event_date.start | date: "%e %B, %Y" }}
+                        to
+                        {{ page.event_date.end | date: "%e %B, %Y" }}
+                    {% else %}
+                        on {{ page.event_date.start | date: "%e %B, %Y" }}
+                    {% endif %}
+                {% endif %}
+                </p>
+                <p>
+                {% assign contact_name=page.contact.name | default: page.contact.email %}
+                {% if contact_name %}
+                    <i class="fa fa-envelope">&nbsp;</i>
+                    Contact:
+                    {% if page.contact.email %}
+                        <a href="mailto:{{ page.contact.email }}">{{contact_name}}</a>
+                    {% else %}
+                        {{contact_name}}
+                    {% endif %}
+                {% endif %}
+                </p>
+                <p>
                 {{ tags_content }}
+                </p>
             </div>
 {% endcapture %}
 
@@ -75,6 +100,8 @@ layout: default
     <!-- <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
    target="_blank">&raquo;&nbsp;Share on Twitter</a>
     -->
+    <br/>
+    <a href="/conferences/">&raquo;&nbsp;Other events and conferences</a>
     <br/><br/>
   </div>
 

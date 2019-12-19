@@ -1,6 +1,11 @@
 ---
 title: MATSim User Meeting 2020
-event_start_date: 2020-04-06
+event_date:
+    start: 2020-04-06
+contact:
+    name: Stefano Penazzi and Thibaut Dubernet
+    email: matsim2020@ethz.ch
+summary: "Register now to meet and exchange with fellow MATSim users!"
 ---
 
 ## MATSim User Meeting

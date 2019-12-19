@@ -26,9 +26,27 @@ Here you will find links to upcoming and past conferences and meetings related t
         <h4>
           <a class="news-headline" href="{{ post.url }}">{{ post.title }}</a>
         </h4>
-        {% if post.event_start_date %}
-        <p class="blog-byline">Event starts on {{ post.event_start_date  | date: "%e %b, %Y" }}</p>
-        {% endif %}
+        <p class="blog-byline">
+            {% if post.event_date.start %}
+                {% if post.event_date.end %}
+                    {{ post.event_date.start | date: "%e %B, %Y" }}
+                    to
+                    {{ post.event_date.end | date: "%e %B, %Y" }}.
+                {% else %}
+                    on {{ post.event_date.start | date: "%e %B, %Y" }}.
+                {% endif %}
+            {% endif %}
+
+            {% assign contact_name=post.contact.name | default: post.contact.email %}
+            {% if contact_name %}
+                Contact:
+                {% if post.contact.email %}
+                    <a href="mailto:{{ post.contact.email }}">{{contact_name}}</a>
+                {% else %}
+                    {{contact_name}}
+                {% endif %}
+            {% endif %}
+        </p>
 
         {{ post.summary }}
         <br/>
