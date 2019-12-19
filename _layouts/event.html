@@ -1,0 +1,113 @@
+---
+layout: default
+---
+
+{% if page.tags.size > 0 %}
+    {% capture tags_content %}<br/>filed under: {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
+    {% for post_tag in page.tags %}
+        {% assign tag = '' %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.tag == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag != '' %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ tag.tag }}/">{{ tag.description }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+
+<article class="post">
+
+{% capture title_section %}
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                <p>
+                {% if page.event_date.start %}
+                    <i class="fa fa-calendar">&nbsp;</i>
+                    {% if page.event_date.end %}
+                        {{ page.event_date.start | date: "%e %B, %Y" }}
+                        to
+                        {{ page.event_date.end | date: "%e %B, %Y" }}
+                    {% else %}
+                        on {{ page.event_date.start | date: "%e %B, %Y" }}
+                    {% endif %}
+                {% endif %}
+                </p>
+                <p>
+                {% assign contact_name=page.contact.name | default: page.contact.email %}
+                {% if contact_name %}
+                    <i class="fa fa-envelope">&nbsp;</i>
+                    Contact:
+                    {% if page.contact.email %}
+                        <a href="mailto:{{ page.contact.email }}">{{contact_name}}</a>
+                    {% else %}
+                        {{contact_name}}
+                    {% endif %}
+                {% endif %}
+                </p>
+                <p>
+                {{ tags_content }}
+                </p>
+            </div>
+{% endcapture %}
+
+
+{% if page.image-wide %}
+      <div class="entry">
+          <img src="{{ page.image-wide }}" alt="{{ page.title }}" />
+      </div>
+
+      <div id="title-wide">
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% elsif page.image %}
+      <div id="title1">
+            <img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" />
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% else %}
+      <div id="title1">
+          {{ title_section }}
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% endif %}
+
+  <h2></h2>
+  <div class="bottom-link">
+    <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
+    <!-- <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
+   target="_blank">&raquo;&nbsp;Share on Twitter</a>
+    -->
+    <br/>
+    <a href="/conferences/">&raquo;&nbsp;Other events and conferences</a>
+    <br/><br/>
+  </div>
+
+  {% if page.comments %}
+    <h4>Discussion and Comments</h4>
+      {% include comments.html %}
+  {% endif %}
+
+</article>

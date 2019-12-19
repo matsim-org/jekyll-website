@@ -7,8 +7,60 @@ title: Conferences and Meetings
 
 Here you will find links to upcoming and past conferences and meetings related to MATSim research and application.
 
-- [2020 User Meeting - Warsaw, Poland](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/463044644/MATSim+User+Meeting+2020)
+{% comment %} with some liquid wizardry, one can probably detect those posts that are older than the current date and move them to "past events" automatically {% endcomment %}
 
+<div class="col-md-12 posts">
+
+    <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
+
+    {% for post in site.conferences %}
+    <article class="post">
+
+      <div class="entry_image_wrapper">
+        <a href="{{ post.url }}">
+          <img class="entry_image" src="{{ post.image }}" />
+        </a>
+      </div>
+
+      <div class="entry">
+        <h4>
+          <a class="news-headline" href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <p class="blog-byline">
+            {% if post.event_date.start %}
+                {% if post.event_date.end %}
+                    {{ post.event_date.start | date: "%e %B, %Y" }}
+                    to
+                    {{ post.event_date.end | date: "%e %B, %Y" }}.
+                {% else %}
+                    on {{ post.event_date.start | date: "%e %B, %Y" }}.
+                {% endif %}
+            {% endif %}
+
+            {% assign contact_name=post.contact.name | default: post.contact.email %}
+            {% if contact_name %}
+                Contact:
+                {% if post.contact.email %}
+                    <a href="mailto:{{ post.contact.email }}">{{contact_name}}</a>
+                {% else %}
+                    {{contact_name}}
+                {% endif %}
+            {% endif %}
+        </p>
+
+        {{ post.summary }}
+        <br/>
+        <br/>
+
+        <a href="{{ post.url }}" class="read-more">&raquo;&nbsp;Read&nbsp;More&hellip;</a>
+      </div>
+
+      <div class="faint_border"></div>
+
+    </article>
+    {% endfor %}
+
+</div>
 
 <br/>
 
