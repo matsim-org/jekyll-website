@@ -5,7 +5,7 @@ event_date:
 contact:
     name: Stefano Penazzi and Thibaut Dubernet
     email: matsim2020@ethz.ch
-summary: "Register now to meet and exchange with fellow MATSim users!"
+summary: "Register until Feb. 29, 2019 to meet and exchange with fellow MATSim users!"
 ---
 
 ## MATSim User Meeting
@@ -34,8 +34,11 @@ All questions about submissions should be emailed to [matsim2020@ethz.ch](mailto
 In order to cover for the costs of room rental, coffee breaks and lunch,
 there is a registration fee of **50 Euros**.
 
-To register, please enter your contact information below.
+To register, please enter your contact information below **before February 20, 2020**.
 We will come back to you in due time with bank transfer information.
+
+If you are not sure yet to come (for instance because that is dependent on your abstract being accepted),
+please register nonetheless and inform us in the "remarks" field.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvkvuCMzNupUvFXWeare_AOln9MIXphLqM3JobGXb8KnNccg/viewform?embedded=true" width="640" height="1185" frameborder="0" marginheight="0" marginwidth="0">
 Loading…
