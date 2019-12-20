@@ -27,14 +27,32 @@ layout: default
             <h3>{{ page.title }}</h3>
             <div class="date">
                 <p>
-                {% if page.event_date.start %}
-                    <i class="fa fa-calendar">&nbsp;</i>
+                {% if page.event_date %}
                     {% if page.event_date.end %}
+                        <i class="fa fa-calendar">&nbsp;</i>
                         {{ page.event_date.start | date: "%e %B, %Y" }}
                         to
                         {{ page.event_date.end | date: "%e %B, %Y" }}
                     {% else %}
+                        <i class="fa fa-calendar">&nbsp;</i>
                         on {{ page.event_date.start | date: "%e %B, %Y" }}
+                    {% endif %}
+                    {% for date in page.event_date.other_dates %}
+                        <br>
+                        <i class="fa fa-calendar">&nbsp;</i>
+                        {{date.name}}: {{date.date | date: "%e %B, %Y"}}
+                    {% endfor %}
+                {% endif %}
+                </p>
+                <p>
+                {% if page.location.name %}
+                    <i class="fa fa-map-pin">&nbsp;</i>
+                    {% if page.location.url %}
+                        <a href="{{page.location.url}}">
+                    {% endif %}
+                        {{page.location.name}}
+                    {% if page.location.url %}
+                            </a>
                     {% endif %}
                 {% endif %}
                 </p>

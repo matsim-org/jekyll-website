@@ -31,15 +31,27 @@ Here you will find links to upcoming and past conferences and meetings related t
                 {% if post.event_date.end %}
                     {{ post.event_date.start | date: "%e %B, %Y" }}
                     to
-                    {{ post.event_date.end | date: "%e %B, %Y" }}.
+                    {{ post.event_date.end | date: "%e %B, %Y" }}
                 {% else %}
-                    on {{ post.event_date.start | date: "%e %B, %Y" }}.
+                    on {{ post.event_date.start | date: "%e %B, %Y" }}
                 {% endif %}
             {% endif %}
 
+            {% if post.location.name %}
+                in 
+                {% if post.location.url %}
+                    <a href="{{post.location.url}}">
+                {% endif %}
+                    {{post.location.name}}
+                {% if post.location.url %}
+                        </a>
+                {% endif %}
+            {% endif %}
+
+
             {% assign contact_name=post.contact.name | default: post.contact.email %}
             {% if contact_name %}
-                Contact:
+                <br>Contact:
                 {% if post.contact.email %}
                     <a href="mailto:{{ post.contact.email }}">{{contact_name}}</a>
                 {% else %}

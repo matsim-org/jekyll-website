@@ -2,9 +2,20 @@
 title: MATSim User Meeting 2020
 event_date:
     start: 2020-04-06
+    other_dates:
+        - name: Submissions until
+          date: 2020-02-27
+        - name: Registration until
+          date: 2020-02-27
+
+location:
+    name: Warsaw, Poland
+    url: https://goo.gl/maps/RDSs7HCLAzD211c77
+
 contact:
     name: Stefano Penazzi and Thibaut Dubernet
     email: matsim2020@ethz.ch
+
 summary: "Register until Feb. 29, 2019 to meet and exchange with fellow MATSim users!"
 ---
 
