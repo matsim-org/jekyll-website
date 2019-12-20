@@ -9,6 +9,6 @@ Registration for the user meeting is now open on the [page of the event](/confer
 until February 27th, 2020.
 
 We encourage you to register at your earliest convenience,
-even if you do not yet know whether you will be able to come.
+*even if you do not yet know whether you will be able to come*.
 This will help make sure we have enough seats and food for all participants,
 and you will have the possibility to pay only when you are sure to come.
