@@ -26,7 +26,7 @@ compiling and in many cases even secured by a regression test.
 
 &nbsp;
 
-[2019: MATSim class at TU Berlin (MATSim version 0.11.x)](/content/2019-matsim-class-tu-berlin-matsim-version-011x).
+[2019: MATSim class at TU Berlin (MATSim version 11.x)](/content/2019-matsim-class-tu-berlin-matsim-version-11x).
 
 [2018: MATSim class at TU Berlin (MATSim version 0.10.x)](/content/2018-matsim-class-tu-berlin-matsim-version-010x).
 
