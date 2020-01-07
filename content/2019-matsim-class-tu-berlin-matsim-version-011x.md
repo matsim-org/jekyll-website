@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 2019 MATSim class at TU Berlin (matsim version 0.11.x)
+title: 2019 MATSim class at TU Berlin (matsim version 11.x)
 ---
 
 
-# 2019: MATSim class at TU Berlin (matsim version 0.11.x)
+# 2019: MATSim class at TU Berlin (matsim version 11.x)
 
 This is a summary of tutorials of the MATSim class at TU Berlin which is held 
 each year during the summer term. The tutorials provide a step-by-step 
@@ -13,7 +13,7 @@ It does not always go too much into detail (as it is usually taught in a
 very responsive way in a classroom), so if you need more details about a 
 certain topic, please also consult the [MATSim book](/the-book). All code 
 snippets in this tutorial are direct links to the GitHub repository 
-of MATSim release 0.11.0 (Summer 2019).
+of MATSim release 11.0 (Summer 2019).
 
 **It is not recommended to use any other MATSim version with this tutorial.**
 
