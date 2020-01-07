@@ -17,7 +17,7 @@ We are now aiming for the following:
 - TU Berlin teaches a MATSim class during every summer term.  
 We plan to move the tutorial material of that class to the site 
 here at the end of each term (i.e. around July/August of every year). 
-[The most current version is the 2019 course](/content/2019-matsim-class-tu-berlin-matsim-version-011x).
+[The most current version is the 2019 course](/content/2019-matsim-class-tu-berlin-matsim-version-11x).
 
 Additional material is available under [matsim.org/javadoc](/javadoc) --> main distribution --> tutorials.  
 That material may be a bit more difficult to find or read, but it has the advantage 
