@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Joschka Bischoff
-title: Job Posting: Mobility Expert at SBB
-summary: The SBB business development team is looking for a Simulation expert.
+title: "Job Posting: Mobility Expert at SBB"
+summary: "The SBB business development team is looking for a Simulation expert."
 ---
 
 The SBB business development team, located in Berne, Switzerland, is looking for a Simulation expert. The position has one focus on transport simulations, including MATSim, and their applications in strategical company planning.
