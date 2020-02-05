@@ -24,6 +24,11 @@ summary: "Register until Feb. 29, 2019 to meet and exchange with fellow MATSim u
 This year the annual MATSim user meeting will be in Warsaw, Poland.
 The meeting occurs on April 6th just a day before the [ANT conference](http://cs-conferences.acadiau.ca/ant-20/),
 which begins on Tuesday, April 7th.
+The meeting will last for the whole day, alternating presentations and time for exchange.
+Holding a presentation is by no means a condition for attending the meeting,
+so feel free to register to hear about other's work and exchange.
+
+## Call for Abstracts
 
 We are now accepting submissions for the User Meeting from both Science and Industry.
 
