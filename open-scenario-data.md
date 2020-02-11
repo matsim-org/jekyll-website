@@ -15,9 +15,9 @@ VSP, TU Berlin
 Berlin:
 <https://github.com/matsim-vsp/matsim-berlin>
 
-Ruhr area: https://github.com/matsim-vsp/matsim-ruhrgebiet
+Ruhr area: <https://github.com/matsim-vsp/matsim-ruhrgebiet>
 
-Sweden: https://github.com/matsim-vsp/matsim-sweden
+Sweden: <https://github.com/matsim-vsp/matsim-sweden>
 
 Some other open source example data sets, including some regional real world data sets. The directories are hierarchically organized and should be self-explanatory. We try to provide readme files, but this does not always work:
 <https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/>
@@ -44,7 +44,7 @@ Other links to open data
 ------------------------
 (just a list of links we've come across)
 
-A registry of public transit data: http://transit.land .
+A registry of public transit data: <http://transit.land> .
 
 German rail:
 
@@ -57,6 +57,6 @@ Visualizations
 
 (this is not necessarily "data", but links to data and links to visualizations often come together and/or cannot be cleanly separated)
 
-Charging stations in Europe: https://ccs-map.eu .
+Charging stations in Europe: <https://ccs-map.eu> .
 
-TRAVIC Transit Visualization Client http://travic.cs.uni-freiburg.de/ or https://tracker.geops.ch or https://github.com/geops .
+TRAVIC Transit Visualization Client <http://travic.cs.uni-freiburg.de/> or <https://tracker.geops.ch> or <https://github.com/geops> .
