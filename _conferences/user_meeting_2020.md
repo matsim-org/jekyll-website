@@ -28,6 +28,46 @@ The meeting will last for the whole day, alternating presentations and time for 
 Holding a presentation is by no means a condition for attending the meeting,
 so feel free to register to hear about other's work and exchange.
 
+The user meeting will be followed by a _business meeting_,
+where strategic decisions relevant to the future of MATSim are discussed.
+To keep the group size manageable, we recommend that each institution decides on
+(at most) one person to attend that meeting.
+
+This year, the discussions will mostly revolve around the foundation of a
+_MATSim Association_. The aim of that association is to become the entity steering
+further development of the MATSim platform, a role which was until now taken by academic chairs.
+The association should provide various benefits to the community as whole, in particular:
+
+- Give a formal way for each and every user to participate in decisions, by becoming a member
+- Ensure long-term stability of the development, by making it less dependent on the continuity of the academic chairs
+- Give the possibility for interested industrial users to pay for a commercial license.
+    The revenue from those licenses will allow to finance further
+    development and maintenance of the GPL-licensed version of MATSim,
+    while keeping membership fees to a reasonable level.
+
+The day will close with the formal _foundation meeting_,
+after which the association will legally start its existence.
+
+{:.extension-table}
+| Time           | Session                           |
+|----------------|-----------------------------------|
+|  9:00 - 10:30  | User Meeting - Presentations 1    |
+|                | _Coffee break_                    |
+| 11:00 - 12:30  | User Meeting - Presentations 2    |
+|                | _Lunch_                           |
+| 14:00 - 15:30  | User Meeting - Presentations 3    |
+|                | _Coffee break_                    |
+| 16:00 - 17:30  | Business Meeting                  |
+| 17:30 - 18:30  | Founding Meeting                  |
+
+Three [documents](https://polybox.ethz.ch/index.php/s/vXPsHvfwwfooTE0)
+where prepared and will be discussed:
+- the articles of the association, listing its purpose and rules
+- the _contribution agreement_, through which all past developers will be able to give the right
+    to the association to use their contribution to fulfill its mission,
+    by sharing ownership
+- the _contributor terms_, which future contributors will have to accept when doing a pull request.
+
 ## Call for Abstracts
 
 We are now accepting submissions for the User Meeting from both Science and Industry.
