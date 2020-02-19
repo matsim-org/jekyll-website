@@ -33,26 +33,6 @@ We'll either add your content or get back to you soon!
 
 ---
 
-#### News item markdown template
-
-The following template is required and should auto-fill when you create the new post, but here it is just in case:
-
-<pre>
----
-layout: post
-author: Kai Nagel
-title: "MATSim in the news"
-summary: "A sentence or two that will show up on the front page."
----
-
-Here is my news item.
-
-- Use regular markdown for the full news item content.
-- The header at the top of the file must contain an author, title, and summary
-</pre>
-
----
-
 #### If this is too complicated
 
 If this is just too much, [send us an email](mailto:sekretariat@vsp.tu-berlin.de) and we'll post your item for you.
