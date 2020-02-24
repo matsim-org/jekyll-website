@@ -68,6 +68,13 @@ where prepared and will be discussed:
     by sharing ownership
 - the _contributor terms_, which future contributors will have to accept when doing a pull request.
 
+## Venue
+
+The meeting will be held in the same venue as the ANT conference:
+the [Radisson Blu Sobieski Hotel](https://www.radissonhotels.com/en-us/hotels/radisson-blu-warsaw-sobieski).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.0660947550377!2d20.986712215796462!3d52.224016979759234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc97235cd483%3A0xc884fca7a7e70afc!2sRadisson%20Blu%20Sobieski%20Hotel%2C%20Warsaw!5e0!3m2!1sfr!2sch!4v1582558024928!5m2!1sfr!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
 ## Call for Abstracts
 
 We are now accepting submissions for the User Meeting from both Science and Industry.
