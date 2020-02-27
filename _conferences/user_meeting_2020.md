@@ -48,6 +48,9 @@ The association should provide various benefits to the community as whole, in pa
 The day will close with the formal _foundation meeting_,
 after which the association will legally start its existence.
 
+All participants to the user meeting are then invited to join for a (self-paid) dinner together,
+in a venue to be announced.
+
 {:.extension-table}
 | Time           | Session                           |
 |----------------|-----------------------------------|
@@ -59,6 +62,7 @@ after which the association will legally start its existence.
 |                | _Coffee break_                    |
 | 16:00 - 17:30  | Business Meeting                  |
 | 17:30 - 18:30  | Founding Meeting                  |
+|                | _Dinner_                          |
 
 Three [documents](https://polybox.ethz.ch/index.php/s/vXPsHvfwwfooTE0)
 where prepared and will be discussed:
