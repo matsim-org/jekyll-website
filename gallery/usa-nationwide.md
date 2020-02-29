@@ -22,7 +22,11 @@ the West Coast as it is 6 AM for them.
 
 ## Research paper
 
-Additional information can be found in the [research paper](https://www.researchgate.net/publication/337332041_Agent-based_modeling_to_simulate_road_travel_using_Big_Data_from_smartphone_GPS_An_application_to_the_continental_United_States).
+Additional information can be found in the [research paper](https://www.researchgate.net/publication/337332041_Agent-based_modeling_to_simulate_road_travel_using_Big_Data_from_smartphone_GPS_An_application_to_the_continental_United_States):
+
+Sashikanth Gurram, Vijayaraghavan Sivaraman, Jonathan T. Apple, Abdul R. Pinjari.
+<em>Agent-based modeling to simulate road travel using Big Data from smartphone GPS: An application to the continental United States</em>.
+2019.
 
 ### Abstract
 
