@@ -19,6 +19,18 @@ contact:
 summary: "Register until Feb. 29, 2019 to meet and exchange with fellow MATSim users!"
 ---
 
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Information Coronavirus</h3>
+  </div>
+  <div class="panel-body" >
+    <p>
+     Although we will do our best to make the meeting happen, depending on the evolution of the current Coronavirus outbreak, there is a possibility that the MATSim User Meeting needs to be canceled on short notice. We advise you to take that possibility into account while making your travel plans, for instance by booking refundable flight tickets, or clarifying the terms of your travel insurance in the case of a trip cancellation due to the cancellation of the event.
+    </p>
+  </div>
+</div>
+
+
 ## MATSim User Meeting
 
 This year the annual MATSim user meeting will be in Warsaw, Poland.
