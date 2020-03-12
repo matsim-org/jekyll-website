@@ -1,5 +1,5 @@
 ---
-title: MATSim User Meeting 2020
+title: <b>CANCELLED</b> MATSim User Meeting 2020
 event_date:
     start: 2020-04-06
     other_dates:
@@ -16,16 +16,25 @@ contact:
     name: Stefano Penazzi and Thibaut Dubernet
     email: matsim2020@ethz.ch
 
-summary: "Register until Feb. 29, 2019 to meet and exchange with fellow MATSim users!"
+summary: "The event was cancelled due to containment measures relative to the Coronavirus outbreak"
 ---
 
-<div class="panel panel-info">
-  <div class="panel-heading">
-    <h3 class="panel-title">Information Coronavirus</h3>
+{% assign red='#FF0000' %}
+
+<div class="panel panel-info" style='border-color: {{red}}'>
+  <div class="panel-heading" style='border-color: {{red}}; background-color: {{red}}'>
+    <h3 class="panel-title">MEETING CANCELLED</h3>
   </div>
   <div class="panel-body" >
     <p>
-     Although we will do our best to make the meeting happen, depending on the evolution of the current Coronavirus outbreak, there is a possibility that the MATSim User Meeting needs to be canceled on short notice. We advise you to take that possibility into account while making your travel plans, for instance by booking refundable flight tickets, or clarifying the terms of your travel insurance in the case of a trip cancellation due to the cancellation of the event.
+    We are sorry to announce that the MATSim User Meeting 2020 had to be <b>cancelled</b> on short notice.
+
+    The reason is an increasing number of key participants cancelling their participation due to institutional policies,
+    and increasing uncertainty about the possibility for other participants to travel to the meeting.
+
+    We apologize for the short notice and hope to see you at the next user meeting.
+
+    The information below is kept for later reference.
     </p>
   </div>
 </div>
