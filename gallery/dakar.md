@@ -19,4 +19,4 @@ Additional information is available in:
 Serigne Gueye, Babacar M. Ndiaye, Didier Josselin, Michael Poss, Roger M. Faye, Philippe Michelon, Cyrille Genre-Grandpierre, and Francesco Ciari.
 *Using mobile phone data for Spatial Planning simulation and Optimization Technologies (SPOT)*
 
-[Download PDF version of paper](/gallery/dakar/dakar_SPOT_D4D_Report.pdf)
+[Download PDF version of paper](/gallery/dakar_SPOT_D4D_Report.pdf)
