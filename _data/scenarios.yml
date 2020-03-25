@@ -1,3 +1,7 @@
+- name: "Dakar, Senegal"
+  url: /gallery/dakar
+  image: /gallery/dakar_thumb.png
+
 - name: "USA"
   url: /gallery/usa-nationwide
   image: /gallery/usa-nationwide_thumb.jpg
