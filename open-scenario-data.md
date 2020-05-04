@@ -12,7 +12,7 @@ Please give credit when using these scenarios.
 matsim.org
 --------------
 
-https://github.com/matsim-scenarios
+<https://github.com/matsim-scenarios>
 
 VSP, TU Berlin
 --------------
