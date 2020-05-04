@@ -7,19 +7,17 @@ Open Scenario Data
 
 The following is a list of known scenario data sets that are open and free to use with MATSim. Not all data sets contain all required files to run a MATSim model. Some may only provide a network for example.
 
-Please, give credit when using these scenarios.
+Please give credit when using these scenarios.
+
+matsim.org
+--------------
+
+https://github.com/matsim-scenarios
 
 VSP, TU Berlin
 --------------
 
-Berlin:
-<https://github.com/matsim-vsp/matsim-berlin>
-
-Ruhr area: <https://github.com/matsim-vsp/matsim-ruhrgebiet>
-
-Sweden: <https://github.com/matsim-vsp/matsim-sweden>
-
-Some other open source example data sets, including some regional real world data sets. The directories are hierarchically organized and should be self-explanatory. We try to provide readme files, but this does not always work:
+Most of our scenarios are now under https://github.com/matsim-scenarios.  Some older open source scenarios are still in our svn directory as follows. The directories are hierarchically organized and should be self-explanatory. We try to provide readme files, but this does not always work:
 <https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/>
 
 South Africa
