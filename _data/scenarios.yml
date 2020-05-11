@@ -6,6 +6,10 @@
   url: /gallery/usa-nationwide
   image: /gallery/usa-nationwide_thumb.jpg
 
+- name: "Open Île-de-France, France"
+  url: /gallery/ile_de_france
+  image: /gallery/ile_de_france_thumb.png
+
 - name: "Paris, France"
   url: /gallery/paris
   image: /gallery/paris_thumb.jpg
@@ -29,7 +33,7 @@
 - name: "Poznan, Poland"
   url: /gallery/poznan
   image: /gallery/poznan_thumb.jpg
-  
+
 - name: "Germany"
   url: /gallery/germany
   image: /gallery/germany_thumb.jpg
@@ -41,7 +45,7 @@
 - name: "Singapore"
   url: /gallery/singapore
   image: /gallery/singapore_thumb.jpg
-  
+
 - name: "Freight in South Africa"
   url: /gallery/south-africa
   image: /gallery/safrica_thumb.jpg
@@ -49,7 +53,7 @@
 - name: "Tel Aviv, Israel"
   url: /gallery/telaviv
   image: /gallery/telaviv_thumb.jpg
-  
+
 - name: "Berlin, Germany"
   url: /gallery/berlin
   image: /gallery/berlin_thumb.jpg
@@ -97,4 +101,3 @@
 - name: "Caracas, Venezuela"
   url: /gallery/caracas
   image: /gallery/caracas_thumb.jpg
-
