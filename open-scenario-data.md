@@ -26,6 +26,11 @@ South Africa
 Prof. Johan Joubert from the University of Pretoria has open sourced some of the scenarios he built, each consisting of a network and a population:
 <https://matsim.atlassian.net/wiki/display/MATPUB/South+Africa>
 
+Île-de-France
+-------------
+
+An open and reproducible simulation scenario for Île-de-France is available [here](/gallery/ile_de_france).
+
 MATSim Test Examples
 --------------------
 Some smaller scenarios are directly contained in the MATSim source repository, often used for feature demonstration or tests: <https://github.com/matsim-org/matsim/tree/master/examples>
