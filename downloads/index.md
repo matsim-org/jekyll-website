@@ -95,9 +95,9 @@ In my (kn's) view, one can actually get quite far in this way, i.e. by just edit
 
 #### <i class="fa fa-cube"></i> Latest Stable Release
 
-Version 0.10.1 "Summer 2018", released August 2018
+Version 12.0 "Summer 2020", released June 2020
 
-- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim/releases/download/matsim-0.10.1/matsim-0.10.1.zip	)  ca. 63 MB
+- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/matsim-12.0/matsim-12.0-release.zip	)  ca. 60 MB
 <!-- - [<i class="fa fa-cubes"></i> Extensions / Contribs](https://github.com/matsim-org/matsim/releases/tag/matsim-0.10.1) -->
 <!-- (we do not support that any longer. marcel/kai/joschka, aug'18) -->
 - [Older versions](https://github.com/matsim-org/matsim/tags)
@@ -147,7 +147,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>11.0</version>
+        <version>12.0</version>
       </dependency>
     </dependencies>
 
@@ -175,7 +175,7 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>12.0-SNAPSHOT</version>
+        <version>13.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
 
