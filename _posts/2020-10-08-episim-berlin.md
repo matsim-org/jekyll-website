@@ -24,6 +24,6 @@ For COVID-19, EpiSim uses a disease progression model taken from literature. Thi
 
 EpiSim can be used to investigate the effects of non pharmaceutical interventions. These include the reduction of out-of-home activities (for example closing of schools), reduced use of public transport, wearing of masks, contact tracing and reduced disease import. Current simulation results for Berlin can be found here: https://covid-sim.info 
 
-For more details, see the following preprint: https://doi.org/10.1101/2020.07.22.20160093
+For more details, see the following preprint: [https://doi.org/10.1101/2020.07.22.20160093](https://doi.org/10.1101/2020.07.22.20160093).
  
-![alt text](https://github.com/matsim-org/jekyll-website/blob/master/gallery/EpiSim_Berlin.png "Epidemic spread example for Berlin")
+![Epidemic spread example for Berlin](/gallery/EpiSim_Berlin.png)
