@@ -20,21 +20,19 @@ The book is divided into four parts, covering a broad range of topics on more th
 
 ### Availability
 
+#### Current version
+
+> Since the book keeps getting older, every year along with the MATSim class at TU Berlin we update the most important chapters, [make them available here](/docs/userguide/), and call it the User Guide.
+
 #### Edition 2016
 
+> The full book remains at the status of 2016.
+>
 > <i class="fa fa-file-pdf-o fa-lg"></i> Download as PDF or eBook: [available at Ubiquity Press](http://dx.doi.org/10.5334/baw)
 >
 > <i class="fa fa-book fa-lg"></i> Print on Demand: [available at Ubiquity Press](http://dx.doi.org/10.5334/baw)
-
-
-#### Current User's Guide
-
-> There is an [extract of the first couple of chapters](/docs/userguide/), which contains the most relevant topics for new users.  This extract is updated every year to the newest version of MATSim.
-
-
-<i class="fa fa-creative-commons fa-lg"></i> The book is published and available unter the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/us/) license.
-
-
+>
+> <i class="fa fa-creative-commons fa-lg"></i> The book is published and available unter the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/us/) license.
 
 ### Preferred Citation
 
