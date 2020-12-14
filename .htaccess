@@ -17,6 +17,7 @@ RewriteRule ^doxygen$ http://ci.matsim.org:8080/view/All/job/Doxygen_MATSim/ws/m
 RewriteRule ^faq$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
 RewriteRule ^qa$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
 RewriteRule ^issuetracker$ https://github.com/matsim-org/matsim-libs/issues [R=301,NC,L]
+RewriteRule ^issues$ https://github.com/matsim-org/matsim-libs/issues [R=301,NC,L]
 RewriteRule ^news$ https://matsim.org/archive/ [R=301,NC,L]
 RewriteRule ^blog$ https://matsim.org/archive/ [R=301,NC,L]
 RewriteRule ^wiki$ https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Space [R=301,NC,L]
