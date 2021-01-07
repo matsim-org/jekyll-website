@@ -1,4 +1,9 @@
-## Postdoc position at University of Littoral (Dunkerque)
+---
+layout: post
+author: Moez Kilani
+title: "Postdoc position at University of Littoral (Dunkerque)"
+summary: "A sentence or two that will show up on the front page"
+---
 
 Under the project “Sustainable Transport Under Pandemic Context”,
    University of Littoral has an immediate position for a postdoc researcher
