@@ -2,7 +2,7 @@
 layout: post
 author: Moez Kilani
 title: "Postdoc position at University of Littoral (Dunkerque)"
-summary: "A sentence or two that will show up on the front page"
+summary: "Collaboration on a transport model for the North of France"
 ---
 
 Under the project “Sustainable Transport Under Pandemic Context”,
