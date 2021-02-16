@@ -5,7 +5,7 @@ title: "MATSim User Meeting 2021"
 summary: "MATSim User Meeting 2021 will be held virtually on 22.03."
 ---
 
-MATSim User Meeting 2021 will be organized as a virtual event on 22.03. If you would like to present your work we invite you to submit a short abstract until 01.03. at: 
+MATSim User Meeting 2021 will be organized as a virtual event on March 22, 2021. If you would like to present your work we invite you to submit a short abstract until 01.03. at: 
 
 [Abstract Submission Page](https://easychair.org/conferences/?conf=mum2021) 
 
