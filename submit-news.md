@@ -21,7 +21,8 @@ We welcome MATSim-related news items, job postings, and event announcements for 
 
 0. You'll need a free account on Github to post items
 1. Click the **`Create item on Github`** button above, to draft a new item in the `_posts` directory of our site.
-2. Edit the **author**, **title**, and **summary** lines. The summary will be shown on the front page as a "teaser" blurb.
+2. Edit the **file name**, **author**, **title**, and **summary** lines. The summary will be shown on the front page as a "teaser" blurb.  
+    The file name becomes part of the URL, so please don't call it just "news-item", but give it a specific name.
 3. Add your remaining content in [standard Markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 4. Preview your post using the `Preview` pane, and when done...
 5. You're ready to create your pull request!
