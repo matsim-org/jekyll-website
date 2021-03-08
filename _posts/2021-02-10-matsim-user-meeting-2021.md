@@ -11,6 +11,8 @@ MATSim User Meeting 2021 will be organized as a virtual event on March 22, 2021.
 
 We will try to accommodate all time zones and to give everyone a chance to present their work. All the updates regarding the Meeting will be published here.
 
-The attendance will be free of charge.
+The attendance will be free of charge. For those that do not want to present, but are still interested to attend the meeting, please fill out this form:
+
+[Non-presenter Registration Link](https://forms.gle/dMAg9bevXFci6jCd9)
 
 In case of questions please contact [Milos Balac](mailto:milos.balac@ivt.baug.ethz.ch?subject=MUM2021) or [Stefano Penazzi](mailto:stefano.penazzi@ivt.baug.ethz.ch?subject=MUM2021).
