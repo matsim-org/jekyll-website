@@ -19,11 +19,14 @@ If you want to contribute an extension, please see [here](/docs/contributing/ext
 
 ### Availability: Contrib
 
-Please see our [Javadoc page](/javadoc).
+Please see [here](https://github.com/matsim-org/matsim-libs/tree/master/contribs).  Click into the respective contrib to view the respective README.md, which should give further information.
+
+<!-- Please see our [Javadoc page](/javadoc). -->
 
 Please note that these extensions are usually maintained and provided by single members of the community. The MATSim core development team cannot make any guarantee that these extensions will be kept up-to-date and compatible with future releases, instead the maintainers themselves are responsible for this task.
 
-For maintainers: Please use `src/main/javadoc/overview.html` inside your contrib for an introductory description of your contrib.  See, e.g., the emissions contrib for an example.
+For maintainers: Please use `README.md` in your respective contrib directory as a starting point for documentation.  See, e.g., the `discrete_mode_choice` contrib for an example.
+<!-- Please use `src/main/javadoc/overview.html` inside your contrib for an introductory description of your contrib.  See, e.g., the emissions contrib for an example. -->
 
 ---
 
@@ -46,5 +49,3 @@ For maintainers: Please use `src/main/javadoc/overview.html` inside your contrib
 </table>
 
 Please note that these extensions are usually maintained and provided by single members of the community. The MATSim core development team cannot make any guarantee that these extensions will be kept up-to-date and compatible with future releases, instead the maintainers themselves are responsible for this task.
-
-
