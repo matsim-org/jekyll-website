@@ -95,12 +95,10 @@ In my (kn's) view, one can actually get quite far in this way, i.e. by just edit
 
 #### <i class="fa fa-cube"></i> Latest Stable Release
 
-Version 12.0 "Summer 2020", released June 2020
+Version 13.0 "Spring 2021", released April 2021
 
-- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/matsim-12.0/matsim-12.0-release.zip	)  ca. 60 MB
-<!-- - [<i class="fa fa-cubes"></i> Extensions / Contribs](https://github.com/matsim-org/matsim/releases/tag/matsim-0.10.1) -->
-<!-- (we do not support that any longer. marcel/kai/joschka, aug'18) -->
-- [Older versions](https://github.com/matsim-org/matsim/tags)
+- [<i class="fa fa-download"></i> Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/13.0/matsim-13.0-release.zip)  ca. 60 MB
+- [Older versions](https://github.com/matsim-org/matsim-libs/releases)
 - [Even older versions (on sourceforge)](https://sourceforge.net/projects/matsim/files/MATSim/)
 
 </div>
@@ -109,13 +107,6 @@ Version 12.0 "Summer 2020", released June 2020
 ####   <i class="fa fa-bug"></i> Development Version
 
 This (= using a development version of MATSim via the GUI) is not recommended any longer.  If you cannot work with a release, you should use the IDE and maven.
-
-<!-- Maybe we keep this up and running as long as it works.  But if the build server ever starts failing us on this, I think we should just also remove this section here.  kai, oct'17 -->
-
-<!-- These versions are typically less stable and don't come with up-to-date documenation, but may contain new features. -->
-
-<!-- - [<i class="fa fa-download"></i> Download](/files/builds/) a Nightly Build. -->
-<!-- - [<i class="fa fa-book"></i> How to use Nightly Builds](/downloads/nightly) -->
 
 </div>
 </div>
@@ -136,8 +127,8 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
     <repositories>
       <repository>
         <id>matsim</id>
-        <name>MATSim release repository</name>
-        <url>http://dl.bintray.com/matsim/matsim</url>
+        <name>MATSim Maven repository</name>
+        <url>https://repo.matsim.org/repository/matsim/</url>
 
 
 
@@ -147,7 +138,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>12.0</version>
+        <version>13.0</version>
       </dependency>
     </dependencies>
 
@@ -175,7 +166,7 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
       <dependency>
         <groupId>org.matsim</groupId>
         <artifactId>matsim</artifactId>
-        <version>13.0-SNAPSHOT</version>
+        <version>14.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
 
