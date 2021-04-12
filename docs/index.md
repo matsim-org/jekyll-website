@@ -20,7 +20,6 @@ title: Documentation
 - [Userguide](/docs/userguide)
 - [Extensions](/extensions)
 - [MATSim Book](/the-book)
-- [Community Reports](https://matsim.atlassian.net/wiki/display/MATPUB/MATSim+Community+Report)
 - [Q&A](/faq)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
@@ -29,9 +28,8 @@ title: Documentation
 
 ### For Developers
 
-- [API Documentation](/javadoc) (Javadoc)
 - [API Documentation](/doxygen) (Doxygen)
-- [Issue Tracker](/issuetracker) (JIRA)
+- [Issue Tracker](/issuetracker) (GitHub)
 - [Build Server](/buildserver) (Jenkins)
 - [MATSim Community pages](/wiki) (user guides, DIY instructions, etc.)
 
