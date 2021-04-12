@@ -13,14 +13,8 @@ Here you will find links to upcoming and past conferences and meetings related t
 
     <!-- The news items in _data/news.yml are auto-generated from the CI build script once an hour. -->
 
-    {% for post in site.conferences %}
+    {% for post in site.conferences reversed %}
     <article class="post">
-
-      <div class="entry_image_wrapper">
-        <a href="{{ post.url }}">
-          <img class="entry_image" src="{{ post.image }}" />
-        </a>
-      </div>
 
       <div class="entry">
         <h4>
@@ -80,6 +74,7 @@ Here you will find links to upcoming and past conferences and meetings related t
 
 Here you can find information and documentation from the annual MATSim user meeting and MATSim tutorials. The user meeting and a preceding overview tutorial take place annually, often alternating between Zurich and Berlin. Special tutorials are held upon request.
 
+- [2020 User Meeting - Warsaw, Poland \| Cancelled](/conferences/user_meeting_2020)
 - [2019 User Meeting - Leuven, Belgium](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/365133825/MATSim+User+Meeting+2019)
 - [2018 User Meeting - Atlanta, USA](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/116916260/MATSim+User+Meeting+2018+ITM+Atlanta+June+23) - [(Slides available)](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/299335682/Presentations+from+MATSim+User+meeting+2018)
 - [2017 User Meeting - Haifa, Israel](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/117899265/MATSim+User+Meeting+special+session+hEART+2017) (some [presentation slides](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/112202007/Presentations+at+the+MATSim+User+Meeting+2017) also available)

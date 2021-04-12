@@ -8,7 +8,10 @@ title: Javadoc
 
 # Documentation
 
-The following documentations are available:
+The following documentations are available.
+
+Please note that we do not publish API docs for MATSim 13.0 or newer here.  
+If you really need them, you can download the corresponding javadocs-jar from our [Maven repository](https://repo.matsim.org/#browse/browse:matsim:org%2Fmatsim).
 
 
 <table border="0" cellpadding="1" cellspacing="1" class="table table-hover table-condensed" style="width:100%;">

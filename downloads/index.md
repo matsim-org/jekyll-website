@@ -129,9 +129,6 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
         <id>matsim</id>
         <name>MATSim Maven repository</name>
         <url>https://repo.matsim.org/repository/matsim/</url>
-
-
-
       </repository>
     </repositories>
     <dependencies>
@@ -154,12 +151,9 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
 
     <repositories>
       <repository>
-        <id>ojo-snapshots</id>
-        <name>MATSim snapshot repository</name>
-        <url>http://oss.jfrog.org/libs-snapshot</url>
-        <snapshots>
-          <enabled>true</enabled>
-        </snapshots>
+        <id>matsim</id>
+        <name>MATSim Maven repository</name>
+        <url>https://repo.matsim.org/repository/matsim/</url>
       </repository>
     </repositories>
     <dependencies>

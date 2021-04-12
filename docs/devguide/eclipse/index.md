@@ -11,13 +11,13 @@ The following sections explain how to install and setup Eclipse Mars (4.5, relea
 
 You must have the following software installed and ready to use:
 
-- **Java SDK 1.8 or newer**
-  To use MATSim, you need to have a Java SDK (JDK) installed and not only a Java Runtime Environment (JRE). Best is to download and install the newest version of the "Java SE Development Kit" from [oracle.com](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
-- **Eclipse**
+- **Java 11 or newer**  
+  To use MATSim, you need to have a Java SDK (JDK) installed and not only a Java Runtime Environment (JRE). Best is to download and install JDK 11 from [adoptopenjdk.net](https://adoptopenjdk.net).
+- **Eclipse**  
   Download Eclipse from [eclipse.org](http://www.eclipse.org/downloads/), the package "Eclipse IDE for Java Developers" is enough for MATSim. Unzip the downloaded file and place it on some suitable location on your harddisk. Eclipse does not require any special installation. Experience shows that on Windows it's best to install Eclipse at a location that does not require administrative rights.
-- **Configure Eclipse**
+- **Configure Eclipse**  
   Use [UTF8 as File-Encoding](/docs/devguide/ide-configuration).
-- **Make sure Eclipse is running from a JDK**
+- **Make sure Eclipse is running from a JDK**  
   [Configure Eclipse to use a JDK](/docs/devguide/eclipse/jdk)
  
 

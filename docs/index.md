@@ -51,7 +51,7 @@ title: Documentation
 <!-- - [MATSim example project](/content/matsim-example-project) -->
 - [General Tutorials](/docs/tutorials/general)
 - [MATSim book and user guide](/content/matsim-book-and-users-guide)
-- [Simulation of public transport](https://matsim.atlassian.net/wiki/display/MATPUB/Transit+Tutorial)
+- [Simulation of public transport](https://github.com/matsim-org/matsim-code-examples/wiki/pt)
 
 </div>
 
