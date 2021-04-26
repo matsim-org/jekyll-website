@@ -1,6 +1,6 @@
 ---
 layout: post author: Michal Maciejewski
-title: "Pull-request-based releases"
+title: "PR-labelled releases"
 summary: "We have added a new type of MATSim releases that are created after each pull request is merged."
 ---
 
