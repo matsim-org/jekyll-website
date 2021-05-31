@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Nadja Dautel
-title: "Research assistant position: Simulation of traffic- and pandemic dynamics with MATSim at faculty: Transport Systems Planning and Transport Telematics, TU Berlin"
-summary: "In the context of various research projects in the field of traffic- and pandemic dynamics modeling with MATSim, we are looking for a reinforcement for our team. Therefore we offer a research assistant position - salary grade E 13 TV-L Berliner Hochschulen"
+title: "Research assistant/PhD candidate position at Transport Systems Planning and Transport Telematics, TU Berlin"
+summary: "Research in the context of various research projects in the field of traffic and pandemic dynamics modeling with MATSim"
 ---
 
 **[For English please see below]** <br>
@@ -15,7 +15,7 @@ Fakultät V - Institut für Land- und Seeverkehr / FG Verkehrssystemplanung und 
 <p>
 Aufgabenbeschreibung: <br>
 <ul>
-<li> Mitarbeit in verschiedenen Forschungsprojekten im Bereich der Modellierung von CO2-freiem Verkehr, autonomen Fahrzeugen und Virusdynamik. </li>
+<li> Mitarbeit nach Interesse in verschiedenen Forschungsprojekten im Bereich der Modellierung von CO2-freiem Verkehr, autonomen Fahrzeugen und Virusdynamik. </li>
 <li> Mitarbeit am Fachgebiet in Forschung sowie Unterstützung der Lehre. </li>
 <li> Weiterentwicklung von Multiagentensimulationsmodellen in MATSim. </li>
 <li> Zusammenarbeit mit nationalen und internationalen Partnern. </li>

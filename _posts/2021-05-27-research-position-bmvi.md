@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Nadja Dautel
-title: "Research assistant position, Transport Systems Planning and Transport Telematics, TU Berlin"
-summary: "Research in the context of the BMVI-funded project \"Implementation of a weather-independent and highly automated ridesharing service using AI in the district of Kelheim as a complement to regional public transport and to enable mobility for an extended target group subproject: Simulation-based investigation of traffic and environmental impacts.\""
+title: "Research assistant/PhD candidate position at Transport Systems Planning and Transport Telematics, TU Berlin"
+summary: "Research in and coordination of subproject \"Simulation-based investigation of traffic and environmental impacts\" within BMVI-funded project \"Implementation of a weather-independent and highly automated ridesharing service using AI in the district of Kelheim as a complement to regional public transport ...\""
 ---
 **[For English please see below]** <br>
 <br>

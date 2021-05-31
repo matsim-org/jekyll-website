@@ -1,14 +1,14 @@
 ---
 layout: post
 author: Nadja Dautel
-title: "Research assistant position: Simulation of the COVID-19 pandemic dynamics with MATSim at faculty: Transport Systems Planning and Transport Telematics, TU Berlin"
-summary: "In the context of the BMBF-funded project \"Model-supported investigation of school closures and further measures for the containment of COVID-19\" we are looking for a reinforcement for our team"
+title: "Research assistant/PhD candidate position at Transport Systems Planning and Transport Telematics, TU Berlin"
+summary: "Research in and coordination of the BMBF-funded project \"Model-supported investigation of school closures and other interventions for the containment of COVID-19\""
 ---
 ***[For English please see below]***  <br>
 
 Bei der Technischen Universität Berlin ist die folgende Stelle zu besetzen:  <br>
 **Wiss. Mitarbeiter*in (d/m/w) - Entgeltgruppe 13 TV-L Berliner Hochschulen**  <br>
-Im Rahmen des BMBF-geförderten Projektes „Modellgestützte Untersuchung von Schulschließungen und weiteren Maß- nahmen zur Eindämmung von COVID-19“.  <br>
+Im Rahmen des BMBF-geförderten Projektes „Modellgestützte Untersuchung von Schulschließungen und weiteren Maßnahmen zur Eindämmung von COVID-19“.  <br>
 Teilzeitbeschäftigung ist ggf. möglich
 
 Fakultät V - Institut für Land- und Seeverkehr / FG Verkehrssystemplanung und Verkehrstelematik **Kennziffer: V-258/21** (besetzbar ab sofort / befristet bis 31.03.2024, Verlängerung wird angestrebt / Bewerbungsfristende 18.06.2021)
@@ -24,7 +24,7 @@ Erwartete Qualifikationen:  <br>
 
 Erforderlich: <br>
 <ul>
-<li> Erfolgreich abgeschlossenes wissenschaftliches Hochschulstudium (Master, Diplom oder Äquivalent) im technisch- naturwissenschaftlichem Bereich. </li>
+<li> Erfolgreich abgeschlossenes wissenschaftliches Hochschulstudium (Master, Diplom oder Äquivalent) im technisch-naturwissenschaftlichem Bereich. </li>
 <li> Organisationstalent, Kommunikationsfähigkeiten und Durchsetzungsvermögen. </li>
 <li> Klar erkennbare strukturierte und prozessorientierte Arbeitsweise. </li>
 <li> Kenntnisse im Umgang mit Analysesoftware (z.B. R oder Python). </li>
