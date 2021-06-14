@@ -11,3 +11,5 @@ In this internship, you will be part of a small product-focused team, working to
 MATSim is used as part of the computation pipeline, making this a great opportunity to get experience in using agent-based models in customer-facing products.
 
 More information and applications [on the job posting's page on Teralytics' website](https://www.teralytics.net/jobs/?gh_jid=3216198).
+
+For more information, feel free to reach out to [Thibaut Dubernet](mailto:thibaut.dubernet@teralytics.ch)
