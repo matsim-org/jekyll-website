@@ -9,7 +9,7 @@ The MATSim model of Île-de-France is open and reproducible. It is based entirel
 
 The methodology is documented in detail in the following publication:
 
-> Hörl, S. and M. Balac (2020) [Reproducible scenarios for agent-based transport simulation: A case study for Paris and Île-de-France](https://www.researchgate.net/publication/341131284_Reproducible_scenarios_for_agent-based_transport_simulation_A_case_study_for_Paris_and_Ile-de-France), Preprint, IVT, ETH Zurich, Zurich.
+> Hörl, S. and M. Balac (2021) [Synthetic population and travel demand for Paris and Île-de-France based on open and publicly available data](https://www.sciencedirect.com/science/article/pii/S0968090X21003016), _Transportation Research Part C_, **130**, 103291.
 
 Instructions on how to reproduce and run the simulations are available online on [Github: An open synthetic population of Île-de-France](https://github.com/eqasim-org/ile-de-france).
 
