@@ -24,6 +24,7 @@ RewriteRule ^wiki$ https://github.com/matsim-org/matsim-code-examples/wiki [R=30
 RewriteRule ^scenarios?/?([a-z/.]+)?$ gallery/$1 [R=301,NC,L]
 RewriteRule ^install?/?([a-z/.]+)?$ downloads/$1 [R=301,NC,L]
 RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
+RewriteRule ^tutorials?/?$ /docs [R=301,NC,L]
 RewriteRule ^userguide$ /docs/userguide [R=301,NC,L]
 </IfModule>
 
