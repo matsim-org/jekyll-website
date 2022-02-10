@@ -29,14 +29,15 @@ Install:
 
 1. (optional but recommended) Fork [matsim-example-project](https://github.com/matsim-org/matsim-example-project).
 1. Clone matsim-example-project into local directory.
-1. Import as maven project into IDE. 	Maven will sort out the dependencies.  No need to download the MATSim main repository.  Sources are available.
+1. Import as maven project into IDE. 	Maven will sort out the dependencies.  <mark>No need to download the MATSim main repository.</mark>  Sources are available.
    1. IntelliJ: Import project --> browse to dir --> maven --> Next, Next, Next
    1. Eclipse: Import ... --> ... as maven project --> browse to dir --> accept, accept, accept
-1. Run `MATSimGUI` .  
+1. Run `MATSimGUI` from the IDE.  
    1. An example config file is in `scenarios/equil`.
    1. Press `Run` to run MATSim.
-1. Run `RunMATSim` directly from the IDE.
-1. (optional but recommended) Connect your forked repo to [travis](https://travis-ci.org).
+1. (optional but recommended) Run `RunMATSim` from the IDE.
+1. (optional but recommended) Set up, for your forked repo, a continuous integration (CI) workflow.  On the github website of your repo: `Actions` --> `New Workflow` --> `More continuous integration workflows...` --> `Java with Maven` --> `Set up this workflow` --> `Start commit` --> `...`.  This will result in a file `.github/workflows/maven.yml` which triggers the automatic build after each commit.  Detailed configuration of the workflow via this file is possible at a later point in time.
+<!-- 1. (optional but recommended) Connect your forked repo to [travis](https://travis-ci.org). -->
 <!-- 1. Consult [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples). -->
 
 Notes:
@@ -45,8 +46,8 @@ Notes:
 * If you want/need to write your own extensions:
 1. Again, look at [matsim-code-examples](https://github.com/matsim-org/matsim-code-examples) for examples.
 1. Look at `ControlerDefaultsModule` (in your IDE, source is retrieved by maven) to see how MATSim is plugged together.
-* You will not be able to modify the existing MATSim source code -- which, in most cases, should not be necessary. If you feel the need to modify the existing MATSim source code, it is preferred that you contact use [https://matsim.org/faq](https://matsim.org/faq) in such situations and we will try to help or implement missing extension points.
-* You can generate a "clickable jar file" of your own code with `mvn package`.
+* You will not be able to modify the existing MATSim source code.  This is an advantage, since it improves scientific reproducibility.  If you feel the need to modify the existing MATSim source code, please use [https://matsim.org/faq](https://matsim.org/faq) and we will try to help or implement missing extension points.
+* You can generate a "clickable jar file" of your own code with `mvn package`.  This could, for example, be passed on to students or clients for specific studies.
 
 <!-- ### MATSim-example-project on GitHub -->
 
@@ -65,11 +66,11 @@ Notes:
 # &nbsp; {#gui}
 # Use the MATSim GUI
 
-The "Standalone" version is targeted to users who want to use MATSim by editing the input files, including config.xml directly. A basic GUI is provided.
+This "standalone" version is targeted to users who want to use MATSim by editing the input files, including config.xml directly. A basic GUI is provided.
 
-1. [Download](/downloads) the release and unzip it.
-1. Go the the directory where you find `matsim-*.jar`.
-1. Double click on the MATSim jar file.  What opens is what we call the MATSim GUI.
+1. Download [matsim-example-project](https://github.com/matsim-org/matsim-example-project) and unzip it. There is an option ``download zipfile''; no need to use git.
+1. A clickable jar file is no longer provided, since they make the git repo too large.  Instead, follow the instructions under ``Building and Running it locally'' at [matsim-example-project](https://github.com/matsim-org/matsim-example-project).
+1. As stated there, you will be able to double click on the generated MATSim jar file.  What opens is what we call the MATSim GUI.
 	1. An example config file is in `scenarios/equil`.
 	1. Pres `Run` to run MATSim.
 
