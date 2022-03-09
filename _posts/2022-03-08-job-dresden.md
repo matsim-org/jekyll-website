@@ -9,5 +9,5 @@ To contribute to research around topics of agent-based transport simulation (in 
 
 For details, see here: 
 
-- https://www.verw.tu-dresden.de/StellAus/download.asp?file=03-2022%5CGerike_WIMI_eng_040222_w056.pdf
+- <https://www.verw.tu-dresden.de/StellAus/download.asp?file=03-2022%5CGerike_WIMI_eng_040222_w056.pdf>
 
