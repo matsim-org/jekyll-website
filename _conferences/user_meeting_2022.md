@@ -16,7 +16,7 @@ contact:
   name: Milos Balac
   email: matsimum2022@gmail.com
 
-summary: 'The annual MATSim users meeting will be a one-day event in Leuven, Belgium, on 30-May-2022'
+summary: 'The annual MATSim users meeting will be a one-day event in Leuven, Belgium, on 31.May.2022'
 ---
 
 The attendance will be 55 CHF to cover the cost of the venue and catering for the day.
