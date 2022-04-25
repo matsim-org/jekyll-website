@@ -32,7 +32,7 @@ Here you will find links to upcoming and past conferences and meetings related t
             {% endif %}
 
             {% if post.location.name %}
-                in 
+                in
                 {% if post.location.url %}
                     <a href="{{post.location.url}}">
                 {% endif %}
@@ -74,6 +74,7 @@ Here you will find links to upcoming and past conferences and meetings related t
 
 Here you can find information and documentation from the annual MATSim user meeting and MATSim tutorials. The user meeting and a preceding overview tutorial take place annually, often alternating between Zurich and Berlin. Special tutorials are held upon request.
 
+- [2021 User Meeting - Virtual](/conferences/user_meeting_2021)
 - [2020 User Meeting - Warsaw, Poland \| Cancelled](/conferences/user_meeting_2020)
 - [2019 User Meeting - Leuven, Belgium](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/365133825/MATSim+User+Meeting+2019)
 - [2018 User Meeting - Atlanta, USA](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/116916260/MATSim+User+Meeting+2018+ITM+Atlanta+June+23) - [(Slides available)](https://matsim.atlassian.net/wiki/spaces/MATPUB/pages/299335682/Presentations+from+MATSim+User+meeting+2018)
