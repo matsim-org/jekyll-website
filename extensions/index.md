@@ -11,7 +11,7 @@ MATSim offers several extensions which enhance the functionality with additional
 
 For a usage guide on how to use MATSim extensions in general, see [here](/docs/extensions).
 
-For the usage of a specific extension, please check the extension's documentation.
+For the usage of a specific extension, please check the extension's documentation.  For many extensions, their documentation can be found from the information given below.
 
 If you want to contribute an extension, please see [here](/docs/contributing/extensions).
 

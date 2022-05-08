@@ -6,12 +6,13 @@ title: Javadoc
 <!-- !! IMPORTANT: Leave contribs that were removed in place, but phase out the link to the javadoc.  Give link to external repo if available. !! -->
 
 
-# Documentation
+# Javadoc documentation
 
-The following documentations are available.
+The documentation shown here is deprecated.
 
-Please note that we do not publish API docs for MATSim 13.0 or newer here.  
-If you really need them, you can download the corresponding javadocs-jar from our [Maven repository](https://repo.matsim.org/#browse/browse:matsim:org%2Fmatsim).
+The recommended way to obtain information about extensions now is to visit [our extensions webpage](https://matsim.org/extensions).  For contribs, see https://github.com/matsim-org/matsim-libs/tree/master/contribs and click into the respective contrib to view the respective `README.md`, which should give further information.
+
+If you really need the javadocs, you can download the corresponding javadocs-jar from our [Maven repository](https://repo.matsim.org/#browse/browse:matsim:org%2Fmatsim).
 
 
 <table border="0" cellpadding="1" cellspacing="1" class="table table-hover table-condensed" style="width:100%;">
