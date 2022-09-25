@@ -224,7 +224,7 @@ In consequence, the "latest (pre-)release" may be more modern than the "latest s
 
 # <i class="fa fa-tachometer"></i> &nbsp; Benchmark
 
-[Download Benchmark](/files/benchmark/benchmark.zip) ZIP, ca. 35MB
+[Download Benchmark](/files/benchmark/matsim-benchmark-2.0.0.zip) ZIP, ca. 180 MB
 
 More information about the [MATSim Benchmark](/benchmark).
 
