@@ -26,7 +26,7 @@ If you are interested, either in becoming a member or working in the board, plea
 
 ### Downloads
 
-<a href="/association/files/2022_Statuten_bilingual.pdf"><i class="fa fa-file-pdf-o"></i> Articles of Assocation (english & german) (PDF)</a>
+<a href="/association/docs/2022_Statuten_bilingual.pdf"><i class="fa fa-file-pdf-o"></i> Articles of Assocation (english & german) (PDF)</a>
 
 ### Contact
 
