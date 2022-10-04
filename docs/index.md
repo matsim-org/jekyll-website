@@ -160,3 +160,11 @@ Sign up to our newsletter to get news about MATSim about every other month.
 
 </div>
 
+<!-- ------------------------------------------- -->
+<div class="col-md-6" markdown="1">
+
+---
+
+### MATSim Association
+
+The MATSim Association was founded in fall 2022. Learn more about the [MATSim Association](/association).
