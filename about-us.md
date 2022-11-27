@@ -25,6 +25,7 @@ In addition, we stay in close contact to other research groups using and extendi
 After all, MATSim is an open source project, feel free to join us on user meetings, conferences or submit patches and pull requests to gain some glory within the MATSim community!
 
 While the development is mostly advanced by current research projects, there is a MATSim Committee that acts as a steering group for organizational and strategic issues.
+In 2022, a more formal [MATSim Association](/assocation) was incorporated that will care about the long-term availability of MATSim.
 
 Attendants of the conceptual meeting in 2012:
 
