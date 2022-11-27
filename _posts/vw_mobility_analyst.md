@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Steffen Axer
-title: "Job Posting: Mobility Data Analyst Autonomes Driving MaaS Simulation"
+title: "Job Posting: Mobility Data Analyst Autonomous Driving MaaS Simulation"
 summary: "Volkswagen is looking for a Mobility Simulation Expert."
 ---
 
