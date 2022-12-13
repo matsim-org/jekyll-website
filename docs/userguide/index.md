@@ -9,11 +9,11 @@ title: User Guide
 
 <br/>
 
-The<p align="center">
+The
 
 **[MATSim user guide (pdf)](http://ci.matsim.org:8080/job/MATSim-Book/ws/partOne-latest.pdf)**
 
-</p> is an extract and update of the [MATSim book](/the-book).  These chapters contain the most relevant topics for new users.
+is an extract and update of the [MATSim book](/the-book).  The user guide chapters contain the most relevant topics for new users.
 
 <small><mark>If the above link does not work, try to right-click the link and select "Save Link As…" or "Download Linked File As…" or similar, depending on your browser.</mark></small>
 
