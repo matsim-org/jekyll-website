@@ -13,7 +13,7 @@ RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
 
 # redirects
 RewriteRule ^buildserver$ http://ci.matsim.org:8080 [R=301,NC,L]
-RewriteRule ^doxygen$ http://ci.matsim.org:8080/view/All/job/Doxygen_MATSim/ws/matsim/docs/doxygen/html/index.html [R=301,NC,L]
+# RewriteRule ^doxygen$ http://ci.matsim.org:8080/view/All/job/Doxygen_MATSim/ws/matsim/docs/doxygen/html/index.html [R=301,NC,L]
 RewriteRule ^faq$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
 RewriteRule ^qa$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
 RewriteRule ^issuetracker$ https://github.com/matsim-org/matsim-libs/issues [R=301,NC,L]
