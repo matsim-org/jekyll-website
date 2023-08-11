@@ -28,6 +28,17 @@ If you are interested, either in becoming a member or working in the board, plea
 
 <a href="/association/docs/2022_Statuten_bilingual.pdf"><i class="fa fa-file-pdf-o"></i> Articles of Association (english & german) (PDF)</a>
 
+### 1st General Assembly
+
+The first general assembly of the association will take place on September 5th 2023 in Zurich after the MATSim User Meeting.
+
+You are invited to attend the 1st general assembly of the association where we will present more information.
+If you are not able to attend in person, contact us, so we can provide you with a link to attend remotely.
+
+A detailed invitation and program of the general assembly will be published here soon.
+
+
+
 ### Contact
 
 You can reach the association by sending an email to `association [AT] matsim [DOT] org`.
