@@ -11,4 +11,4 @@ location:
 summary: 'The annual MATSim users meeting will be a one-day event in Zurich, Switzerland, on 05. September 2023'
 ---
 
-More information will be available soon.
+The MATSim User Meeting is a workshop of the hEART 2023 conference. You can register at the [heart-website](https://heart2023.org).
