@@ -31,7 +31,7 @@ If you are interested, either in becoming a member or working in the board, plea
 ### 1st General Assembly
 
 The first general assembly of the association took place on September 5th 2023 in Zurich after the MATSim User Meeting.
-A summary of the meeting can be found [here](230905-inaugural-meeting.md).
+A summary of the meeting can be found [here](230905/230905-inaugural-meeting.md).
 
 
 
