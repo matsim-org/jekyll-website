@@ -17,13 +17,6 @@ The association has among others the following goals and tasks:
 The association was founded in September 2022.
 
 
-The association is currently looking for potential members of the MATSim Association and 
-people interested working in the board. Details about membership types and fees will be determined in 
-the coming weeks and will be announced here.
-
-If you are interested, either in becoming a member or working in the board, please contact us!
-
-
 ### Downloads
 
 <a href="/association/docs/2022_Statuten_bilingual.pdf"><i class="fa fa-file-pdf-o"></i> Articles of Association (english & german) (PDF)</a>
@@ -31,7 +24,7 @@ If you are interested, either in becoming a member or working in the board, plea
 ### 1st General Assembly
 
 The first general assembly of the association took place on September 5th 2023 in Zurich after the MATSim User Meeting.
-A summary of the meeting can be found [here](230905-inaugural-meeting.md).
+A summary of the meeting can be found [here](/association/230905).
 
 
 

@@ -1,4 +1,10 @@
-## Inaugural GA Meeting of MATSim e.V.
+---
+layout: default
+title: MATSim Association 1st GA
+---
+
+
+# Inaugural General Assembly of MATSim Association
 
 **Location**: ETH Zürich  
 **Date**: 5 September 2023  
@@ -6,14 +12,14 @@
 
 ---
 
-### Introduction
+## Introduction
 
 The inaugural general assembly of MATSim e.V. was held at ETH Zürich on 5 September 2023. 
 The meeting was attended by the members of the board and the association's members, as well as other interested parties attending in person or via video conference.
 
 ---
 
-#### Scale of the Association and Its Tasks
+## Scale of the Association and Its Tasks
 
 The association operates at two scales: the core activities and those that go beyond the core. Below are the tasks that the association undertakes:
 
@@ -36,7 +42,7 @@ The association operates at two scales: the core activities and those that go be
 3. Integration of new features arising from the on-going research within its budget.
 4. Client-specific updates and software adjustments against a full-cost recovery fee.
 
-#### Fees and Level of Fees
+## Fees and Level of Fees
 
 | Membership Type | Org. size | Fee (CHF) |
 |-----------------|-----------|-----------|
@@ -45,7 +51,7 @@ The association operates at two scales: the core activities and those that go be
 | Large           | 6+        | 2500      |
 
 
-#### Presentation of the Confirmed Board and Roles
+## Presentation of the Confirmed Board and Roles
 
 The following are the confirmed members of the board and their respective roles:
 
