@@ -55,20 +55,20 @@ The association operates at two scales: the core activities and those that go be
 
 The following are the confirmed members of the board and their respective roles:
 
-| Given name | Name         | Affiliation   | Country | Role      |
-|------------|--------------|---------------|---------|-----------|
-| Steffen    | Axer         | Volkswagen    | DE      |           |
-| Kay        | Axhausen    | ETH Zürich    | CH      | Chair     |
-| Milos      | Balac       | ETH Zürich    | CH      |           |
-| Michael    | Balmer      | senozon       | CH      |           |
-| Joschka    | Bischoff    | SBB           | CH      |           |
-| Gerry      | Casey       | Arup          | UK      |           |
-| Joseph     | Chow        | NYU           | US      |           |
-| Sebastian  | Hörl        | System-X      | FR      |           |
-| Johan      | Joubert     | KU Leuven     | BE      |           |
-| Kai        | Nagel       | TU Berlin     | DE      |           |
-| Marcel     | Rieser      | simunto       | CH      | Treasurer |
-| Afshin     | Jafari      | RMIT          | AU      | Revisor   |
-| Gunnar     | Flötteröd  | VTI           | SE      | Revisor   |
-| Pieter     | Fourie      |               | JP      | Manager   |
+| Name                  | | Country | | Role      |
+|-----------------------|-|---------|-|-----------|
+| Steffen     Axer      | |  DE     | |           |
+| Kay         Axhausen  | | CH      | | Chair     |
+| Milos       Balac     | | CH      | |           |
+| Michael     Balmer    | | CH      | |           |
+| Joschka     Bischoff  | | CH      | |           |
+| Gerry       Casey     | | UK      | |           |
+| Joseph      Chow      | | US      | |           |
+| Sebastian   Hörl      | | FR      | |           |
+| Johan       Joubert   | | BE      | |           |
+| Kai         Nagel     | | DE      | |           |
+| Marcel      Rieser    | | CH      | | Treasurer |
+| Afshin      Jafari    | | AU      | | Revisor   |
+| Gunnar      Flötteröd | | SE      | | Revisor   |
+| Pieter      Fourie    | | JP      | | Manager   |
 
