@@ -4,8 +4,14 @@ title: MATSim Association
 ---
 
 # MATSim Association
-
 The MATSim Association was founded by users and developers of the open-source software MATSim.
+
+## JOIN US!
+To become a member of the MATSim Association, please fill out the [membership application form](https://forms.gle/EXvjXTGBgyZr9bat9) 
+
+---------------------------------------------
+
+## About
 
 The association has among others the following goals and tasks:
 
@@ -16,10 +22,13 @@ The association has among others the following goals and tasks:
 
 The association was founded in September 2022.
 
+---------------------------------------------
 
 ### Downloads
 
 <a href="/association/docs/2022_Statuten_bilingual.pdf"><i class="fa fa-file-pdf-o"></i> Articles of Association (english & german) (PDF)</a>
+
+---------------------------------------------
 
 ### 1st General Assembly
 
@@ -30,7 +39,7 @@ A summary of the meeting can be found [here](/association/230905).
 
 ### Contact
 
-You can reach the association by sending an email to `association [AT] matsim [DOT] org`.
+You can reach the association by sending an email to `association@matsim.org`.
 
 The postal address is:
 
