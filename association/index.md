@@ -6,10 +6,18 @@ title: MATSim Association
 # MATSim Association
 The MATSim Association was founded by users and developers of the open-source software MATSim.
 
-## JOIN US!
-To become a member of the MATSim Association, please fill out the [membership application form](https://matsim.payrexx.com) 
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h2 class="panel-title">Join Us!</h2>
+  </div>
+  <div class="panel-body" >
+      <p>To become a member of the MATSim Association, please fill out the <a href="https://matsim.payrexx.com" target="_blank">membership application form</a>.
+      </p>
+      <p><a href="https://matsim.payrexx.com" target="_blank" class="btn btn-primary">Become a member!</a>
+      </p>
+  </div>  
+</div>
 
----------------------------------------------
 
 ## About
 
