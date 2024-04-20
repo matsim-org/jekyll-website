@@ -6,6 +6,10 @@
   url: /gallery/usa-nationwide
   image: /gallery/usa-nationwide_thumb.jpg
 
+- name: "Birmingham, AL"
+  url: /gallery/birmingham_al
+  image: /gallery/birmingham_al_thumb.jpg
+
 - name: "Open Île-de-France, France"
   url: /gallery/ile_de_france
   image: /gallery/ile_de_france_thumb.png
