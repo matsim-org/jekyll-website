@@ -33,6 +33,8 @@ Configuration file: /Users/kainagel/git/jekyll-website/_config.yml
 
 Implies to me that we should try to move the source material into some "src" folder.
 
+The forwards are in .htaccess, but that file is not shown in IntelliJ.
+
 
 
 

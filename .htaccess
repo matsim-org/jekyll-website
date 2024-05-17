@@ -27,6 +27,7 @@ RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
 RewriteRule ^tutorials?/?$ /docs [R=301,NC,L]
 RewriteRule ^userguide$ /docs/userguide [R=301,NC,L]
 RewriteRule ^user-guide$ /docs/userguide [R=301,NC,L]
+RewriteRule ^contribs$ https://github.com/matsim-org/matsim-libs/tree/master/contribs [R=301,NC,L]
 </IfModule>
 
 ErrorDocument 404 /404.html
