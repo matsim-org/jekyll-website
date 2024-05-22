@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Regina Gerike
+author: Regine Gerike
 title: "TU Dresden is looking for a postdoc with MATSim Knowhow"
 summary: "TU Dresden is looking for a postdoc in the field of research based on MATSim simulations."
 ---
